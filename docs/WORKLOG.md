@@ -118,3 +118,12 @@ Next: Phase 3 leakage quantification (reproduce the baseline, 1-NN and linear pr
 P-leaked vs P-disjoint, group-bootstrap inflation CIs, P-partial dose-response).
 
 ---
+
+## 2026-10-29 — Repository published
+
+- Added `README.md` (project overview, layout, reproduction commands, key findings, licence note).
+- Committed the reproducible package as `first commit` and pushed `main` to
+  https://github.com/HasanImamB/SkinDiseaseBD.
+- Dataset images and large `.npz` caches remain excluded via `.gitignore`.
+
+---
