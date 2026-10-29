@@ -156,3 +156,12 @@ Caveats: P-partial uses one fold (27 raw test images), so one Delta CI includes 
 - Deferred the all-fold P-partial extension to the next work session.
 
 ---
+
+## 2026-10-29 — Next-session shortcut-probe guidance recorded
+
+Recorded Amendment 1 in `docs/analysis_plan.md`: reuse the 5x3 group folds and group bootstrap,
+add stratified-dummy and majority-class references, reuse the DINOv2/ResNet-50 1-NN and linear
+probes on border-only and background-only inputs, and test metadata-only predictability from
+size/aspect/file size/EXIF. No shortcut probe was run today; the amendment is documentation only.
+
+---

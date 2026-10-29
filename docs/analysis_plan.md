@@ -103,3 +103,39 @@ tuning in this phase.
 - Groups are reconstructed empirically and over-merged; they are not author-provided IDs.
 - Raw labels are inferred from descendants.
 - P-leaked evaluates derivatives while P-disjoint evaluates raw images; the two are not paired.
+
+## 10. Amendment 1 — shortcut probes (planned, not run)
+
+Purpose: decide whether the 0.54-0.66 P-disjoint floor reflects disease difficulty or
+class-correlated acquisition shortcuts.
+
+Design:
+
+- Reuse the same 5 x 3 P-disjoint group folds and the same group-bootstrap function
+  (1,000 resamples) so results are directly comparable with the leakage table.
+- Include a **stratified dummy** and a **majority-class** reference in every table.
+- Run three probe families:
+  1. **Metadata only** (labelled raw images): width, height, aspect ratio, file size,
+     bytes/pixel, JPEG quality, and EXIF fields (camera model, ISO, exposure) when present.
+     Augmented images are excluded from metadata analysis because v1/v2 dimensions are fixed
+     and would leak version rather than disease.
+  2. **Border-only**: keep an outer band (initial choice: outer 20% of width/height) and mask
+     the centre; re-embed with DINOv2 and ResNet-50; reuse the 1-NN and linear probes.
+  3. **Background-only proxy**: mask the central 50% region and keep the remainder. There are
+     no lesion masks, so this is an explicit proxy, not a true background segmentation.
+- Evaluate on raw images as the primary shortcut analysis; derivatives only as a secondary
+  sensitivity check.
+- Report macro-F1, balanced accuracy and group-bootstrap CIs against the full-image P-disjoint
+  baseline.
+- Interpretation rule: if metadata or border probes beat chance materially, report acquisition
+  bias and soften disease-intrinsic claims. If they do not, state only that no simple acquisition
+  shortcut was detected; do not claim the model has learned disease.
+
+Implementation notes:
+
+- Write masked/cropped inputs under `results/shortcut/`; never modify `data/dataset/`.
+- Cache shortcut embeddings as `results/shortcut/embeddings_{feature}_{variant}.npz`.
+- Check EXIF availability before committing to an EXIF-based table.
+
+Caveats: no lesion segmentation; border/background separation is approximate; raw metadata
+sample is small and class-imbalanced.
