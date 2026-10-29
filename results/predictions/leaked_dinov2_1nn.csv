@@ -1,0 +1,727 @@
+filepath,group_id,y_true,y_pred,prob_Dermatitis,prob_Eczema,prob_Scabies,prob_Tinea Ringworm,prob_Vitiligo,repeat
+Images_v1/Dermatitis/aug_0_1056.jpeg,G025,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_143.jpeg,G018,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_1651.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_1658.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_2120.jpeg,G018,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_2613.jpeg,G019,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_2662.jpeg,G021,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_2755.jpeg,G019,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_2803.jpeg,G018,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_2814.jpeg,G019,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_307.jpeg,G019,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_3203.jpeg,G015,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_3512.jpeg,G025,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_3617.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_3684.jpeg,G019,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_3816.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_405.jpeg,G018,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_4087.jpeg,G021,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_4361.jpeg,G024,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_4773.jpeg,G019,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_5127.jpeg,G025,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_5259.jpeg,G024,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_5592.jpeg,G021,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_561.jpeg,G018,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_5836.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_6189.jpeg,G024,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_6280.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_6487.jpeg,G025,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_6831.jpeg,G020,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_6953.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_6990.jpeg,G020,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_700.jpeg,G018,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_7515.jpeg,G024,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_7773.jpeg,G018,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_8234.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_836.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_837.jpeg,G019,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_8636.jpeg,G021,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_8754.jpeg,G021,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_9127.jpeg,G025,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_925.jpeg,G027,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_9573.jpeg,G020,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_9895.jpeg,G019,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_9979.jpeg,G021,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Dermatitis/aug_0_9990.jpeg,G018,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_1044.jpeg,G081,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_1094.jpeg,G118,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_1462.jpeg,G103,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_1485.jpeg,G034,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_1602.jpeg,G103,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_1888.jpeg,G029,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_1936.jpeg,G096,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_2020.jpeg,G073,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_2099.jpeg,G088,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_2148.jpeg,G079,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_2197.jpeg,G050,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_2339.jpeg,G098,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_3009.jpeg,G130,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_302.jpeg,G114,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_309.jpeg,G074,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_3232.jpeg,G105,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_3411.jpeg,G089,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_3487.jpeg,G081,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_3847.jpeg,G103,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_385.jpeg,G090,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_4486.jpeg,G033,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_4594.jpeg,G050,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_4665.jpeg,G081,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_472.jpeg,G054,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_4732.jpeg,G033,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_4963.jpeg,G059,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_505.jpeg,G130,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_506.jpeg,G092,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_5258.jpeg,G028,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_5485.jpeg,G029,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_5611.jpeg,G123,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_5641.jpeg,G123,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_6447.jpeg,G028,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_6456.jpeg,G028,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_6494.jpeg,G089,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_6609.jpeg,G130,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_6965.jpeg,G082,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_7069.jpeg,G031,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_7131.jpeg,G055,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_745.jpeg,G102,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_7501.jpeg,G050,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_7559.jpeg,G057,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_7560.jpeg,G086,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_7568.jpeg,G073,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_759.jpeg,G099,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_7701.jpeg,G111,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_7760.jpeg,G072,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_8099.jpeg,G096,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_8146.jpeg,G053,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_8197.jpeg,G050,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_8553.jpeg,G114,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_8739.jpeg,G103,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_9170.jpeg,G034,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_9219.jpeg,G055,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_9463.jpeg,G089,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_952.jpeg,G073,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Eczema/aug_0_9700.jpeg,G033,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_1.jpeg,G032,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_1088.jpeg,G036,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_1095.jpeg,G036,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_1276.jpeg,G032,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_1896.jpeg,G035,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_2033.jpeg,G036,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_2149.jpeg,G080,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_2387.jpeg,G037,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_2399.jpeg,G078,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_2662.jpeg,G036,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_2705.jpeg,G026,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_2941.jpeg,G068,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_3008.jpeg,G035,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_3070.jpeg,G080,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_308.jpeg,G037,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_3168.jpeg,G078,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_347.jpeg,G077,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_3528.jpeg,G035,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_354.jpeg,G036,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_3915.jpeg,G078,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_4273.jpeg,G032,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_4727.jpeg,G077,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_5268.jpeg,G068,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_5286.jpeg,G078,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_587.jpeg,G035,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_5999.jpeg,G077,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_6070.jpeg,G032,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_6667.jpeg,G077,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_6801.jpeg,G036,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_6876.jpeg,G035,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_7341.jpeg,G032,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_7598.jpeg,G026,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_8004.jpeg,G036,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_8043.jpeg,G026,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_8443.jpeg,G026,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_8543.jpeg,G077,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_8665.jpeg,G077,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_8774.jpeg,G026,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_8792.jpeg,G036,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_9068.jpeg,G080,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_9475.jpeg,G037,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_9604.jpeg,G077,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_9645.jpeg,G037,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_9805.jpeg,G035,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Scabies/aug_0_9870.jpeg,G068,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_1009.jpeg,G047,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_123.jpeg,G120,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_1671.jpeg,G083,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_1684.jpeg,G046,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_1911.jpeg,G085,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_2328.jpeg,G001,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_2411.jpeg,G120,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_2418.jpeg,G038,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_2459.jpeg,G041,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_29.jpeg,G039,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_2946.jpeg,G022,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_2950.jpeg,G046,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_3108.jpeg,G075,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_3133.jpeg,G047,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_3217.jpeg,G091,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_3229.jpeg,G046,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_3491.jpeg,G042,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_4156.jpeg,G041,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_4403.jpeg,G100,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_480.jpeg,G045,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_4882.jpeg,G120,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_4895.jpeg,G049,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_5097.jpeg,G002,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_5201.jpeg,G041,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_5253.jpeg,G010,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_5400.jpeg,G046,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_5465.jpeg,G085,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_579.jpeg,G045,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_6245.jpeg,G085,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_6676.jpeg,G085,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_7031.jpeg,G001,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_7356.jpeg,G085,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_7522.jpeg,G000,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_7676.jpeg,G046,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_7906.jpeg,G000,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_7946.jpeg,G085,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_8731.jpeg,G056,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_8839.jpeg,G044,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_8852.jpeg,G048,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_9064.jpeg,G046,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_9271.jpeg,G000,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_9325.jpeg,G049,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_9352.jpeg,G126,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_9363.jpeg,G049,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_94.jpeg,G047,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_945.jpeg,G001,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_9451.jpeg,G001,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Tinea Ringworm/aug_0_9476.jpeg,G046,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+Images_v1/Vitiligo/aug_0_1563.jpeg,G066,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_169.jpeg,G063,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_1894.jpeg,G062,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_198.jpeg,G063,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_2137.jpeg,G064,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_2391.jpeg,G133,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_2820.jpeg,G064,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_2978.jpeg,G100,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_2996.jpeg,G066,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_3212.jpeg,G128,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_3335.jpeg,G063,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_4138.jpeg,G065,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_447.jpeg,G063,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_4521.jpeg,G133,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_4836.jpeg,G062,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_4984.jpeg,G133,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_4986.jpeg,G064,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_5038.jpeg,G128,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_5521.jpeg,G101,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_5556.jpeg,G101,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_5639.jpeg,G065,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_5742.jpeg,G065,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_594.jpeg,G063,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_6058.jpeg,G063,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_6142.jpeg,G066,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_6262.jpeg,G063,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_6487.jpeg,G101,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_6503.jpeg,G101,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_6555.jpeg,G065,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_6775.jpeg,G127,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_7521.jpeg,G065,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_7607.jpeg,G064,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_7785.jpeg,G133,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_7919.jpeg,G133,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_8032.jpeg,G127,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_8066.jpeg,G062,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_8183.jpeg,G101,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_8222.jpeg,G101,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_8259.jpeg,G065,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_89.jpeg,G064,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_8907.jpeg,G064,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_9000.jpeg,G064,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_9294.jpeg,G127,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_9369.jpeg,G063,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_9388.jpeg,G065,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_9508.jpeg,G065,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Vitiligo/aug_0_9804.jpeg,G065,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+Images_v1/Dermatitis/aug_0_1201.jpeg,G021,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_1445.jpeg,G025,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_1540.jpeg,G025,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_1658.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_1867.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_1952.jpeg,G020,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_2120.jpeg,G018,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_2803.jpeg,G018,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_307.jpeg,G019,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_3104.jpeg,G025,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_32.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_3331.jpeg,G018,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_3564.jpeg,G019,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_3751.jpeg,G024,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_405.jpeg,G018,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_4269.jpeg,G027,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_4361.jpeg,G024,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_4685.jpeg,G020,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_5218.jpeg,G024,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_5294.jpeg,G020,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_5494.jpeg,G019,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_5515.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_6280.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_6384.jpeg,G019,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_6496.jpeg,G021,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_6689.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_6826.jpeg,G018,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_6831.jpeg,G020,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_7118.jpeg,G021,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_7365.jpeg,G021,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_7492.jpeg,G019,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_7771.jpeg,G018,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_7818.jpeg,G018,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_8110.jpeg,G021,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_8162.jpeg,G020,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_8347.jpeg,G025,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_8613.jpeg,G019,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_8636.jpeg,G021,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_8746.jpeg,G025,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_8790.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_9153.jpeg,G021,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_925.jpeg,G027,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_9278.jpeg,G018,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_9384.jpeg,G021,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Dermatitis/aug_0_9635.jpeg,G020,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_0.jpeg,G103,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_151.jpeg,G104,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_1580.jpeg,G055,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_1716.jpeg,G008,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_1850.jpeg,G103,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_1888.jpeg,G029,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_1936.jpeg,G096,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_2044.jpeg,G086,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_2049.jpeg,G029,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_2088.jpeg,G082,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_2099.jpeg,G088,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_2152.jpeg,G092,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_2161.jpeg,G114,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_2436.jpeg,G074,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_2813.jpeg,G090,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_2989.jpeg,G106,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_3011.jpeg,G053,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_3033.jpeg,G083,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_3227.jpeg,G073,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_3239.jpeg,G096,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_3311.jpeg,G088,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_3420.jpeg,G130,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_3777.jpeg,G098,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_3847.jpeg,G103,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_4071.jpeg,G098,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_4164.jpeg,G074,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_4645.jpeg,G061,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_472.jpeg,G054,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_4727.jpeg,G098,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_515.jpeg,G083,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_5257.jpeg,G073,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_5415.jpeg,G083,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_584.jpeg,G040,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_5849.jpeg,G106,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_6079.jpeg,G119,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_6247.jpeg,G055,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_6316.jpeg,G040,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_6494.jpeg,G089,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_6945.jpeg,G053,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_6991.jpeg,G057,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_6994.jpeg,G119,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_7069.jpeg,G031,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_7087.jpeg,G083,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_7102.jpeg,G130,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_7194.jpeg,G098,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_7257.jpeg,G102,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_8187.jpeg,G072,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_8870.jpeg,G082,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_9004.jpeg,G096,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_9043.jpeg,G033,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_9090.jpeg,G031,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_9176.jpeg,G103,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_9268.jpeg,G059,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_9621.jpeg,G029,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_9626.jpeg,G130,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_9700.jpeg,G033,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Eczema/aug_0_988.jpeg,G057,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_1067.jpeg,G078,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_1315.jpeg,G035,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_1833.jpeg,G032,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_1999.jpeg,G080,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_2155.jpeg,G080,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_222.jpeg,G078,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_265.jpeg,G080,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_2854.jpeg,G032,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_2942.jpeg,G035,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_2966.jpeg,G078,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_3168.jpeg,G078,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_3520.jpeg,G068,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_3855.jpeg,G035,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_3902.jpeg,G026,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_4273.jpeg,G032,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_4310.jpeg,G068,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_4645.jpeg,G036,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_4826.jpeg,G035,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_4964.jpeg,G036,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_4999.jpeg,G037,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_5388.jpeg,G078,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_5556.jpeg,G032,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_5817.jpeg,G080,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_5999.jpeg,G077,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_6571.jpeg,G077,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_6801.jpeg,G036,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_6944.jpeg,G078,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_7021.jpeg,G080,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_7089.jpeg,G068,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_7610.jpeg,G078,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_763.jpeg,G078,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_7764.jpeg,G068,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_7970.jpeg,G080,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_8085.jpeg,G068,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_8277.jpeg,G080,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_8284.jpeg,G026,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_84.jpeg,G037,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_8543.jpeg,G077,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_8792.jpeg,G036,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_8840.jpeg,G026,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_8863.jpeg,G035,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_8905.jpeg,G037,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_9259.jpeg,G080,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_9518.jpeg,G037,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Scabies/aug_0_990.jpeg,G032,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_1169.jpeg,G045,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_127.jpeg,G049,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_1911.jpeg,G085,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_1977.jpeg,G120,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_2232.jpeg,G042,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_2330.jpeg,G046,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_2497.jpeg,G048,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_2769.jpeg,G039,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_2796.jpeg,G100,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_2889.jpeg,G038,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_3225.jpeg,G000,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_3280.jpeg,G001,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_3298.jpeg,G043,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_3657.jpeg,G022,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_3670.jpeg,G115,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_3919.jpeg,G049,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_4156.jpeg,G041,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_4385.jpeg,G038,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_4583.jpeg,G038,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_4672.jpeg,G000,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_480.jpeg,G045,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_4940.jpeg,G070,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_5153.jpeg,G047,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_599.jpeg,G041,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_6058.jpeg,G046,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_6189.jpeg,G000,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_626.jpeg,G094,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_6297.jpeg,G001,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_6416.jpeg,G046,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_6554.jpeg,G046,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_6721.jpeg,G048,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_6910.jpeg,G041,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_698.jpeg,G085,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_6997.jpeg,G039,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_7137.jpeg,G000,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_754.jpeg,G049,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_7752.jpeg,G000,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_7955.jpeg,G041,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_8139.jpeg,G048,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_8232.jpeg,G038,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_8384.jpeg,G022,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_8839.jpeg,G044,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_9271.jpeg,G000,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_9284.jpeg,G002,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_9524.jpeg,G120,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_9590.jpeg,G045,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_9610.jpeg,G048,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Tinea Ringworm/aug_0_9977.jpeg,G049,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,1
+Images_v1/Vitiligo/aug_0_1004.jpeg,G069,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_1353.jpeg,G127,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_163.jpeg,G066,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_1878.jpeg,G064,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_2056.jpeg,G065,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_2100.jpeg,G063,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_2137.jpeg,G064,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_2191.jpeg,G064,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_239.jpeg,G063,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_2697.jpeg,G066,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_3390.jpeg,G065,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_3819.jpeg,G101,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_3896.jpeg,G047,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_4327.jpeg,G064,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_4609.jpeg,G066,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_4726.jpeg,G133,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_4742.jpeg,G066,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_4779.jpeg,G128,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_4909.jpeg,G128,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_5038.jpeg,G128,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_5173.jpeg,G065,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_5349.jpeg,G064,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_5521.jpeg,G101,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_5556.jpeg,G101,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_5742.jpeg,G065,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_5865.jpeg,G065,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_5956.jpeg,G133,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_6058.jpeg,G063,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_6155.jpeg,G065,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_6179.jpeg,G062,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_6208.jpeg,G065,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_6503.jpeg,G101,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_6555.jpeg,G065,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_673.jpeg,G128,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_6951.jpeg,G069,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_7117.jpeg,G066,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_72.jpeg,G128,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_7869.jpeg,G065,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_7917.jpeg,G069,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_7926.jpeg,G063,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_8183.jpeg,G101,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_8308.jpeg,G133,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_8625.jpeg,G065,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_8681.jpeg,G128,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_89.jpeg,G064,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_9294.jpeg,G127,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Vitiligo/aug_0_9495.jpeg,G128,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,1
+Images_v1/Dermatitis/aug_0_1056.jpeg,G025,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_1209.jpeg,G025,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_1340.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_1445.jpeg,G025,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_1607.jpeg,G021,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_1658.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_2120.jpeg,G018,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_2755.jpeg,G019,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_2812.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_3068.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_3071.jpeg,G021,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_3144.jpeg,G020,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_3182.jpeg,G025,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_319.jpeg,G019,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_3253.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_3564.jpeg,G019,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_3604.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_3827.jpeg,G024,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_3930.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_407.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_4388.jpeg,G018,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_4477.jpeg,G020,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_4706.jpeg,G021,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_4725.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_5393.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_5489.jpeg,G025,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_561.jpeg,G018,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_6038.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_6438.jpeg,G021,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_6990.jpeg,G020,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_7126.jpeg,G019,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_7299.jpeg,G015,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_7771.jpeg,G018,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_8110.jpeg,G021,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_8190.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_8337.jpeg,G024,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_836.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_8360.jpeg,G019,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_8454.jpeg,G024,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_8754.jpeg,G021,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_9153.jpeg,G021,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_925.jpeg,G027,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_9320.jpeg,G025,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_973.jpeg,G019,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Dermatitis/aug_0_9900.jpeg,G117,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_1133.jpeg,G118,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_1404.jpeg,G034,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_1555.jpeg,G034,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_1583.jpeg,G103,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_1587.jpeg,G088,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_1641.jpeg,G074,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_1649.jpeg,G082,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_1888.jpeg,G029,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_2036.jpeg,G081,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_2192.jpeg,G092,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_2360.jpeg,G029,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_2400.jpeg,G059,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_2950.jpeg,G033,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_2973.jpeg,G055,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_3296.jpeg,G081,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_3321.jpeg,G057,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_3379.jpeg,G098,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_3677.jpeg,G092,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_3845.jpeg,G072,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_3847.jpeg,G103,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_3938.jpeg,G122,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_4235.jpeg,G028,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_4330.jpeg,G103,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_4486.jpeg,G033,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_4496.jpeg,G105,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_4776.jpeg,G029,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_4914.jpeg,G081,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_5052.jpeg,G102,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_523.jpeg,G081,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_5415.jpeg,G083,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_5464.jpeg,G033,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_5485.jpeg,G029,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_5571.jpeg,G028,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_598.jpeg,G082,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_6109.jpeg,G034,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_6247.jpeg,G055,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_6452.jpeg,G098,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_6478.jpeg,G034,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_6512.jpeg,G130,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_6991.jpeg,G057,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_6994.jpeg,G119,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_7005.jpeg,G114,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_7131.jpeg,G055,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_7194.jpeg,G098,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_7760.jpeg,G072,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_7845.jpeg,G073,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_7846.jpeg,G086,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_7882.jpeg,G034,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_8423.jpeg,G122,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_8739.jpeg,G103,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_8761.jpeg,G099,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_8824.jpeg,G111,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_9357.jpeg,G092,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_9463.jpeg,G089,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_9581.jpeg,G118,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_9748.jpeg,G088,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Eczema/aug_0_9832.jpeg,G111,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_1095.jpeg,G036,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_1288.jpeg,G032,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_2155.jpeg,G080,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_265.jpeg,G080,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_2662.jpeg,G036,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_2690.jpeg,G035,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_2935.jpeg,G068,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_3008.jpeg,G035,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_304.jpeg,G035,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_3268.jpeg,G036,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_3520.jpeg,G068,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_354.jpeg,G036,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_3565.jpeg,G036,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_3637.jpeg,G036,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_3929.jpeg,G080,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_3979.jpeg,G032,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_4132.jpeg,G078,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_4318.jpeg,G026,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_4694.jpeg,G026,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_5190.jpeg,G032,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_5388.jpeg,G078,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_5619.jpeg,G032,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_5628.jpeg,G068,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_5653.jpeg,G032,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_5817.jpeg,G080,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_587.jpeg,G035,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_599.jpeg,G068,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_6074.jpeg,G032,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_6189.jpeg,G032,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_6290.jpeg,G037,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_6672.jpeg,G036,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_6799.jpeg,G032,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_7021.jpeg,G080,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_7056.jpeg,G077,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_7083.jpeg,G078,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_7299.jpeg,G037,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_8043.jpeg,G026,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_8383.jpeg,G078,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_8443.jpeg,G026,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_8863.jpeg,G035,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_9014.jpeg,G115,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_9274.jpeg,G068,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_9391.jpeg,G080,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_9466.jpeg,G032,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Scabies/aug_0_9538.jpeg,G080,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_1402.jpeg,G048,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_1560.jpeg,G044,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_1729.jpeg,G047,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_1861.jpeg,G000,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_2242.jpeg,G046,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_2341.jpeg,G000,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_2442.jpeg,G041,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_2769.jpeg,G039,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_2796.jpeg,G100,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_3108.jpeg,G075,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_3149.jpeg,G041,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_3280.jpeg,G001,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_3298.jpeg,G043,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_3399.jpeg,G039,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_3406.jpeg,G001,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_3657.jpeg,G022,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_3691.jpeg,G048,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_3919.jpeg,G049,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_4032.jpeg,G047,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_4198.jpeg,G039,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_4262.jpeg,G038,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_4583.jpeg,G038,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_4742.jpeg,G047,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_480.jpeg,G045,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_4895.jpeg,G049,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_5159.jpeg,G043,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_5219.jpeg,G049,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_5336.jpeg,G000,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_5485.jpeg,G039,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_5564.jpeg,G045,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_5654.jpeg,G045,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_5888.jpeg,G046,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_6005.jpeg,G126,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_603.jpeg,G041,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_6189.jpeg,G000,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_6350.jpeg,G100,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_6479.jpeg,G000,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_6544.jpeg,G047,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_6732.jpeg,G044,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_7220.jpeg,G042,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_7749.jpeg,G038,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_8341.jpeg,G120,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_8570.jpeg,G001,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_8616.jpeg,G120,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_8849.jpeg,G047,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_8962.jpeg,G046,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_9377.jpeg,G046,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Tinea Ringworm/aug_0_9489.jpeg,G045,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,2
+Images_v1/Vitiligo/aug_0_1712.jpeg,G127,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_1804.jpeg,G064,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_2040.jpeg,G128,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_2151.jpeg,G101,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_2334.jpeg,G101,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_2347.jpeg,G127,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_2849.jpeg,G128,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_3131.jpeg,G101,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_3212.jpeg,G128,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_3289.jpeg,G065,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_3295.jpeg,G065,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_3692.jpeg,G128,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_4220.jpeg,G066,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_4331.jpeg,G064,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_4440.jpeg,G127,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_4521.jpeg,G133,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_515.jpeg,G064,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_5390.jpeg,G101,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_5476.jpeg,G065,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_5480.jpeg,G063,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_5556.jpeg,G101,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_5824.jpeg,G128,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_6490.jpeg,G064,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_6577.jpeg,G101,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_6624.jpeg,G069,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_7032.jpeg,G063,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_7117.jpeg,G066,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_7314.jpeg,G128,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_7446.jpeg,G128,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_7452.jpeg,G128,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_7777.jpeg,G064,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_7869.jpeg,G065,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_7926.jpeg,G063,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_8066.jpeg,G062,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_8205.jpeg,G065,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_8267.jpeg,G064,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_8907.jpeg,G064,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_9021.jpeg,G133,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_9247.jpeg,G127,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_9261.jpeg,G066,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_9303.jpeg,G065,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_948.jpeg,G133,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_9545.jpeg,G065,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_9553.jpeg,G128,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_959.jpeg,G069,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_9755.jpeg,G132,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2
+Images_v1/Vitiligo/aug_0_9806.jpeg,G101,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,2

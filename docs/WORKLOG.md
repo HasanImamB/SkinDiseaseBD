@@ -127,3 +127,32 @@ P-leaked vs P-disjoint, group-bootstrap inflation CIs, P-partial dose-response).
 - Dataset images and large `.npz` caches remain excluded via `.gitignore`.
 
 ---
+
+## 2026-10-29 — Analysis plan and Phase 3 leakage probe
+
+- Froze `docs/analysis_plan.md`: RQs, P-leaked/P-disjoint/P-partial, primary endpoint
+  (pooled OOF raw macro-F1), group bootstrap, paired Delta and permutation test.
+- Implemented `scripts/leakage_probe.py` (frozen DINOv2/ResNet-50 features; 1-NN and linear).
+- Ran on all four feature/probe combinations; wrote `results/leakage_probe.json`,
+  `results/predictions/` and `docs/leakage_analysis.md`.
+
+Results (macro-F1):
+- P-disjoint: 0.54-0.66; P-leaked: ~1.00.
+- Paired P-partial Delta (100% - 0%): +0.35 to +0.51; CI excludes zero for 3/4 probes.
+- Dose-response is monotone for 3/4 configurations; ResNet-linear is non-monotone at 50%.
+- Scabies (0.30 recall) and Dermatitis (0.23-0.38) are the hardest classes.
+
+Caveats: P-partial uses one fold (27 raw test images), so one Delta CI includes zero;
+61/197 raw images remain unlabelled. Next: extend P-partial to all folds, then Phase 4.
+
+---
+
+## 2026-10-29 — Phase 3 probe finalised
+
+- Validated `scripts/*.py`, `results/leakage_probe.json` and all 22 split triplets
+  (`verify_disjointness.py` exit 0).
+- Updated `README.md` and `Proposal/TODO_AI_Agent.md` to reflect the preliminary
+  frozen-feature leakage result.
+- Deferred the all-fold P-partial extension to the next work session.
+
+---

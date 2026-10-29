@@ -8,9 +8,10 @@ performance, and defines source-image-disjoint protocols for honest evaluation.
 
 ## Status
 
-- **Phase 1 — data audit:** complete (`docs/data_audit.md`).
+- **Phase 1 — data audit:** complete (`docs/data_audit.md`); shortcut and label-noise probes pending.
 - **Phase 2 — split design:** complete (`docs/split_stats.md`).
-- **Phase 3+ — leakage quantification and benchmarks:** in progress.
+- **Phase 3 — leakage quantification:** preliminary frozen-feature result, 35–51 macro-F1 point
+  inflation (`docs/leakage_analysis.md`); all-fold extension and fine-tuned baseline pending.
 
 ## Data
 

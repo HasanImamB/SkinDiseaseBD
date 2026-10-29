@@ -1,0 +1,109 @@
+filepath,group_id,y_true,y_pred,prob_Dermatitis,prob_Eczema,prob_Scabies,prob_Tinea Ringworm,prob_Vitiligo,leak_pct
+ResearchImage/101.jpg,G098,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+ResearchImage/104.jpg,G098,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+ResearchImage/108.jpg,G098,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+ResearchImage/109.jpg,G098,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+ResearchImage/114.jpg,G001,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+ResearchImage/115.jpg,G001,Tinea Ringworm,Eczema,0.0,1.0,0.0,0.0,0.0,0
+ResearchImage/132.jpg,G040,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+ResearchImage/133.jpg,G040,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+ResearchImage/138.jpg,G130,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+ResearchImage/139.jpg,G130,Eczema,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+ResearchImage/149.jpg,G061,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+ResearchImage/150.jpg,G060,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+ResearchImage/154.jpg,G081,Eczema,Dermatitis,1.0,0.0,0.0,0.0,0.0,0
+ResearchImage/155.jpg,G081,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+ResearchImage/18.jpg,G015,Dermatitis,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+ResearchImage/182.jpg,G044,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+ResearchImage/185.jpg,G045,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+ResearchImage/186.jpg,G045,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+ResearchImage/188.jpg,G049,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+ResearchImage/191.jpg,G068,Scabies,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,0
+ResearchImage/193.jpg,G080,Scabies,Eczema,0.0,1.0,0.0,0.0,0.0,0
+ResearchImage/21.jpg,G089,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+ResearchImage/22.jpg,G089,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,0
+ResearchImage/3.jpg,G021,Dermatitis,Eczema,0.0,1.0,0.0,0.0,0.0,0
+ResearchImage/4.jpg,G021,Dermatitis,Eczema,0.0,1.0,0.0,0.0,0.0,0
+ResearchImage/82.jpg,G127,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+ResearchImage/83.jpg,G128,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,0
+ResearchImage/101.jpg,G098,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,25
+ResearchImage/104.jpg,G098,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,25
+ResearchImage/108.jpg,G098,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,25
+ResearchImage/109.jpg,G098,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,25
+ResearchImage/114.jpg,G001,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,25
+ResearchImage/115.jpg,G001,Tinea Ringworm,Eczema,0.0,1.0,0.0,0.0,0.0,25
+ResearchImage/132.jpg,G040,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,25
+ResearchImage/133.jpg,G040,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,25
+ResearchImage/138.jpg,G130,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,25
+ResearchImage/139.jpg,G130,Eczema,Vitiligo,0.0,0.0,0.0,0.0,1.0,25
+ResearchImage/149.jpg,G061,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,25
+ResearchImage/150.jpg,G060,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,25
+ResearchImage/154.jpg,G081,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,25
+ResearchImage/155.jpg,G081,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,25
+ResearchImage/18.jpg,G015,Dermatitis,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,25
+ResearchImage/182.jpg,G044,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,25
+ResearchImage/185.jpg,G045,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,25
+ResearchImage/186.jpg,G045,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,25
+ResearchImage/188.jpg,G049,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,25
+ResearchImage/191.jpg,G068,Scabies,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,25
+ResearchImage/193.jpg,G080,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,25
+ResearchImage/21.jpg,G089,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,25
+ResearchImage/22.jpg,G089,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,25
+ResearchImage/3.jpg,G021,Dermatitis,Eczema,0.0,1.0,0.0,0.0,0.0,25
+ResearchImage/4.jpg,G021,Dermatitis,Eczema,0.0,1.0,0.0,0.0,0.0,25
+ResearchImage/82.jpg,G127,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,25
+ResearchImage/83.jpg,G128,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,25
+ResearchImage/101.jpg,G098,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,50
+ResearchImage/104.jpg,G098,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,50
+ResearchImage/108.jpg,G098,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,50
+ResearchImage/109.jpg,G098,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,50
+ResearchImage/114.jpg,G001,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,50
+ResearchImage/115.jpg,G001,Tinea Ringworm,Eczema,0.0,1.0,0.0,0.0,0.0,50
+ResearchImage/132.jpg,G040,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,50
+ResearchImage/133.jpg,G040,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,50
+ResearchImage/138.jpg,G130,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,50
+ResearchImage/139.jpg,G130,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,50
+ResearchImage/149.jpg,G061,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,50
+ResearchImage/150.jpg,G060,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,50
+ResearchImage/154.jpg,G081,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,50
+ResearchImage/155.jpg,G081,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,50
+ResearchImage/18.jpg,G015,Dermatitis,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,50
+ResearchImage/182.jpg,G044,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,50
+ResearchImage/185.jpg,G045,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,50
+ResearchImage/186.jpg,G045,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,50
+ResearchImage/188.jpg,G049,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,50
+ResearchImage/191.jpg,G068,Scabies,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,50
+ResearchImage/193.jpg,G080,Scabies,Eczema,0.0,1.0,0.0,0.0,0.0,50
+ResearchImage/21.jpg,G089,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,50
+ResearchImage/22.jpg,G089,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,50
+ResearchImage/3.jpg,G021,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,50
+ResearchImage/4.jpg,G021,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,50
+ResearchImage/82.jpg,G127,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,50
+ResearchImage/83.jpg,G128,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,50
+ResearchImage/101.jpg,G098,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,100
+ResearchImage/104.jpg,G098,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,100
+ResearchImage/108.jpg,G098,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,100
+ResearchImage/109.jpg,G098,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,100
+ResearchImage/114.jpg,G001,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,100
+ResearchImage/115.jpg,G001,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,100
+ResearchImage/132.jpg,G040,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,100
+ResearchImage/133.jpg,G040,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,100
+ResearchImage/138.jpg,G130,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,100
+ResearchImage/139.jpg,G130,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,100
+ResearchImage/149.jpg,G061,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,100
+ResearchImage/150.jpg,G060,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,100
+ResearchImage/154.jpg,G081,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,100
+ResearchImage/155.jpg,G081,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,100
+ResearchImage/18.jpg,G015,Dermatitis,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,100
+ResearchImage/182.jpg,G044,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,100
+ResearchImage/185.jpg,G045,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,100
+ResearchImage/186.jpg,G045,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,100
+ResearchImage/188.jpg,G049,Tinea Ringworm,Tinea Ringworm,0.0,0.0,0.0,1.0,0.0,100
+ResearchImage/191.jpg,G068,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,100
+ResearchImage/193.jpg,G080,Scabies,Scabies,0.0,0.0,1.0,0.0,0.0,100
+ResearchImage/21.jpg,G089,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,100
+ResearchImage/22.jpg,G089,Eczema,Eczema,0.0,1.0,0.0,0.0,0.0,100
+ResearchImage/3.jpg,G021,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,100
+ResearchImage/4.jpg,G021,Dermatitis,Dermatitis,1.0,0.0,0.0,0.0,0.0,100
+ResearchImage/82.jpg,G127,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,100
+ResearchImage/83.jpg,G128,Vitiligo,Vitiligo,0.0,0.0,0.0,0.0,1.0,100

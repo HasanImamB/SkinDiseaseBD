@@ -6,7 +6,7 @@ This todo list covers everything I can do autonomously without requiring manual 
 - [x] **Create repo structure** - `src/`, `data/`, `splits/`, `configs/`, `results/`, `notebooks/`, `assets/`, `scripts/`, `docs/`
 - [x] **Environment setup** - `requirements.txt` pins the CPU reference environment
 - [x] **Git setup** - repo initialised, `.gitignore` in place (no commits yet)
-- [ ] **Research plan document** - Write `docs/analysis_plan.md` with RQs, primary endpoint, pre-registration details
+- [x] **Research plan document** - `docs/analysis_plan.md` (RQs, primary endpoint, statistics)
 
 ## Phase 1: Data Audit (Week 2-4)
 - [x] **Download dataset** - Download Bangladesh Common Skin Disease Image Dataset from Mendeley (v3, DOI: 10.17632/9ggd3shdr7.3)
@@ -29,12 +29,12 @@ This todo list covers everything I can do autonomously without requiring manual 
 
 ## Phase 3: Leakage Quantification (Week 5-8)
 - [ ] **Reproduce original baseline** - Implement classical ML/DL from [1] as closely as possible
-- [ ] **1-NN baseline** - Pixel-space and embedding-space 1-NN under both protocols
-- [ ] **Linear probe** - SVM/logistic regression on frozen ResNet50/DINOv2 features
-- [ ] **Compare leaked vs disjoint** - Run same model on both splits, compute inflation Δ
-- [ ] **Dose-response curve** - Test across P-partial splits
-- [ ] **Group bootstrap CI** - Compute confidence intervals for inflation
-- [ ] **Leakage analysis report** - Generate `docs/leakage_analysis.md` with figures/tables
+- [x] **1-NN baseline** - embedding-space 1-NN under P-leaked and P-disjoint
+- [x] **Linear probe** - logistic regression on frozen ResNet50/DINOv2 features
+- [x] **Compare leaked vs disjoint** - frozen-feature probes; fine-tuned baseline pending
+- [x] **Dose-response curve** - single fold; all-fold extension pending
+- [x] **Group bootstrap CI** - group bootstrap + permutation test
+- [x] **Leakage analysis report** - `docs/leakage_analysis.md` (preliminary)
 
 ## Phase 4: Model Benchmarking (Week 7-12)
 - [ ] **Setup model zoo** - Configure ResNet50, DenseNet121, EfficientNet-B0/B3, MobileNetV3, ViT-B/16, Swin-T, ConvNeXt-T via timm

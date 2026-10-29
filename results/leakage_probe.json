@@ -1,0 +1,1180 @@
+{
+  "config": {
+    "features": [
+      "dinov2",
+      "resnet"
+    ],
+    "probes": [
+      "1nn",
+      "linear"
+    ],
+    "bootstrap": 1000,
+    "permutations": 1000,
+    "seed": 42,
+    "classes": [
+      "Dermatitis",
+      "Eczema",
+      "Scabies",
+      "Tinea Ringworm",
+      "Vitiligo"
+    ]
+  },
+  "results": {
+    "dinov2": {
+      "1nn": {
+        "leaked": {
+          "per_repeat": [
+            {
+              "repeat": 0,
+              "n": 242,
+              "accuracy": 1.0,
+              "balanced_accuracy": 1.0,
+              "macro_f1": 1.0,
+              "per_class_recall": {
+                "Dermatitis": 1.0,
+                "Eczema": 1.0,
+                "Scabies": 1.0,
+                "Tinea Ringworm": 1.0,
+                "Vitiligo": 1.0
+              }
+            },
+            {
+              "repeat": 1,
+              "n": 242,
+              "accuracy": 1.0,
+              "balanced_accuracy": 1.0,
+              "macro_f1": 1.0,
+              "per_class_recall": {
+                "Dermatitis": 1.0,
+                "Eczema": 1.0,
+                "Scabies": 1.0,
+                "Tinea Ringworm": 1.0,
+                "Vitiligo": 1.0
+              }
+            },
+            {
+              "repeat": 2,
+              "n": 242,
+              "accuracy": 1.0,
+              "balanced_accuracy": 1.0,
+              "macro_f1": 1.0,
+              "per_class_recall": {
+                "Dermatitis": 1.0,
+                "Eczema": 1.0,
+                "Scabies": 1.0,
+                "Tinea Ringworm": 1.0,
+                "Vitiligo": 1.0
+              }
+            }
+          ],
+          "pooled": {
+            "n": 726,
+            "accuracy": 1.0,
+            "balanced_accuracy": 1.0,
+            "macro_f1": 1.0,
+            "per_class_recall": {
+              "Dermatitis": 1.0,
+              "Eczema": 1.0,
+              "Scabies": 1.0,
+              "Tinea Ringworm": 1.0,
+              "Vitiligo": 1.0
+            }
+          },
+          "bootstrap": {
+            "macro_f1": {
+              "mean": 0.9997999999999999,
+              "lo": 1.0,
+              "hi": 1.0
+            },
+            "balanced_accuracy": {
+              "mean": 1.0,
+              "lo": 1.0,
+              "hi": 1.0
+            },
+            "accuracy": {
+              "mean": 1.0,
+              "lo": 1.0,
+              "hi": 1.0
+            }
+          }
+        },
+        "disjoint": {
+          "per_repeat": [
+            {
+              "repeat": 0,
+              "n": 136,
+              "accuracy": 0.7058823529411765,
+              "balanced_accuracy": 0.5489864599264693,
+              "macro_f1": 0.5801597737716507,
+              "per_class_recall": {
+                "Dermatitis": 0.38461538461538464,
+                "Eczema": 0.8904109589041096,
+                "Scabies": 0.1,
+                "Tinea Ringworm": 0.5517241379310345,
+                "Vitiligo": 0.8181818181818182
+              }
+            },
+            {
+              "repeat": 1,
+              "n": 136,
+              "accuracy": 0.7205882352941176,
+              "balanced_accuracy": 0.5777011934687891,
+              "macro_f1": 0.6268203771721371,
+              "per_class_recall": {
+                "Dermatitis": 0.38461538461538464,
+                "Eczema": 0.8904109589041096,
+                "Scabies": 0.3,
+                "Tinea Ringworm": 0.5862068965517241,
+                "Vitiligo": 0.7272727272727273
+              }
+            },
+            {
+              "repeat": 2,
+              "n": 136,
+              "accuracy": 0.7279411764705882,
+              "balanced_accuracy": 0.6060148448622705,
+              "macro_f1": 0.6515147932724894,
+              "per_class_recall": {
+                "Dermatitis": 0.38461538461538464,
+                "Eczema": 0.863013698630137,
+                "Scabies": 0.4,
+                "Tinea Ringworm": 0.6551724137931034,
+                "Vitiligo": 0.7272727272727273
+              }
+            }
+          ],
+          "pooled_oof": {
+            "n": 136,
+            "accuracy": 0.7426470588235294,
+            "balanced_accuracy": 0.6013624637054018,
+            "macro_f1": 0.6509956709956709,
+            "per_class_recall": {
+              "Dermatitis": 0.38461538461538464,
+              "Eczema": 0.9178082191780822,
+              "Scabies": 0.3,
+              "Tinea Ringworm": 0.5862068965517241,
+              "Vitiligo": 0.8181818181818182
+            }
+          },
+          "bootstrap": {
+            "macro_f1": {
+              "mean": 0.6460314960290809,
+              "lo": 0.52620824341337,
+              "hi": 0.7753829506660177
+            },
+            "balanced_accuracy": {
+              "mean": 0.607518667015335,
+              "lo": 0.49134475259317734,
+              "hi": 0.7367319476566051
+            },
+            "accuracy": {
+              "mean": 0.7430603119015589,
+              "lo": 0.6382853074216787,
+              "hi": 0.8333620689655172
+            }
+          }
+        },
+        "partial": {
+          "levels": {
+            "0": {
+              "achieved_leak_pct": 0.0,
+              "n": 27,
+              "accuracy": 0.8148148148148148,
+              "balanced_accuracy": 0.6,
+              "macro_f1": 0.575,
+              "per_class_recall": {
+                "Dermatitis": 0.0,
+                "Eczema": 1.0,
+                "Scabies": 0.0,
+                "Tinea Ringworm": 1.0,
+                "Vitiligo": 1.0
+              },
+              "bootstrap": {
+                "macro_f1": {
+                  "mean": 0.5428954676994651,
+                  "lo": 0.3599473684210526,
+                  "hi": 0.6
+                },
+                "balanced_accuracy": {
+                  "mean": 0.6263833333333332,
+                  "lo": 0.5,
+                  "hi": 0.75
+                },
+                "accuracy": {
+                  "mean": 0.8091271968106962,
+                  "lo": 0.592550505050505,
+                  "hi": 0.9643165024630542
+                }
+              }
+            },
+            "25": {
+              "achieved_leak_pct": 23.53,
+              "n": 27,
+              "accuracy": 0.8518518518518519,
+              "balanced_accuracy": 0.7,
+              "macro_f1": 0.6806451612903226,
+              "per_class_recall": {
+                "Dermatitis": 0.0,
+                "Eczema": 1.0,
+                "Scabies": 0.5,
+                "Tinea Ringworm": 1.0,
+                "Vitiligo": 1.0
+              },
+              "bootstrap": {
+                "macro_f1": {
+                  "mean": 0.628344738807822,
+                  "lo": 0.3843004769475358,
+                  "hi": 0.790496894409938
+                },
+                "balanced_accuracy": {
+                  "mean": 0.7179437103174603,
+                  "lo": 0.55,
+                  "hi": 1.0
+                },
+                "accuracy": {
+                  "mean": 0.846997379746055,
+                  "lo": 0.6521739130434783,
+                  "hi": 1.0
+                }
+              }
+            },
+            "50": {
+              "achieved_leak_pct": 47.06,
+              "n": 27,
+              "accuracy": 0.8888888888888888,
+              "balanced_accuracy": 0.7333333333333333,
+              "macro_f1": 0.7466666666666667,
+              "per_class_recall": {
+                "Dermatitis": 0.6666666666666666,
+                "Eczema": 1.0,
+                "Scabies": 0.0,
+                "Tinea Ringworm": 1.0,
+                "Vitiligo": 1.0
+              },
+              "bootstrap": {
+                "macro_f1": {
+                  "mean": 0.6697767424787413,
+                  "lo": 0.3860107334525939,
+                  "hi": 0.7948837209302326
+                },
+                "balanced_accuracy": {
+                  "mean": 0.7365956132756132,
+                  "lo": 0.5,
+                  "hi": 1.0
+                },
+                "accuracy": {
+                  "mean": 0.8860014385639042,
+                  "lo": 0.7307692307692307,
+                  "hi": 1.0
+                }
+              }
+            },
+            "100": {
+              "achieved_leak_pct": 100.0,
+              "n": 27,
+              "accuracy": 0.9629629629629629,
+              "balanced_accuracy": 0.9333333333333332,
+              "macro_f1": 0.9199999999999999,
+              "per_class_recall": {
+                "Dermatitis": 0.6666666666666666,
+                "Eczema": 1.0,
+                "Scabies": 1.0,
+                "Tinea Ringworm": 1.0,
+                "Vitiligo": 1.0
+              },
+              "bootstrap": {
+                "macro_f1": {
+                  "mean": 0.8290710095133624,
+                  "lo": 0.5599999999999999,
+                  "hi": 1.0
+                },
+                "balanced_accuracy": {
+                  "mean": 0.92336227994228,
+                  "lo": 0.75,
+                  "hi": 1.0
+                },
+                "accuracy": {
+                  "mean": 0.9622819182746405,
+                  "lo": 0.8695652173913043,
+                  "hi": 1.0
+                }
+              }
+            }
+          },
+          "delta_100_vs_0": {
+            "delta": 0.345,
+            "delta_lo": 0.0,
+            "delta_hi": 0.4580834914611005,
+            "p_value": 0.22577422577422576
+          }
+        }
+      },
+      "linear": {
+        "leaked": {
+          "per_repeat": [
+            {
+              "repeat": 0,
+              "n": 242,
+              "accuracy": 1.0,
+              "balanced_accuracy": 1.0,
+              "macro_f1": 1.0,
+              "per_class_recall": {
+                "Dermatitis": 1.0,
+                "Eczema": 1.0,
+                "Scabies": 1.0,
+                "Tinea Ringworm": 1.0,
+                "Vitiligo": 1.0
+              }
+            },
+            {
+              "repeat": 1,
+              "n": 242,
+              "accuracy": 0.9917355371900827,
+              "balanced_accuracy": 0.9923245614035088,
+              "macro_f1": 0.9918217599819835,
+              "per_class_recall": {
+                "Dermatitis": 1.0,
+                "Eczema": 0.9824561403508771,
+                "Scabies": 1.0,
+                "Tinea Ringworm": 0.9791666666666666,
+                "Vitiligo": 1.0
+              }
+            },
+            {
+              "repeat": 2,
+              "n": 242,
+              "accuracy": 1.0,
+              "balanced_accuracy": 1.0,
+              "macro_f1": 1.0,
+              "per_class_recall": {
+                "Dermatitis": 1.0,
+                "Eczema": 1.0,
+                "Scabies": 1.0,
+                "Tinea Ringworm": 1.0,
+                "Vitiligo": 1.0
+              }
+            }
+          ],
+          "pooled": {
+            "n": 726,
+            "accuracy": 0.9972451790633609,
+            "balanced_accuracy": 0.9974415204678362,
+            "macro_f1": 0.9972719044635797,
+            "per_class_recall": {
+              "Dermatitis": 1.0,
+              "Eczema": 0.9941520467836257,
+              "Scabies": 1.0,
+              "Tinea Ringworm": 0.9930555555555556,
+              "Vitiligo": 1.0
+            }
+          },
+          "bootstrap": {
+            "macro_f1": {
+              "mean": 0.9967586626543214,
+              "lo": 0.9916032917882129,
+              "hi": 1.0
+            },
+            "balanced_accuracy": {
+              "mean": 0.9973488910385029,
+              "lo": 0.9931044422516179,
+              "hi": 1.0
+            },
+            "accuracy": {
+              "mean": 0.997190170174085,
+              "lo": 0.992525878735802,
+              "hi": 1.0
+            }
+          }
+        },
+        "disjoint": {
+          "per_repeat": [
+            {
+              "repeat": 0,
+              "n": 136,
+              "accuracy": 0.6691176470588235,
+              "balanced_accuracy": 0.563200399034126,
+              "macro_f1": 0.5571260608008672,
+              "per_class_recall": {
+                "Dermatitis": 0.38461538461538464,
+                "Eczema": 0.7671232876712328,
+                "Scabies": 0.1,
+                "Tinea Ringworm": 0.6551724137931034,
+                "Vitiligo": 0.9090909090909091
+              }
+            },
+            {
+              "repeat": 1,
+              "n": 136,
+              "accuracy": 0.6911764705882353,
+              "balanced_accuracy": 0.5904980329071023,
+              "macro_f1": 0.6042982456140351,
+              "per_class_recall": {
+                "Dermatitis": 0.38461538461538464,
+                "Eczema": 0.7945205479452054,
+                "Scabies": 0.3,
+                "Tinea Ringworm": 0.6551724137931034,
+                "Vitiligo": 0.8181818181818182
+              }
+            },
+            {
+              "repeat": 2,
+              "n": 136,
+              "accuracy": 0.7279411764705882,
+              "balanced_accuracy": 0.6041966630440887,
+              "macro_f1": 0.6401069688368353,
+              "per_class_recall": {
+                "Dermatitis": 0.38461538461538464,
+                "Eczema": 0.863013698630137,
+                "Scabies": 0.3,
+                "Tinea Ringworm": 0.6551724137931034,
+                "Vitiligo": 0.8181818181818182
+              }
+            }
+          ],
+          "pooled_oof": {
+            "n": 136,
+            "accuracy": 0.7352941176470589,
+            "balanced_accuracy": 0.6265353069226476,
+            "macro_f1": 0.6630470406786196,
+            "per_class_recall": {
+              "Dermatitis": 0.38461538461538464,
+              "Eczema": 0.8493150684931506,
+              "Scabies": 0.3,
+              "Tinea Ringworm": 0.6896551724137931,
+              "Vitiligo": 0.9090909090909091
+            }
+          },
+          "bootstrap": {
+            "macro_f1": {
+              "mean": 0.6589952524148688,
+              "lo": 0.5411923684301179,
+              "hi": 0.7780470541505508
+            },
+            "balanced_accuracy": {
+              "mean": 0.6329449957717074,
+              "lo": 0.5227138395230501,
+              "hi": 0.7572617577830084
+            },
+            "accuracy": {
+              "mean": 0.7358483342480834,
+              "lo": 0.6384448818897638,
+              "hi": 0.8281535823170731
+            }
+          }
+        },
+        "partial": {
+          "levels": {
+            "0": {
+              "achieved_leak_pct": 0.0,
+              "n": 27,
+              "accuracy": 0.6296296296296297,
+              "balanced_accuracy": 0.5285714285714286,
+              "macro_f1": 0.4911764705882353,
+              "per_class_recall": {
+                "Dermatitis": 0.0,
+                "Eczema": 0.6428571428571429,
+                "Scabies": 0.0,
+                "Tinea Ringworm": 1.0,
+                "Vitiligo": 1.0
+              },
+              "bootstrap": {
+                "macro_f1": {
+                  "mean": 0.45323737599807484,
+                  "lo": 0.23925001937533913,
+                  "hi": 0.5673173439463761
+                },
+                "balanced_accuracy": {
+                  "mean": 0.5445314160605623,
+                  "lo": 0.3676225490196079,
+                  "hi": 0.7222222222222222
+                },
+                "accuracy": {
+                  "mean": 0.6273452734538952,
+                  "lo": 0.3665,
+                  "hi": 0.8611350574712644
+                }
+              }
+            },
+            "25": {
+              "achieved_leak_pct": 23.53,
+              "n": 27,
+              "accuracy": 0.6666666666666666,
+              "balanced_accuracy": 0.6285714285714286,
+              "macro_f1": 0.5651764705882354,
+              "per_class_recall": {
+                "Dermatitis": 0.0,
+                "Eczema": 0.6428571428571429,
+                "Scabies": 0.5,
+                "Tinea Ringworm": 1.0,
+                "Vitiligo": 1.0
+              },
+              "bootstrap": {
+                "macro_f1": {
+                  "mean": 0.517777267823716,
+                  "lo": 0.27536166007905144,
+                  "hi": 0.7232801701222753
+                },
+                "balanced_accuracy": {
+                  "mean": 0.6360917930446892,
+                  "lo": 0.4373958333333333,
+                  "hi": 0.8752403846153844
+                },
+                "accuracy": {
+                  "mean": 0.6652154563892543,
+                  "lo": 0.4136755485893417,
+                  "hi": 0.8929041353383459
+                }
+              }
+            },
+            "50": {
+              "achieved_leak_pct": 47.06,
+              "n": 27,
+              "accuracy": 0.8148148148148148,
+              "balanced_accuracy": 0.7571428571428571,
+              "macro_f1": 0.7229629629629629,
+              "per_class_recall": {
+                "Dermatitis": 1.0,
+                "Eczema": 0.7857142857142857,
+                "Scabies": 0.0,
+                "Tinea Ringworm": 1.0,
+                "Vitiligo": 1.0
+              },
+              "bootstrap": {
+                "macro_f1": {
+                  "mean": 0.6615129956918212,
+                  "lo": 0.4394300144300145,
+                  "hi": 0.7920148148148148
+                },
+                "balanced_accuracy": {
+                  "mean": 0.7636397277422298,
+                  "lo": 0.625,
+                  "hi": 0.984375
+                },
+                "accuracy": {
+                  "mean": 0.814048033147128,
+                  "lo": 0.6152173913043478,
+                  "hi": 0.9666666666666667
+                }
+              }
+            },
+            "100": {
+              "achieved_leak_pct": 100.0,
+              "n": 27,
+              "accuracy": 1.0,
+              "balanced_accuracy": 1.0,
+              "macro_f1": 1.0,
+              "per_class_recall": {
+                "Dermatitis": 1.0,
+                "Eczema": 1.0,
+                "Scabies": 1.0,
+                "Tinea Ringworm": 1.0,
+                "Vitiligo": 1.0
+              },
+              "bootstrap": {
+                "macro_f1": {
+                  "mean": 0.9196,
+                  "lo": 0.6,
+                  "hi": 1.0
+                },
+                "balanced_accuracy": {
+                  "mean": 1.0,
+                  "lo": 1.0,
+                  "hi": 1.0
+                },
+                "accuracy": {
+                  "mean": 1.0,
+                  "lo": 1.0,
+                  "hi": 1.0
+                }
+              }
+            }
+          },
+          "delta_100_vs_0": {
+            "delta": 0.5088235294117647,
+            "delta_lo": 0.23398249299719895,
+            "delta_hi": 0.6250416666666666,
+            "p_value": 0.014985014985014986
+          }
+        }
+      }
+    },
+    "resnet": {
+      "1nn": {
+        "leaked": {
+          "per_repeat": [
+            {
+              "repeat": 0,
+              "n": 242,
+              "accuracy": 1.0,
+              "balanced_accuracy": 1.0,
+              "macro_f1": 1.0,
+              "per_class_recall": {
+                "Dermatitis": 1.0,
+                "Eczema": 1.0,
+                "Scabies": 1.0,
+                "Tinea Ringworm": 1.0,
+                "Vitiligo": 1.0
+              }
+            },
+            {
+              "repeat": 1,
+              "n": 242,
+              "accuracy": 0.9958677685950413,
+              "balanced_accuracy": 0.9964912280701753,
+              "macro_f1": 0.996032286297773,
+              "per_class_recall": {
+                "Dermatitis": 1.0,
+                "Eczema": 0.9824561403508771,
+                "Scabies": 1.0,
+                "Tinea Ringworm": 1.0,
+                "Vitiligo": 1.0
+              }
+            },
+            {
+              "repeat": 2,
+              "n": 242,
+              "accuracy": 1.0,
+              "balanced_accuracy": 1.0,
+              "macro_f1": 1.0,
+              "per_class_recall": {
+                "Dermatitis": 1.0,
+                "Eczema": 1.0,
+                "Scabies": 1.0,
+                "Tinea Ringworm": 1.0,
+                "Vitiligo": 1.0
+              }
+            }
+          ],
+          "pooled": {
+            "n": 726,
+            "accuracy": 0.9986225895316805,
+            "balanced_accuracy": 0.9988304093567251,
+            "macro_f1": 0.9986754823559967,
+            "per_class_recall": {
+              "Dermatitis": 1.0,
+              "Eczema": 0.9941520467836257,
+              "Scabies": 1.0,
+              "Tinea Ringworm": 1.0,
+              "Vitiligo": 1.0
+            }
+          },
+          "bootstrap": {
+            "macro_f1": {
+              "mean": 0.9982666260806423,
+              "lo": 0.994516953523222,
+              "hi": 1.0
+            },
+            "balanced_accuracy": {
+              "mean": 0.9987676143520118,
+              "lo": 0.9960519780411292,
+              "hi": 1.0
+            },
+            "accuracy": {
+              "mean": 0.9985230430598562,
+              "lo": 0.9954288975864318,
+              "hi": 1.0
+            }
+          }
+        },
+        "disjoint": {
+          "per_repeat": [
+            {
+              "repeat": 0,
+              "n": 136,
+              "accuracy": 0.5955882352941176,
+              "balanced_accuracy": 0.5053775133699554,
+              "macro_f1": 0.513312289990836,
+              "per_class_recall": {
+                "Dermatitis": 0.3076923076923077,
+                "Eczema": 0.6712328767123288,
+                "Scabies": 0.2,
+                "Tinea Ringworm": 0.6206896551724138,
+                "Vitiligo": 0.7272727272727273
+              }
+            },
+            {
+              "repeat": 1,
+              "n": 136,
+              "accuracy": 0.5808823529411765,
+              "balanced_accuracy": 0.5213151609845044,
+              "macro_f1": 0.516476313284824,
+              "per_class_recall": {
+                "Dermatitis": 0.3076923076923077,
+                "Eczema": 0.6164383561643836,
+                "Scabies": 0.3,
+                "Tinea Ringworm": 0.6551724137931034,
+                "Vitiligo": 0.7272727272727273
+              }
+            },
+            {
+              "repeat": 2,
+              "n": 136,
+              "accuracy": 0.6029411764705882,
+              "balanced_accuracy": 0.517348008628122,
+              "macro_f1": 0.517964990340144,
+              "per_class_recall": {
+                "Dermatitis": 0.15384615384615385,
+                "Eczema": 0.684931506849315,
+                "Scabies": 0.4,
+                "Tinea Ringworm": 0.6206896551724138,
+                "Vitiligo": 0.7272727272727273
+              }
+            }
+          ],
+          "pooled_oof": {
+            "n": 136,
+            "accuracy": 0.6102941176470589,
+            "balanced_accuracy": 0.5309144421945555,
+            "macro_f1": 0.5355577299412916,
+            "per_class_recall": {
+              "Dermatitis": 0.23076923076923078,
+              "Eczema": 0.684931506849315,
+              "Scabies": 0.3,
+              "Tinea Ringworm": 0.6206896551724138,
+              "Vitiligo": 0.8181818181818182
+            }
+          },
+          "bootstrap": {
+            "macro_f1": {
+              "mean": 0.5287795657292188,
+              "lo": 0.4239396462946986,
+              "hi": 0.6331175405837459
+            },
+            "balanced_accuracy": {
+              "mean": 0.5336034108237642,
+              "lo": 0.4173353715477848,
+              "hi": 0.6575610992279549
+            },
+            "accuracy": {
+              "mean": 0.6113339730353771,
+              "lo": 0.5106951938449241,
+              "hi": 0.7122302158273381
+            }
+          }
+        },
+        "partial": {
+          "levels": {
+            "0": {
+              "achieved_leak_pct": 0.0,
+              "n": 27,
+              "accuracy": 0.7037037037037037,
+              "balanced_accuracy": 0.5380952380952382,
+              "macro_f1": 0.4738461538461539,
+              "per_class_recall": {
+                "Dermatitis": 0.0,
+                "Eczema": 0.8571428571428571,
+                "Scabies": 0.0,
+                "Tinea Ringworm": 0.8333333333333334,
+                "Vitiligo": 1.0
+              },
+              "bootstrap": {
+                "macro_f1": {
+                  "mean": 0.44710942976598256,
+                  "lo": 0.2857039149598133,
+                  "hi": 0.5574855744011191
+                },
+                "balanced_accuracy": {
+                  "mean": 0.5611889004162431,
+                  "lo": 0.39997596153846154,
+                  "hi": 0.7321726190476191
+                },
+                "accuracy": {
+                  "mean": 0.6996600009556095,
+                  "lo": 0.5,
+                  "hi": 0.875
+                }
+              }
+            },
+            "25": {
+              "achieved_leak_pct": 23.53,
+              "n": 27,
+              "accuracy": 0.7777777777777778,
+              "balanced_accuracy": 0.6523809523809524,
+              "macro_f1": 0.6205128205128204,
+              "per_class_recall": {
+                "Dermatitis": 0.0,
+                "Eczema": 0.9285714285714286,
+                "Scabies": 0.5,
+                "Tinea Ringworm": 0.8333333333333334,
+                "Vitiligo": 1.0
+              },
+              "bootstrap": {
+                "macro_f1": {
+                  "mean": 0.5587251856190756,
+                  "lo": 0.33236688311688306,
+                  "hi": 0.754764652014652
+                },
+                "balanced_accuracy": {
+                  "mean": 0.6688446396460868,
+                  "lo": 0.47916666666666663,
+                  "hi": 0.9218593833067518
+                },
+                "accuracy": {
+                  "mean": 0.7741650915744911,
+                  "lo": 0.583173076923077,
+                  "hi": 0.9310919540229884
+                }
+              }
+            },
+            "50": {
+              "achieved_leak_pct": 47.06,
+              "n": 27,
+              "accuracy": 0.8518518518518519,
+              "balanced_accuracy": 0.7,
+              "macro_f1": 0.7005128205128205,
+              "per_class_recall": {
+                "Dermatitis": 0.6666666666666666,
+                "Eczema": 1.0,
+                "Scabies": 0.0,
+                "Tinea Ringworm": 0.8333333333333334,
+                "Vitiligo": 1.0
+              },
+              "bootstrap": {
+                "macro_f1": {
+                  "mean": 0.6211987381177791,
+                  "lo": 0.3373405567300916,
+                  "hi": 0.7866875000000001
+                },
+                "balanced_accuracy": {
+                  "mean": 0.7036256984450734,
+                  "lo": 0.5,
+                  "hi": 0.9523809523809524
+                },
+                "accuracy": {
+                  "mean": 0.8492243684996726,
+                  "lo": 0.6841507177033493,
+                  "hi": 0.9696969696969697
+                }
+              }
+            },
+            "100": {
+              "achieved_leak_pct": 100.0,
+              "n": 27,
+              "accuracy": 0.9629629629629629,
+              "balanced_accuracy": 0.9333333333333332,
+              "macro_f1": 0.9446153846153846,
+              "per_class_recall": {
+                "Dermatitis": 0.6666666666666666,
+                "Eczema": 1.0,
+                "Scabies": 1.0,
+                "Tinea Ringworm": 1.0,
+                "Vitiligo": 1.0
+              },
+              "bootstrap": {
+                "macro_f1": {
+                  "mean": 0.8416448580760305,
+                  "lo": 0.5666666666666667,
+                  "hi": 1.0
+                },
+                "balanced_accuracy": {
+                  "mean": 0.92336227994228,
+                  "lo": 0.75,
+                  "hi": 1.0
+                },
+                "accuracy": {
+                  "mean": 0.9622819182746405,
+                  "lo": 0.8695652173913043,
+                  "hi": 1.0
+                }
+              }
+            }
+          },
+          "delta_100_vs_0": {
+            "delta": 0.4707692307692307,
+            "delta_lo": 0.0802497736181946,
+            "delta_hi": 0.5906881419234359,
+            "p_value": 0.017982017982017984
+          }
+        }
+      },
+      "linear": {
+        "leaked": {
+          "per_repeat": [
+            {
+              "repeat": 0,
+              "n": 242,
+              "accuracy": 1.0,
+              "balanced_accuracy": 1.0,
+              "macro_f1": 1.0,
+              "per_class_recall": {
+                "Dermatitis": 1.0,
+                "Eczema": 1.0,
+                "Scabies": 1.0,
+                "Tinea Ringworm": 1.0,
+                "Vitiligo": 1.0
+              }
+            },
+            {
+              "repeat": 1,
+              "n": 242,
+              "accuracy": 0.9917355371900827,
+              "balanced_accuracy": 0.9929824561403509,
+              "macro_f1": 0.992080745341615,
+              "per_class_recall": {
+                "Dermatitis": 1.0,
+                "Eczema": 0.9649122807017544,
+                "Scabies": 1.0,
+                "Tinea Ringworm": 1.0,
+                "Vitiligo": 1.0
+              }
+            },
+            {
+              "repeat": 2,
+              "n": 242,
+              "accuracy": 1.0,
+              "balanced_accuracy": 1.0,
+              "macro_f1": 1.0,
+              "per_class_recall": {
+                "Dermatitis": 1.0,
+                "Eczema": 1.0,
+                "Scabies": 1.0,
+                "Tinea Ringworm": 1.0,
+                "Vitiligo": 1.0
+              }
+            }
+          ],
+          "pooled": {
+            "n": 726,
+            "accuracy": 0.9972451790633609,
+            "balanced_accuracy": 0.9976608187134502,
+            "macro_f1": 0.9973529411764706,
+            "per_class_recall": {
+              "Dermatitis": 1.0,
+              "Eczema": 0.9883040935672515,
+              "Scabies": 1.0,
+              "Tinea Ringworm": 1.0,
+              "Vitiligo": 1.0
+            }
+          },
+          "bootstrap": {
+            "macro_f1": {
+              "mean": 0.9967930287120003,
+              "lo": 0.9917453655700303,
+              "hi": 1.0
+            },
+            "balanced_accuracy": {
+              "mean": 0.9975526006565489,
+              "lo": 0.9937868666744796,
+              "hi": 1.0
+            },
+            "accuracy": {
+              "mean": 0.9970952590519936,
+              "lo": 0.9922100011755717,
+              "hi": 1.0
+            }
+          }
+        },
+        "disjoint": {
+          "per_repeat": [
+            {
+              "repeat": 0,
+              "n": 136,
+              "accuracy": 0.6911764705882353,
+              "balanced_accuracy": 0.581551410327981,
+              "macro_f1": 0.5951869871306925,
+              "per_class_recall": {
+                "Dermatitis": 0.38461538461538464,
+                "Eczema": 0.7808219178082192,
+                "Scabies": 0.2,
+                "Tinea Ringworm": 0.7241379310344828,
+                "Vitiligo": 0.8181818181818182
+              }
+            },
+            {
+              "repeat": 1,
+              "n": 136,
+              "accuracy": 0.7205882352941176,
+              "balanced_accuracy": 0.5986597342194886,
+              "macro_f1": 0.6313582517315501,
+              "per_class_recall": {
+                "Dermatitis": 0.46153846153846156,
+                "Eczema": 0.8493150684931506,
+                "Scabies": 0.3,
+                "Tinea Ringworm": 0.6551724137931034,
+                "Vitiligo": 0.7272727272727273
+              }
+            },
+            {
+              "repeat": 2,
+              "n": 136,
+              "accuracy": 0.7205882352941176,
+              "balanced_accuracy": 0.6028165599162293,
+              "macro_f1": 0.6371034842686019,
+              "per_class_recall": {
+                "Dermatitis": 0.46153846153846156,
+                "Eczema": 0.8356164383561644,
+                "Scabies": 0.3,
+                "Tinea Ringworm": 0.6896551724137931,
+                "Vitiligo": 0.7272727272727273
+              }
+            }
+          ],
+          "pooled_oof": {
+            "n": 136,
+            "accuracy": 0.7132352941176471,
+            "balanced_accuracy": 0.5915887702283544,
+            "macro_f1": 0.6230379215655644,
+            "per_class_recall": {
+              "Dermatitis": 0.38461538461538464,
+              "Eczema": 0.821917808219178,
+              "Scabies": 0.3,
+              "Tinea Ringworm": 0.7241379310344828,
+              "Vitiligo": 0.7272727272727273
+            }
+          },
+          "bootstrap": {
+            "macro_f1": {
+              "mean": 0.6174501862495133,
+              "lo": 0.4992720449089689,
+              "hi": 0.7312840496468789
+            },
+            "balanced_accuracy": {
+              "mean": 0.5985660491032249,
+              "lo": 0.47856415984377937,
+              "hi": 0.7288094595463017
+            },
+            "accuracy": {
+              "mean": 0.7145930300594955,
+              "lo": 0.618695425339118,
+              "hi": 0.8014184397163121
+            }
+          }
+        },
+        "partial": {
+          "levels": {
+            "0": {
+              "achieved_leak_pct": 0.0,
+              "n": 27,
+              "accuracy": 0.7037037037037037,
+              "balanced_accuracy": 0.5571428571428572,
+              "macro_f1": 0.5231527093596059,
+              "per_class_recall": {
+                "Dermatitis": 0.0,
+                "Eczema": 0.7857142857142857,
+                "Scabies": 0.0,
+                "Tinea Ringworm": 1.0,
+                "Vitiligo": 1.0
+              },
+              "bootstrap": {
+                "macro_f1": {
+                  "mean": 0.48703375420335143,
+                  "lo": 0.29165865384615386,
+                  "hi": 0.5756195121951219
+                },
+                "balanced_accuracy": {
+                  "mean": 0.5785655668211218,
+                  "lo": 0.41666666666666663,
+                  "hi": 0.75
+                },
+                "accuracy": {
+                  "mean": 0.7016867733146258,
+                  "lo": 0.4543887147335423,
+                  "hi": 0.8966379310344827
+                }
+              }
+            },
+            "25": {
+              "achieved_leak_pct": 23.53,
+              "n": 27,
+              "accuracy": 0.8148148148148148,
+              "balanced_accuracy": 0.7904761904761906,
+              "macro_f1": 0.7806593406593406,
+              "per_class_recall": {
+                "Dermatitis": 0.6666666666666666,
+                "Eczema": 0.7857142857142857,
+                "Scabies": 0.5,
+                "Tinea Ringworm": 1.0,
+                "Vitiligo": 1.0
+              },
+              "bootstrap": {
+                "macro_f1": {
+                  "mean": 0.6908937119477839,
+                  "lo": 0.3995865015360983,
+                  "hi": 0.9467058823529412
+                },
+                "balanced_accuracy": {
+                  "mean": 0.7803382237475286,
+                  "lo": 0.5405555555555556,
+                  "hi": 0.9737171052631579
+                },
+                "accuracy": {
+                  "mean": 0.816431198003193,
+                  "lo": 0.6362878787878787,
+                  "hi": 0.9643165024630542
+                }
+              }
+            },
+            "50": {
+              "achieved_leak_pct": 47.06,
+              "n": 27,
+              "accuracy": 0.8148148148148148,
+              "balanced_accuracy": 0.7047619047619047,
+              "macro_f1": 0.6914285714285715,
+              "per_class_recall": {
+                "Dermatitis": 0.6666666666666666,
+                "Eczema": 0.8571428571428571,
+                "Scabies": 0.0,
+                "Tinea Ringworm": 1.0,
+                "Vitiligo": 1.0
+              },
+              "bootstrap": {
+                "macro_f1": {
+                  "mean": 0.6089028441656212,
+                  "lo": 0.32849047619047617,
+                  "hi": 0.7712822966507177
+                },
+                "balanced_accuracy": {
+                  "mean": 0.7025614625150539,
+                  "lo": 0.4772159090909091,
+                  "hi": 0.9584374999999999
+                },
+                "accuracy": {
+                  "mean": 0.8116599387031739,
+                  "lo": 0.625,
+                  "hi": 0.9446969696969695
+                }
+              }
+            },
+            "100": {
+              "achieved_leak_pct": 100.0,
+              "n": 27,
+              "accuracy": 1.0,
+              "balanced_accuracy": 1.0,
+              "macro_f1": 1.0,
+              "per_class_recall": {
+                "Dermatitis": 1.0,
+                "Eczema": 1.0,
+                "Scabies": 1.0,
+                "Tinea Ringworm": 1.0,
+                "Vitiligo": 1.0
+              },
+              "bootstrap": {
+                "macro_f1": {
+                  "mean": 0.9196,
+                  "lo": 0.6,
+                  "hi": 1.0
+                },
+                "balanced_accuracy": {
+                  "mean": 1.0,
+                  "lo": 1.0,
+                  "hi": 1.0
+                },
+                "accuracy": {
+                  "mean": 1.0,
+                  "lo": 1.0,
+                  "hi": 1.0
+                }
+              }
+            }
+          },
+          "delta_100_vs_0": {
+            "delta": 0.4768472906403941,
+            "delta_lo": 0.22337692307692308,
+            "delta_hi": 0.5675946117850166,
+            "p_value": 0.026973026973026972
+          }
+        }
+      }
+    }
+  }
+}
