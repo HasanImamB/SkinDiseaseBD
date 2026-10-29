@@ -1,0 +1,7 @@
+{
+  "protocol": "P-leaked",
+  "fold": 0,
+  "repeat": 2,
+  "seed": 44,
+  "note": "image-level split; derivatives of the same source may cross roles"
+}

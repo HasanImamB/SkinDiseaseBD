@@ -1,0 +1,136 @@
+group_id,group_class,Images_v1,Images_v2,raw,total
+G000,Tinea Ringworm,24,25,2,51
+G001,Tinea Ringworm,20,24,2,46
+G002,Tinea Ringworm,3,0,2,5
+G003,unknown,0,0,1,1
+G004,unknown,0,0,2,2
+G005,unknown,0,0,1,1
+G006,unknown,0,0,1,1
+G007,unknown,0,0,2,2
+G008,unknown,1,0,2,3
+G009,unknown,0,0,3,3
+G010,unknown,1,0,1,2
+G011,unknown,0,0,1,1
+G012,unknown,0,0,2,2
+G013,unknown,0,0,1,1
+G014,unknown,0,0,1,1
+G015,Dermatitis,5,0,1,6
+G016,unknown,0,0,1,1
+G017,unknown,0,0,2,2
+G018,Dermatitis,27,31,1,59
+G019,Dermatitis,36,31,1,68
+G020,Dermatitis,25,31,1,57
+G021,Dermatitis,57,62,2,121
+G022,Tinea Ringworm,10,0,1,11
+G023,unknown,0,0,1,1
+G024,Dermatitis,26,30,1,57
+G025,Dermatitis,35,30,1,66
+G026,Scabies,30,30,1,61
+G027,Dermatitis,5,0,2,7
+G028,Eczema,11,12,2,25
+G029,Eczema,17,18,3,38
+G030,Eczema,3,0,1,4
+G031,Eczema,6,5,1,12
+G032,Scabies,61,63,2,126
+G033,Eczema,16,15,2,33
+G034,Eczema,12,6,1,19
+G035,Scabies,29,30,1,60
+G036,Scabies,29,29,1,59
+G037,Scabies,29,29,1,59
+G038,Tinea Ringworm,13,13,1,27
+G039,Tinea Ringworm,13,13,1,27
+G040,Eczema,3,11,2,16
+G041,Tinea Ringworm,24,26,2,52
+G042,Tinea Ringworm,12,13,1,26
+G043,Tinea Ringworm,10,12,1,23
+G044,Tinea Ringworm,13,13,1,27
+G045,Tinea Ringworm,25,29,2,56
+G046,Tinea Ringworm,29,23,2,54
+G047,Tinea Ringworm,26,53,2,81
+G048,Tinea Ringworm,13,12,1,26
+G049,Tinea Ringworm,25,23,1,49
+G050,Eczema,9,10,2,21
+G051,unknown,0,0,1,1
+G052,Eczema,5,6,1,12
+G053,Eczema,7,6,1,14
+G054,Eczema,4,9,1,14
+G055,Eczema,8,4,1,13
+G056,unknown,1,0,2,3
+G057,Eczema,9,12,2,23
+G058,unknown,0,0,1,1
+G059,Eczema,5,6,1,12
+G060,Eczema,7,7,1,15
+G061,Eczema,4,5,1,10
+G062,Vitiligo,20,29,1,50
+G063,Vitiligo,30,29,1,60
+G064,Vitiligo,35,28,1,64
+G065,Vitiligo,58,55,2,115
+G066,Vitiligo,28,29,1,58
+G067,unknown,0,0,2,2
+G068,Scabies,31,31,1,63
+G069,Vitiligo,28,28,1,57
+G070,Tinea Ringworm,4,0,1,5
+G071,unknown,0,0,1,1
+G072,Eczema,8,11,2,21
+G073,Eczema,15,16,3,34
+G074,Eczema,7,13,2,22
+G075,Tinea Ringworm,4,0,2,6
+G076,unknown,0,0,2,2
+G077,Scabies,28,27,1,56
+G078,Scabies,31,27,1,59
+G079,Eczema,5,12,2,19
+G080,Scabies,31,30,1,62
+G081,Eczema,13,12,2,27
+G082,Eczema,12,12,2,26
+G083,Eczema,13,12,2,27
+G084,unknown,0,0,1,1
+G085,Tinea Ringworm,20,25,2,47
+G086,Eczema,8,12,2,22
+G087,unknown,0,0,2,2
+G088,Eczema,12,11,2,25
+G089,Eczema,6,1,2,9
+G090,Eczema,11,0,2,13
+G091,unknown,3,1,1,5
+G092,Eczema,12,11,2,25
+G093,unknown,0,0,1,1
+G094,unknown,1,0,1,2
+G095,unknown,0,0,1,1
+G096,Eczema,11,12,2,25
+G097,unknown,0,0,2,2
+G098,Eczema,15,23,4,42
+G099,Eczema,9,11,2,22
+G100,Tinea Ringworm,9,0,1,10
+G101,Vitiligo,26,27,1,54
+G102,Eczema,11,12,2,25
+G103,Eczema,19,15,2,36
+G104,Eczema,4,3,1,8
+G105,Eczema,7,9,1,17
+G106,unknown,2,0,1,3
+G107,unknown,0,1,1,2
+G108,unknown,0,0,1,1
+G109,unknown,0,0,1,1
+G110,unknown,0,0,1,1
+G111,Eczema,7,12,2,21
+G112,unknown,0,0,1,1
+G113,unknown,0,0,1,1
+G114,Eczema,12,8,2,22
+G115,unknown,3,0,2,5
+G116,unknown,0,0,2,2
+G117,Dermatitis,87,88,3,178
+G118,Eczema,8,8,1,17
+G119,Eczema,4,4,1,9
+G120,Tinea Ringworm,12,12,1,25
+G121,unknown,0,0,1,1
+G122,Eczema,7,0,2,9
+G123,Eczema,4,6,1,11
+G124,unknown,0,0,1,1
+G125,unknown,0,0,1,1
+G126,unknown,2,0,1,3
+G127,Vitiligo,20,25,1,46
+G128,Vitiligo,37,27,1,65
+G129,unknown,0,0,1,1
+G130,Eczema,11,11,2,24
+G131,unknown,0,0,2,2
+G132,unknown,2,0,2,4
+G133,Vitiligo,26,29,1,56
+G134,unknown,0,0,1,1

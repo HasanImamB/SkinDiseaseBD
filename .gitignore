@@ -1,0 +1,29 @@
+# data (never commit)
+data/dataset
+data/raw
+*.zip
+*.part-*
+
+# model / feature caches
+results/*.npz
+results/*.npy
+results/*.pt
+results/*.pth
+results/embeddings/
+
+# python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# os
+.DS_Store
+Thumbs.db
+
+# logs / runs
+runs/
+wandb/
+*.log

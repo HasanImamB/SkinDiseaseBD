@@ -1,0 +1,256 @@
+
+Subject-Disjoint Evaluation and Modern Deep Learning
+Benchmarks for the Bangladesh Common Skin Disease Image
+Dataset
+A Research Proposal
+Department of Computer Science and Engineering
+1. Title
+Subject-Disjoint Evaluation and Modern Deep Learning Benchmarks for the Bangladesh
+Common Skin Disease Image Dataset.
+2. Introduction
+Applications
+Clinical triage and primary care a validated, per-class screening classifier can assist
+primary care physicians and community health workers in Bangladesh, where specialist
+dermatologists are scarce, by flagging images that require referral rather than treating
+every case as urgent.
+Tele-dermatology and mHealth smartphone-captured clinical images are the natural input
+for remote consultation; a classifier evaluated clinical (non-dermoscopic) photographs
+directly support such services.
+Public health surveillance automated, consistent annotation of common conditions
+(contact dermatitis, eczema, scabies, tinea ringworm, vitiligo) can support
+epidemiological monitoring of skin disease burden.
+Methodological audit and reproducibility of the subject-disjoint evaluation protocol
+proposed here generalizes other augmented medical-image datasets, giving the
+community a template for leakage safe benchmarking.
+Challenges
+Very small raw samples roughly 197-250 unique patient photographs across five classes;
+all reported results rest on augmented derivatives of these originals.
+Leakage-prone augmentation in the released set contains 1,612 images, so a naive
+random split mixes augmented copies of the same photograph into both training and test
+partitions, inflating accuracy.
+Class imbalance per-class image counts range from 302 to 381, favoring the majority of
+classes under overall accuracy reporting.
+Clinical imaging conditions variable smartphone cameras, lighting, background clutter,
+and skin tones; images are clinical photographs, not standardized dermoscopy.
+Absence of metadata with no patient-level attributes are provided, which precludes
+subgroup and fairness analyses within this study.
+Motivation
+The dataset was released with a benchmarking study that reports very high classification
+accuracy on the augmented image set [1]. Because thousands of images are derived from
+only a few hundred originals, an image-level split almost certainly admits subject-level
+leakage: augmented derivatives of the same raw photograph appear in both training and
+test partitions, hiding per-class failures and overstating performance. This flaw is
+common in augmented medical-image dataset papers and undermines clinical credibility.
+At the same time, no modern deep-learning baselines pretrained transfer learning,
+EfficientNet-family CNNs, or Vision Transformers have been evaluated on this dataset,
+and no per-class triage statistics have been reported. These three gaps (leakage, missing
+baselines, missing per-class reporting) define the scope of this proposal.
+Problem Statement
+This research addresses the following problem: construct a subject-disjoint (raw-image-
+level) evaluation protocol for the Bangladesh Common Skin Disease Image Dataset;
+establish the first modern deep-learning benchmark suite for it, covering convolutional
+(ResNet-50, DenseNet-121, EfficientNet-B0/B3, MobileNetV3) and transformer (ViT-
+B/16, Swin-T) architectures under transfer learning; and report clinically meaningful per-
+class triage metrics sensitivity, specificity, confusion patterns together with a training-
+trick ablation (MixUp/CutMix, focal loss, class-balanced sampling, label smoothing, test-
+time augmentation) that addresses class imbalance.
+3. Literature Review
+Summary of six studies on skin-disease image classification. Table summarizes six
+key studies (2018-2026) that frame the state of the art in skin-disease image classification
+and the corresponding gap for Bangladeshi clinical data.
+REF PROBLEM
+ADDRESSED DATASET METHOD /
+MODEL KEY RESULT
+[1]
+No public
+benchmark with
+subject-disjoint
+evaluation for
+Bangladeshi clinical
+skin images
+Bangladesh
+Common Skin
+Disease Image
+Dataset -1,612
+augmented images,
+~197-250 raw, 5
+classes
+Classical ML and
+deep-learning
+benchmarking
+High accuracy
+claimed on
+augmented images;
+subject-level
+leakage risk not
+addressed
+[2]
+Need for a standard
+public benchmark
+for skin-lesion
+diagnosis
+HAM10000 -10,015
+dermoscopic
+images, 7 classes, 2
+sites
+Benchmark dataset
+(ISIC 2018)
+Established human-
+versus-machine
+benchmark
+[3]
+Achieving state-of-
+the-art multiclass
+skin-lesion
+classification
+ISIC 2019 -8 classes
+Ensemble of multi-
+scale EfficientNets
+with augmentation
+Winning approach
+of the ISIC 2019
+challenge
+[4]
+Transformer-based
+multiclass
+classification
+ISIC 2019 Swin Transformer
+Accuracy 97.2%,
+balanced accuracy
+82.3%, sensitivity
+82.3%, specificity
+97.9%
+[5]
+Class imbalance and
+high intra-class
+variance
+ISIC 2018 and ISIC
+2019
+SCTFD -CN-
+SMOTE, MARD-
+Net, Focal+Dice
+loss (FDLoss)
+State of the art;
++1.3%/+1.9%
+accuracy and
++3.6%/+6.1% recall
+over the second-best
+method
+[6]
+Clinical Bangladeshi
+dataset with patient-
+level metadata
+SkinDisNet - 1,710
+clinical images, 416
+patients, 6 classes
+Dataset with
+preprocessed and
+augmented folders
+Patient-annotated; 4
+of 5 classes overlap
+the target dataset (no
+vitiligo)
+Since the release of HAM10000 [2], the field of automated skin-disease diagnosis has
+converged on standardized dermoscopic benchmarks: large, curated collections of
+dermoscopic images used in the ISIC challenges, where winning entries combine strong
+pretrained convolutional architectures, multi-scale ensembling, and aggressive
+augmentation [3]. These advances, however, are almost exclusively validated on light-
+skinned, dermoscopic imagery and presume dataset sizes far beyond what Bangladeshi
+clinical repositories offer.
+Transformer-based models have matched or surpassed convolutional baselines on these
+benchmarks. A Swin Transformer reached 97.2% accuracy and 82.3% balanced accuracy
+on ISIC 2019 [4] evidence that attention-based models are viable for skin lesion
+classification, but leaving open whether they generalize to small, imbalanced, clinical-
+photo datasets such as ours (note that the 97.2% headline accuracy collapses to 82.3%
+balanced accuracy once class imbalance is accounted for).
+For imbalanced and high-variance skin-lesion data, loss function engineering is the
+established remedy. The SCTFD framework [5] combines synthetic minority
+oversampling (CN-SMOTE), a multi-scale attention network (MARD-Net), and a
+Focal+Dice loss with intra-class variance regularization, achieving state-of-the-art results
+on ISIC 2018/2019 with recall gains of up to 6.1% over the second-best method.
+At the regional level, two Bangladeshi clinical datasets now exist. The target dataset of
+this proposal [1] contains 1,612 images (about 197-250 raw) of five common diseases
+collected at Faridpur Medical College. SkinDisNet [6] provides 1,710 patient annotated
+images (416 patients, six classes) from two other Bangladeshi medical colleges,
+overlapping four of our five classes (it has no vitiligo). Importantly, both releases
+organize data into preprocessed/augmented folders, which invites image level split
+leakage unless raw level grouping is enforced precisely the methodological gap this
+proposal closes.
+Research gap. In summary, the literature offers mature architectures [3][4], imbalance
+remedies [5], and regional datasets [1][6], but no study combines subject-disjoint
+evaluation, modern deep learning baselines, and per-class triage reporting on Bangladeshi
+clinical skin images. This proposal occupies exactly that empty, clinically relevant niche.
+4. Methodology
+The proposed methodology follows a four-stage pipeline: (i) dataset acquisition and
+leakage audit, (ii) subject-disjoint split and preprocessing, (iii) model development and
+training, and (iv) evaluation, triage reporting, and explainability.
+Dataset acquisition and leakage audit
+The dataset (Mendeley v3, DOI 10.17632/9ggd3shdr7.3 [1]) is downloaded and audited.
+The audit counts raw images (the repository lists 197; the paper abstract states 250; the
+discrepancy must be resolved from the actual files), inspects folder and file-naming
+conventions to determine whether each augmented image can be traced to its raw parent,
+and records the license terms before any redistribution. All images are already
+anonymized by the dataset authors; this study performs no new data collection.
+Subject-disjoint split and preprocessing
+If filenames encode the raw parent, a subject-disjoint stratified split (70/15/15) is
+performed at the raw image level so that every augmented derivative of one raw
+photograph stays in a single fold. If they do not, raw level groups are reconstructed by
+clustering the 1,612 images with a pretrained embedding based near duplicate detector,
+and the reconstruction fidelity is reported; as a fallback, the raw images themselves are
+held out as a validation set. Images are resized to 224×224 (with a 512×512 variant to test
+resolution sensitivity), normalized per model, and test-time augmentation is applied at
+inference.
+Model development and training
+Eight pretrained models are fine tuned from ImageNet weights: ResNet-50, DenseNet-
+121, EfficientNet-B0 and B3, MobileNetV3-Large, ViT-B/16, and Swin-T [3][4]. A
+training-trick ablation runs from a baseline fine-tune through MixUp/CutMix, focal loss
+(gamma = 2.0), class balanced sampling, label smoothing, and test time augmentation,
+isolating each technique’s contribution. Every configuration is trained on three seeds and
+reported as mean ± standard deviation, so gains are judged against variance, not cherry
+picked runs.
+Evaluation, triage metrics, and explainability
+Evaluation reports per-class sensitivity/specificity, precision/recall, macro and weighted
+F1, and a confusion-matrix analysis identifying clinically critical confusions (for
+example, eczema vs. dermatitis, and tinea vs. other scaly dermatoses), framed as triage
+metrics for screening rather than a single overall accuracy number. The original
+benchmark method [1] is reproduced under the subject disjoint protocol, and McNemar’s
+test quantifies the accuracy of inflation attributable to leakage. Grad CAM heatmaps are
+generated for correct and incorrect predictions of both CNN and transformer heads as
+qualitative, discussion-level explainability; clinical validation of the saliency maps is
+explicitly deferred to future work.
+5. Conclusion
+This proposal addresses the growing need for honest, reproducible, and clinically
+meaningful automated diagnosis of common skin diseases in Bangladesh. It targets three
+specific gaps in the released dataset and its benchmark [1]: subject level leakage that
+inflates the published accuracy, the absence of any modern deep-learning baseline (CNN
+or transformer) [3][4], and the lack of per-class triage statistics that hide which diseases
+are confused in practice.
+Expected outcomes include (i) corrected, leak free accuracy figures that robustly replace
+the inflated published numbers; (ii) the first transfer learning and ViT/Swin benchmark
+on the dataset; (iii) per-class sensitivity/specificity and confusion pattern analysis usable
+in screening contexts; and (iv) a public reproducibility package of raw level fold
+assignments, configurations, and code, making subject disjoint evaluation the community
+standard for this dataset.
+Limitations include the single center collection, the absence of metadata for subgroup and
+fairness analysis, and the lack of clinician validation of saliency maps. Future work
+extends the framework cross-dataset to SkinDisNet [6] for domain shift testing across
+Bangladeshi clinics, explores privacy preserving synthetic augmentation with clinician
+verification, and conducts a full explainability study.
+6. References
+[1] S. Islam, S. Hossain, and M. R. Ahmed, "An image dataset of common skin diseases of
+Bangladesh and benchmarking performance with machine learning models," arXiv preprint
+arXiv:2603.25229, Mar. 2026; dataset: Mendeley Data, v3, doi: 10.17632/9ggd3shdr7.3.
+[2] P. Tschandl, C. Rosendahl, and H. Kittler, "The HAM10000 dataset, a large collection of
+multi-sources dermatoscopic images of common pigmented skin lesions," Scientific Data,
+vol. 5, Art. no. 180161, 2018, doi: 10.1038/sdata.2018.161.
+[3] N. Gessert et al., "Skin lesion classification using ensembles of multi-scale EfficientNets,"
+winning submission, ISIC 2019 Skin Lesion Analysis Towards Melanoma Detection
+Challenge, 2020.
+[4] S. Ayas, "Multiclass skin lesion classification in dermoscopic images using Swin Transformer
+model," Neural Computing and Applications, 2023, doi: 10.1007/s00521-022-08053-z.
+[5] X. Li, J. Ouyang, et al., "Accurate skin lesion classification on imbalanced dermoscopic
+images with high variance via the SCTFD framework," Scientific Reports, 2026, doi:
+10.1038/s41598-026-37846-8.
+[6] M. Sultana et al., "SkinDisNet: A comprehensive dataset of clinical images and metadata for
+skin disease detection and classification," 2025; dataset: Mendeley Data, doi:
+10.17632/yj3md44hxg.2.

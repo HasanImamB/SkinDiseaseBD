@@ -1,0 +1,66 @@
+{
+  "total_files": 3421,
+  "by_version": {
+    "Images_v1": 1612,
+    "Images_v2": 1612,
+    "raw": 197
+  },
+  "by_version_class": {
+    "Images_v1/Dermatitis": 302,
+    "Images_v1/Eczema": 381,
+    "Images_v1/Scabies": 301,
+    "Images_v1/Tinea Ringworm": 316,
+    "Images_v1/Vitiligo": 312,
+    "Images_v2/Dermatitis": 302,
+    "Images_v2/Eczema": 381,
+    "Images_v2/Scabies": 301,
+    "Images_v2/Tinea Ringworm": 316,
+    "Images_v2/Vitiligo": 312,
+    "raw/unlabeled": 197
+  },
+  "extensions": {
+    "jpeg": 3224,
+    "jpg": 197
+  },
+  "dimensions": {
+    "Images_v1/176x176": 1612,
+    "Images_v2/512x512": 1612,
+    "raw/265x190": 1,
+    "raw/294x222": 2,
+    "raw/360x240": 1,
+    "raw/414x414": 1,
+    "raw/501x934": 1,
+    "raw/512x291": 1,
+    "raw/513x383": 1,
+    "raw/650x646": 1,
+    "raw/685x844": 1,
+    "raw/704x694": 1,
+    "raw/750x500": 1,
+    "raw/750x750": 1,
+    "raw/751x1053": 1,
+    "raw/768x1024": 1,
+    "raw/788x1569": 2,
+    "raw/804x708": 1,
+    "raw/844x569": 1,
+    "raw/1152x1548": 1,
+    "raw/1200x800": 1,
+    "raw/1280x853": 1,
+    "raw/1319x2097": 1,
+    "raw/1440x2160": 1,
+    "raw/1500x1771": 1,
+    "raw/1534x1022": 1,
+    "raw/1600x1200": 1,
+    "raw/1799x2262": 1,
+    "raw/3040x1976": 1,
+    "raw/4000x3000": 168
+  },
+  "exact_duplicate_groups": 0,
+  "exact_duplicate_files": 0,
+  "perceptual_duplicate_groups": 451,
+  "perceptual_duplicate_files": 1251,
+  "phash_threshold": 6,
+  "raw_index_range": [
+    1,
+    198
+  ]
+}

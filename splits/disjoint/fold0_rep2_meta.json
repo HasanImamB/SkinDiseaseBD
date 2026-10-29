@@ -1,0 +1,10 @@
+{
+  "protocol": "P-disjoint",
+  "fold": 0,
+  "repeat": 2,
+  "seed": 44,
+  "train_groups": 58,
+  "val_groups": 15,
+  "test_groups": 17,
+  "inner_splits": 5
+}
