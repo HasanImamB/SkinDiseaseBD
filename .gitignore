@@ -10,6 +10,9 @@ results/*.npy
 results/*.pt
 results/*.pth
 results/embeddings/
+results/shortcut/*.npz
+results/shortcut/images/
+results/label_audit/
 
 # python
 __pycache__/

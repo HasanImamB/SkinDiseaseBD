@@ -44,7 +44,7 @@ by the authors. Derivative labels are the folder labels. Every result must state
 |---|---|---|
 | **P-leaked** | Image-level stratified 70/15/15 over the 1,612 v1 images, 3 repeats. Derivatives of one source may cross roles. | Reproduction of the original protocol; unpaired descriptive comparison. |
 | **P-disjoint** | Repeated `StratifiedGroupKFold`, 5 folds x 3 repeats, on the 136 labelled raw images, grouped by `group_id`. Test/val raw only; train = raw + tier-A derivatives of training groups. | **Primary protocol.** |
-| **P-partial** | From P-disjoint fold 0 / repeat 0, add derivatives of 0/25/50/100% of test groups to training. Test raw images are unchanged. | Paired leakage dose-response. |
+| **P-partial** | From every P-disjoint fold / repeat, add derivatives of 0/25/50/100% of test groups to training. Test raw images are unchanged. | Paired leakage dose-response. |
 
 Files: `splits/leaked/`, `splits/disjoint/`, `splits/partial/`. Paths are relative to
 `data/dataset/`.
@@ -104,10 +104,12 @@ tuning in this phase.
 - Raw labels are inferred from descendants.
 - P-leaked evaluates derivatives while P-disjoint evaluates raw images; the two are not paired.
 
-## 10. Amendment 1 — shortcut probes (planned, not run)
+## 10. Amendment 1 — shortcut probes (first run 2026-11-03)
 
-Purpose: decide whether the 0.54-0.66 P-disjoint floor reflects disease difficulty or
-class-correlated acquisition shortcuts.
+Status: first run complete; results in `docs/shortcut_analysis.md` and
+`results/shortcut/shortcut_probe.json`. The first run also added a stricter `background75`
+sensitivity mask and a colour-histogram probe. Purpose: decide whether the 0.54-0.66 P-disjoint
+floor reflects disease difficulty or class-correlated acquisition shortcuts.
 
 Design:
 
@@ -139,3 +141,26 @@ Implementation notes:
 
 Caveats: no lesion segmentation; border/background separation is approximate; raw metadata
 sample is small and class-imbalanced.
+
+## 11. Amendment 2 — preliminary fine-tuned baseline (2026-11-03)
+
+Purpose: validate a fine-tuning pipeline and establish a first compute-bounded reference, not to
+finalise the Phase 4 benchmark.
+
+Design:
+
+- Model: `resnet50.a1_in1k` (timm, ImageNet pretrained), replaced 5-way classifier.
+- Input 128 x 128; batch 32; AdamW lr 3e-4, weight decay 0.05; cross-entropy with label
+  smoothing 0.1; max 10 epochs, early stopping patience 3 on validation macro-F1.
+- Train on raw + tier-A derivatives from training groups; validate and test on raw images only.
+- Splits: the existing P-disjoint 5 folds, **repeat 0 only**.
+- Augmentation: random resized crop (0.65-1.0), horizontal flip, rotation 10 deg, colour jitter.
+- Report per-fold metrics, pooled OOF group bootstrap (1,000 resamples) and paired comparisons
+  against the frozen probes using the same 136 raw images.
+
+Result: pooled macro-F1 0.604 [0.477, 0.702]; per-fold mean 0.571 +/- 0.123. Paired delta versus
+DINOv2 linear is -0.059 [-0.210, 0.069]. The run is weaker than the frozen probes and is treated
+as a pipeline check.
+
+Caveats: one repeat, 128 px, 22-image validation set, no class balancing, CPU runtime. Details in
+`docs/finetuned_baseline.md` and `docs/WORKLOG.md`.

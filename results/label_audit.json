@@ -1,0 +1,2766 @@
+{
+  "config": {
+    "probes": [
+      "dinov2_1nn",
+      "dinov2_linear",
+      "resnet_1nn",
+      "resnet_linear"
+    ],
+    "n_raw_images": 136,
+    "min_votes": 3,
+    "classes": [
+      "Dermatitis",
+      "Eczema",
+      "Scabies",
+      "Tinea Ringworm",
+      "Vitiligo"
+    ],
+    "method": "cleanlab confident learning, self_confidence ranking"
+  },
+  "summary": {
+    "probe_issue_counts": {
+      "dinov2_1nn": 32,
+      "dinov2_linear": 29,
+      "resnet_1nn": 50,
+      "resnet_linear": 28
+    },
+    "high_confidence_issues": 23,
+    "candidate_issues": 35,
+    "high_confidence_paths": [
+      "ResearchImage/151.jpg",
+      "ResearchImage/27.jpg",
+      "ResearchImage/135.jpg",
+      "ResearchImage/80.jpg",
+      "ResearchImage/193.jpg",
+      "ResearchImage/26.jpg",
+      "ResearchImage/25.jpg",
+      "ResearchImage/81.jpg",
+      "ResearchImage/134.jpg",
+      "ResearchImage/192.jpg",
+      "ResearchImage/3.jpg",
+      "ResearchImage/4.jpg",
+      "ResearchImage/56.jpg",
+      "ResearchImage/55.jpg",
+      "ResearchImage/190.jpg",
+      "ResearchImage/66.jpg",
+      "ResearchImage/34.jpg",
+      "ResearchImage/89.jpg",
+      "ResearchImage/191.jpg",
+      "ResearchImage/164.jpg",
+      "ResearchImage/142.jpg",
+      "ResearchImage/143.jpg",
+      "ResearchImage/139.jpg"
+    ],
+    "candidate_paths": [
+      "ResearchImage/151.jpg",
+      "ResearchImage/27.jpg",
+      "ResearchImage/135.jpg",
+      "ResearchImage/80.jpg",
+      "ResearchImage/193.jpg",
+      "ResearchImage/26.jpg",
+      "ResearchImage/25.jpg",
+      "ResearchImage/81.jpg",
+      "ResearchImage/134.jpg",
+      "ResearchImage/192.jpg",
+      "ResearchImage/3.jpg",
+      "ResearchImage/4.jpg",
+      "ResearchImage/56.jpg",
+      "ResearchImage/55.jpg",
+      "ResearchImage/190.jpg",
+      "ResearchImage/66.jpg",
+      "ResearchImage/34.jpg",
+      "ResearchImage/89.jpg",
+      "ResearchImage/191.jpg",
+      "ResearchImage/164.jpg",
+      "ResearchImage/142.jpg",
+      "ResearchImage/143.jpg",
+      "ResearchImage/139.jpg",
+      "ResearchImage/18.jpg",
+      "ResearchImage/1.jpg",
+      "ResearchImage/174.jpg",
+      "ResearchImage/138.jpg",
+      "ResearchImage/98.jpg",
+      "ResearchImage/97.jpg",
+      "ResearchImage/90.jpg",
+      "ResearchImage/144.jpg",
+      "ResearchImage/41.jpg",
+      "ResearchImage/129.jpg",
+      "ResearchImage/45.jpg",
+      "ResearchImage/93.jpg"
+    ],
+    "high_confidence_by_class": {
+      "Tinea Ringworm": 7,
+      "Dermatitis": 7,
+      "Scabies": 7,
+      "Vitiligo": 1,
+      "Eczema": 1
+    },
+    "candidate_by_class": {
+      "Tinea Ringworm": 11,
+      "Dermatitis": 8,
+      "Scabies": 7,
+      "Eczema": 7,
+      "Vitiligo": 2
+    },
+    "high_confidence_by_consensus": {
+      "Eczema": 18,
+      "Dermatitis": 2,
+      "Tinea Ringworm": 2,
+      "Scabies": 1
+    },
+    "class_counts": {
+      "Eczema": 73,
+      "Tinea Ringworm": 29,
+      "Dermatitis": 13,
+      "Vitiligo": 11,
+      "Scabies": 10
+    },
+    "high_confidence_rate_by_class": {
+      "Eczema": 0.014,
+      "Tinea Ringworm": 0.241,
+      "Dermatitis": 0.538,
+      "Vitiligo": 0.091,
+      "Scabies": 0.7
+    }
+  },
+  "per_probe": {
+    "dinov2_1nn": {
+      "n_issues": 32,
+      "issues": [
+        {
+          "filepath": "ResearchImage/134.jpg",
+          "group_id": "G075",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/135.jpg",
+          "group_id": "G075",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/142.jpg",
+          "group_id": "G002",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/143.jpg",
+          "group_id": "G002",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/151.jpg",
+          "group_id": "G100",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/144.jpg",
+          "group_id": "G070",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/164.jpg",
+          "group_id": "G120",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/174.jpg",
+          "group_id": "G062",
+          "y_true": "Vitiligo",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/193.jpg",
+          "group_id": "G080",
+          "y_true": "Scabies",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/18.jpg",
+          "group_id": "G015",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/190.jpg",
+          "group_id": "G026",
+          "y_true": "Scabies",
+          "y_pred": "Dermatitis",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/192.jpg",
+          "group_id": "G078",
+          "y_true": "Scabies",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/26.jpg",
+          "group_id": "G117",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/25.jpg",
+          "group_id": "G117",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/27.jpg",
+          "group_id": "G117",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/3.jpg",
+          "group_id": "G021",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/66.jpg",
+          "group_id": "G133",
+          "y_true": "Vitiligo",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/34.jpg",
+          "group_id": "G035",
+          "y_true": "Scabies",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/4.jpg",
+          "group_id": "G021",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/41.jpg",
+          "group_id": "G041",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/55.jpg",
+          "group_id": "G027",
+          "y_true": "Dermatitis",
+          "y_pred": "Scabies",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/56.jpg",
+          "group_id": "G027",
+          "y_true": "Dermatitis",
+          "y_pred": "Scabies",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/59.jpg",
+          "group_id": "G122",
+          "y_true": "Eczema",
+          "y_pred": "Dermatitis",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/60.jpg",
+          "group_id": "G122",
+          "y_true": "Eczema",
+          "y_pred": "Dermatitis",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/89.jpg",
+          "group_id": "G085",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/72.jpg",
+          "group_id": "G099",
+          "y_true": "Eczema",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/74.jpg",
+          "group_id": "G079",
+          "y_true": "Eczema",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/80.jpg",
+          "group_id": "G032",
+          "y_true": "Scabies",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/90.jpg",
+          "group_id": "G085",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/81.jpg",
+          "group_id": "G032",
+          "y_true": "Scabies",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/128.jpg",
+          "group_id": "G072",
+          "y_true": "Eczema",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.3333333333333333,
+          "label_quality": 0.3333333333333333
+        },
+        {
+          "filepath": "ResearchImage/71.jpg",
+          "group_id": "G099",
+          "y_true": "Eczema",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.3333333333333333,
+          "label_quality": 0.3333333333333333
+        }
+      ],
+      "mean_label_quality": 0.7181372549019607,
+      "median_label_quality": 1.0
+    },
+    "dinov2_linear": {
+      "n_issues": 29,
+      "issues": [
+        {
+          "filepath": "ResearchImage/151.jpg",
+          "group_id": "G100",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 4.888509065012282e-05,
+          "label_quality": 4.888509065012282e-05
+        },
+        {
+          "filepath": "ResearchImage/25.jpg",
+          "group_id": "G117",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.00011877710989650878,
+          "label_quality": 0.00011877710989650878
+        },
+        {
+          "filepath": "ResearchImage/135.jpg",
+          "group_id": "G075",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.00036556845886112903,
+          "label_quality": 0.00036556845886112903
+        },
+        {
+          "filepath": "ResearchImage/27.jpg",
+          "group_id": "G117",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.0007246473838842438,
+          "label_quality": 0.0007246473838842438
+        },
+        {
+          "filepath": "ResearchImage/34.jpg",
+          "group_id": "G035",
+          "y_true": "Scabies",
+          "y_pred": "Eczema",
+          "prob_true": 0.0011396806633478698,
+          "label_quality": 0.0011396806633478698
+        },
+        {
+          "filepath": "ResearchImage/26.jpg",
+          "group_id": "G117",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.0014459692015905661,
+          "label_quality": 0.0014459692015905661
+        },
+        {
+          "filepath": "ResearchImage/80.jpg",
+          "group_id": "G032",
+          "y_true": "Scabies",
+          "y_pred": "Eczema",
+          "prob_true": 0.0021259734992968874,
+          "label_quality": 0.0021259734992968874
+        },
+        {
+          "filepath": "ResearchImage/142.jpg",
+          "group_id": "G002",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.00256694889140674,
+          "label_quality": 0.00256694889140674
+        },
+        {
+          "filepath": "ResearchImage/66.jpg",
+          "group_id": "G133",
+          "y_true": "Vitiligo",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.0038510717951229807,
+          "label_quality": 0.0038510717951229807
+        },
+        {
+          "filepath": "ResearchImage/193.jpg",
+          "group_id": "G080",
+          "y_true": "Scabies",
+          "y_pred": "Eczema",
+          "prob_true": 0.005151671896966562,
+          "label_quality": 0.005151671896966562
+        },
+        {
+          "filepath": "ResearchImage/134.jpg",
+          "group_id": "G075",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.0059502660714031924,
+          "label_quality": 0.0059502660714031924
+        },
+        {
+          "filepath": "ResearchImage/3.jpg",
+          "group_id": "G021",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.006913067968199886,
+          "label_quality": 0.006913067968199886
+        },
+        {
+          "filepath": "ResearchImage/81.jpg",
+          "group_id": "G032",
+          "y_true": "Scabies",
+          "y_pred": "Eczema",
+          "prob_true": 0.008590439560513112,
+          "label_quality": 0.008590439560513112
+        },
+        {
+          "filepath": "ResearchImage/139.jpg",
+          "group_id": "G130",
+          "y_true": "Eczema",
+          "y_pred": "Scabies",
+          "prob_true": 0.00878748990333761,
+          "label_quality": 0.00878748990333761
+        },
+        {
+          "filepath": "ResearchImage/190.jpg",
+          "group_id": "G026",
+          "y_true": "Scabies",
+          "y_pred": "Dermatitis",
+          "prob_true": 0.01231763413776561,
+          "label_quality": 0.01231763413776561
+        },
+        {
+          "filepath": "ResearchImage/143.jpg",
+          "group_id": "G002",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.01765325553589988,
+          "label_quality": 0.01765325553589988
+        },
+        {
+          "filepath": "ResearchImage/191.jpg",
+          "group_id": "G068",
+          "y_true": "Scabies",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.018543888750141898,
+          "label_quality": 0.018543888750141898
+        },
+        {
+          "filepath": "ResearchImage/4.jpg",
+          "group_id": "G021",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.020384824736140866,
+          "label_quality": 0.020384824736140866
+        },
+        {
+          "filepath": "ResearchImage/138.jpg",
+          "group_id": "G130",
+          "y_true": "Eczema",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.04048912141711925,
+          "label_quality": 0.04048912141711925
+        },
+        {
+          "filepath": "ResearchImage/132.jpg",
+          "group_id": "G040",
+          "y_true": "Eczema",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.0461288867360685,
+          "label_quality": 0.0461288867360685
+        },
+        {
+          "filepath": "ResearchImage/192.jpg",
+          "group_id": "G078",
+          "y_true": "Scabies",
+          "y_pred": "Eczema",
+          "prob_true": 0.04892165441004623,
+          "label_quality": 0.04892165441004623
+        },
+        {
+          "filepath": "ResearchImage/56.jpg",
+          "group_id": "G027",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.05488933869308485,
+          "label_quality": 0.05488933869308485
+        },
+        {
+          "filepath": "ResearchImage/133.jpg",
+          "group_id": "G040",
+          "y_true": "Eczema",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.06846498175887016,
+          "label_quality": 0.06846498175887016
+        },
+        {
+          "filepath": "ResearchImage/41.jpg",
+          "group_id": "G041",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.07750061114555634,
+          "label_quality": 0.07750061114555634
+        },
+        {
+          "filepath": "ResearchImage/149.jpg",
+          "group_id": "G061",
+          "y_true": "Eczema",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.13908744509855844,
+          "label_quality": 0.13908744509855844
+        },
+        {
+          "filepath": "ResearchImage/1.jpg",
+          "group_id": "G022",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.17183785968972845,
+          "label_quality": 0.17183785968972845
+        },
+        {
+          "filepath": "ResearchImage/91.jpg",
+          "group_id": "G114",
+          "y_true": "Eczema",
+          "y_pred": "Scabies",
+          "prob_true": 0.19517142536721419,
+          "label_quality": 0.19517142536721419
+        },
+        {
+          "filepath": "ResearchImage/55.jpg",
+          "group_id": "G027",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.20664138631868373,
+          "label_quality": 0.20664138631868373
+        },
+        {
+          "filepath": "ResearchImage/92.jpg",
+          "group_id": "G114",
+          "y_true": "Eczema",
+          "y_pred": "Scabies",
+          "prob_true": 0.2221194016658955,
+          "label_quality": 0.2221194016658955
+        }
+      ],
+      "mean_label_quality": 0.669208973666898,
+      "median_label_quality": 0.8700585839721642
+    },
+    "resnet_1nn": {
+      "n_issues": 50,
+      "issues": [
+        {
+          "filepath": "ResearchImage/1.jpg",
+          "group_id": "G022",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/118.jpg",
+          "group_id": "G033",
+          "y_true": "Eczema",
+          "y_pred": "Scabies",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/119.jpg",
+          "group_id": "G033",
+          "y_true": "Eczema",
+          "y_pred": "Scabies",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/154.jpg",
+          "group_id": "G081",
+          "y_true": "Eczema",
+          "y_pred": "Dermatitis",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/144.jpg",
+          "group_id": "G070",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Scabies",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/139.jpg",
+          "group_id": "G130",
+          "y_true": "Eczema",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/135.jpg",
+          "group_id": "G075",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/134.jpg",
+          "group_id": "G075",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/164.jpg",
+          "group_id": "G120",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/151.jpg",
+          "group_id": "G100",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/27.jpg",
+          "group_id": "G117",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/193.jpg",
+          "group_id": "G080",
+          "y_true": "Scabies",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/191.jpg",
+          "group_id": "G068",
+          "y_true": "Scabies",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/192.jpg",
+          "group_id": "G078",
+          "y_true": "Scabies",
+          "y_pred": "Dermatitis",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/18.jpg",
+          "group_id": "G015",
+          "y_true": "Dermatitis",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/174.jpg",
+          "group_id": "G062",
+          "y_true": "Vitiligo",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/3.jpg",
+          "group_id": "G021",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/29.jpg",
+          "group_id": "G082",
+          "y_true": "Eczema",
+          "y_pred": "Vitiligo",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/34.jpg",
+          "group_id": "G035",
+          "y_true": "Scabies",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/28.jpg",
+          "group_id": "G082",
+          "y_true": "Eczema",
+          "y_pred": "Scabies",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/26.jpg",
+          "group_id": "G117",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/25.jpg",
+          "group_id": "G117",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/80.jpg",
+          "group_id": "G032",
+          "y_true": "Scabies",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/97.jpg",
+          "group_id": "G102",
+          "y_true": "Eczema",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/66.jpg",
+          "group_id": "G133",
+          "y_true": "Vitiligo",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/56.jpg",
+          "group_id": "G027",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/45.jpg",
+          "group_id": "G028",
+          "y_true": "Eczema",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/55.jpg",
+          "group_id": "G027",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/44.jpg",
+          "group_id": "G028",
+          "y_true": "Eczema",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/43.jpg",
+          "group_id": "G090",
+          "y_true": "Eczema",
+          "y_pred": "Scabies",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/4.jpg",
+          "group_id": "G021",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/37.jpg",
+          "group_id": "G086",
+          "y_true": "Eczema",
+          "y_pred": "Dermatitis",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/90.jpg",
+          "group_id": "G085",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/98.jpg",
+          "group_id": "G102",
+          "y_true": "Eczema",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/81.jpg",
+          "group_id": "G032",
+          "y_true": "Scabies",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/89.jpg",
+          "group_id": "G085",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/99.jpg",
+          "group_id": "G105",
+          "y_true": "Eczema",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.0,
+          "label_quality": 0.0
+        },
+        {
+          "filepath": "ResearchImage/177.jpg",
+          "group_id": "G042",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.3333333333333333,
+          "label_quality": 0.3333333333333333
+        },
+        {
+          "filepath": "ResearchImage/197.jpg",
+          "group_id": "G024",
+          "y_true": "Dermatitis",
+          "y_pred": "Scabies",
+          "prob_true": 0.3333333333333333,
+          "label_quality": 0.3333333333333333
+        },
+        {
+          "filepath": "ResearchImage/131.jpg",
+          "group_id": "G103",
+          "y_true": "Eczema",
+          "y_pred": "Dermatitis",
+          "prob_true": 0.3333333333333333,
+          "label_quality": 0.3333333333333333
+        },
+        {
+          "filepath": "ResearchImage/130.jpg",
+          "group_id": "G103",
+          "y_true": "Eczema",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.3333333333333333,
+          "label_quality": 0.3333333333333333
+        },
+        {
+          "filepath": "ResearchImage/115.jpg",
+          "group_id": "G001",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.3333333333333333,
+          "label_quality": 0.3333333333333333
+        },
+        {
+          "filepath": "ResearchImage/181.jpg",
+          "group_id": "G038",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.3333333333333333,
+          "label_quality": 0.3333333333333333
+        },
+        {
+          "filepath": "ResearchImage/190.jpg",
+          "group_id": "G026",
+          "y_true": "Scabies",
+          "y_pred": "Eczema",
+          "prob_true": 0.3333333333333333,
+          "label_quality": 0.3333333333333333
+        },
+        {
+          "filepath": "ResearchImage/107.jpg",
+          "group_id": "G034",
+          "y_true": "Eczema",
+          "y_pred": "Scabies",
+          "prob_true": 0.3333333333333333,
+          "label_quality": 0.3333333333333333
+        },
+        {
+          "filepath": "ResearchImage/129.jpg",
+          "group_id": "G072",
+          "y_true": "Eczema",
+          "y_pred": "Scabies",
+          "prob_true": 0.3333333333333333,
+          "label_quality": 0.3333333333333333
+        },
+        {
+          "filepath": "ResearchImage/120.jpg",
+          "group_id": "G073",
+          "y_true": "Eczema",
+          "y_pred": "Scabies",
+          "prob_true": 0.3333333333333333,
+          "label_quality": 0.3333333333333333
+        },
+        {
+          "filepath": "ResearchImage/38.jpg",
+          "group_id": "G086",
+          "y_true": "Eczema",
+          "y_pred": "Dermatitis",
+          "prob_true": 0.3333333333333333,
+          "label_quality": 0.3333333333333333
+        },
+        {
+          "filepath": "ResearchImage/93.jpg",
+          "group_id": "G092",
+          "y_true": "Eczema",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.3333333333333333,
+          "label_quality": 0.3333333333333333
+        },
+        {
+          "filepath": "ResearchImage/73.jpg",
+          "group_id": "G079",
+          "y_true": "Eczema",
+          "y_pred": "Scabies",
+          "prob_true": 0.3333333333333333,
+          "label_quality": 0.3333333333333333
+        }
+      ],
+      "mean_label_quality": 0.5931372549019608,
+      "median_label_quality": 0.6666666666666666
+    },
+    "resnet_linear": {
+      "n_issues": 28,
+      "issues": [
+        {
+          "filepath": "ResearchImage/193.jpg",
+          "group_id": "G080",
+          "y_true": "Scabies",
+          "y_pred": "Eczema",
+          "prob_true": 0.00017951429730190012,
+          "label_quality": 0.00017951429730190012
+        },
+        {
+          "filepath": "ResearchImage/27.jpg",
+          "group_id": "G117",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.0008643568109401967,
+          "label_quality": 0.0008643568109401967
+        },
+        {
+          "filepath": "ResearchImage/151.jpg",
+          "group_id": "G100",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.0009840646873055655,
+          "label_quality": 0.0009840646873055655
+        },
+        {
+          "filepath": "ResearchImage/80.jpg",
+          "group_id": "G032",
+          "y_true": "Scabies",
+          "y_pred": "Eczema",
+          "prob_true": 0.001747167007870091,
+          "label_quality": 0.001747167007870091
+        },
+        {
+          "filepath": "ResearchImage/135.jpg",
+          "group_id": "G075",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.0024246061512354085,
+          "label_quality": 0.0024246061512354085
+        },
+        {
+          "filepath": "ResearchImage/81.jpg",
+          "group_id": "G032",
+          "y_true": "Scabies",
+          "y_pred": "Eczema",
+          "prob_true": 0.0031503627597474094,
+          "label_quality": 0.0031503627597474094
+        },
+        {
+          "filepath": "ResearchImage/26.jpg",
+          "group_id": "G117",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.0040208883827885745,
+          "label_quality": 0.0040208883827885745
+        },
+        {
+          "filepath": "ResearchImage/25.jpg",
+          "group_id": "G117",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.006684884730599147,
+          "label_quality": 0.006684884730599147
+        },
+        {
+          "filepath": "ResearchImage/164.jpg",
+          "group_id": "G120",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.006876631029046795,
+          "label_quality": 0.006876631029046795
+        },
+        {
+          "filepath": "ResearchImage/192.jpg",
+          "group_id": "G078",
+          "y_true": "Scabies",
+          "y_pred": "Dermatitis",
+          "prob_true": 0.007554936493819255,
+          "label_quality": 0.007554936493819255
+        },
+        {
+          "filepath": "ResearchImage/191.jpg",
+          "group_id": "G068",
+          "y_true": "Scabies",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.008642064369129301,
+          "label_quality": 0.008642064369129301
+        },
+        {
+          "filepath": "ResearchImage/143.jpg",
+          "group_id": "G002",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.011144754156583796,
+          "label_quality": 0.011144754156583796
+        },
+        {
+          "filepath": "ResearchImage/134.jpg",
+          "group_id": "G075",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.011764155823490908,
+          "label_quality": 0.011764155823490908
+        },
+        {
+          "filepath": "ResearchImage/142.jpg",
+          "group_id": "G002",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.01686207406559347,
+          "label_quality": 0.01686207406559347
+        },
+        {
+          "filepath": "ResearchImage/139.jpg",
+          "group_id": "G130",
+          "y_true": "Eczema",
+          "y_pred": "Scabies",
+          "prob_true": 0.026645188827611688,
+          "label_quality": 0.026645188827611688
+        },
+        {
+          "filepath": "ResearchImage/89.jpg",
+          "group_id": "G085",
+          "y_true": "Tinea Ringworm",
+          "y_pred": "Eczema",
+          "prob_true": 0.028417443127584492,
+          "label_quality": 0.028417443127584492
+        },
+        {
+          "filepath": "ResearchImage/138.jpg",
+          "group_id": "G130",
+          "y_true": "Eczema",
+          "y_pred": "Scabies",
+          "prob_true": 0.05407918014601379,
+          "label_quality": 0.05407918014601379
+        },
+        {
+          "filepath": "ResearchImage/98.jpg",
+          "group_id": "G102",
+          "y_true": "Eczema",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.08042739031090812,
+          "label_quality": 0.08042739031090812
+        },
+        {
+          "filepath": "ResearchImage/3.jpg",
+          "group_id": "G021",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.0886586877835328,
+          "label_quality": 0.0886586877835328
+        },
+        {
+          "filepath": "ResearchImage/4.jpg",
+          "group_id": "G021",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.11630718321007825,
+          "label_quality": 0.11630718321007825
+        },
+        {
+          "filepath": "ResearchImage/93.jpg",
+          "group_id": "G092",
+          "y_true": "Eczema",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.16395599600078944,
+          "label_quality": 0.16395599600078944
+        },
+        {
+          "filepath": "ResearchImage/190.jpg",
+          "group_id": "G026",
+          "y_true": "Scabies",
+          "y_pred": "Dermatitis",
+          "prob_true": 0.16781003026701824,
+          "label_quality": 0.16781003026701824
+        },
+        {
+          "filepath": "ResearchImage/55.jpg",
+          "group_id": "G027",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.16805191527010804,
+          "label_quality": 0.16805191527010804
+        },
+        {
+          "filepath": "ResearchImage/97.jpg",
+          "group_id": "G102",
+          "y_true": "Eczema",
+          "y_pred": "Tinea Ringworm",
+          "prob_true": 0.16946931179637473,
+          "label_quality": 0.16946931179637473
+        },
+        {
+          "filepath": "ResearchImage/78.jpg",
+          "group_id": "G073",
+          "y_true": "Eczema",
+          "y_pred": "Scabies",
+          "prob_true": 0.1890279646505086,
+          "label_quality": 0.1890279646505086
+        },
+        {
+          "filepath": "ResearchImage/45.jpg",
+          "group_id": "G028",
+          "y_true": "Eczema",
+          "y_pred": "Dermatitis",
+          "prob_true": 0.2750527552690926,
+          "label_quality": 0.2750527552690926
+        },
+        {
+          "filepath": "ResearchImage/56.jpg",
+          "group_id": "G027",
+          "y_true": "Dermatitis",
+          "y_pred": "Eczema",
+          "prob_true": 0.2822780219268486,
+          "label_quality": 0.2822780219268486
+        },
+        {
+          "filepath": "ResearchImage/129.jpg",
+          "group_id": "G072",
+          "y_true": "Eczema",
+          "y_pred": "Scabies",
+          "prob_true": 0.3893472446394564,
+          "label_quality": 0.3893472446394564
+        }
+      ],
+      "mean_label_quality": 0.6537615623931025,
+      "median_label_quality": 0.7990146669867026
+    }
+  },
+  "ranked_images": [
+    {
+      "filepath": "ResearchImage/151.jpg",
+      "group_id": "G100",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 4,
+      "mean_label_quality": 0.0002582374444889221,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": true,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/27.jpg",
+      "group_id": "G117",
+      "y_true": "Dermatitis",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 4,
+      "mean_label_quality": 0.0003972510487061101,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": true,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/135.jpg",
+      "group_id": "G075",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 4,
+      "mean_label_quality": 0.0006975436525241343,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": true,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/80.jpg",
+      "group_id": "G032",
+      "y_true": "Scabies",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 4,
+      "mean_label_quality": 0.0009682851267917446,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": true,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/193.jpg",
+      "group_id": "G080",
+      "y_true": "Scabies",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 4,
+      "mean_label_quality": 0.0013327965485671156,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": true,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/26.jpg",
+      "group_id": "G117",
+      "y_true": "Dermatitis",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 4,
+      "mean_label_quality": 0.0013667143960947852,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": true,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/25.jpg",
+      "group_id": "G117",
+      "y_true": "Dermatitis",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 4,
+      "mean_label_quality": 0.001700915460123914,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": true,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/81.jpg",
+      "group_id": "G032",
+      "y_true": "Scabies",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 4,
+      "mean_label_quality": 0.0029352005800651303,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": true,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/134.jpg",
+      "group_id": "G075",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 4,
+      "mean_label_quality": 0.004428605473723525,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": true,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/192.jpg",
+      "group_id": "G078",
+      "y_true": "Scabies",
+      "consensus_prediction": "Dermatitis",
+      "issue_votes": 4,
+      "mean_label_quality": 0.01411914772596637,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": true,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/3.jpg",
+      "group_id": "G021",
+      "y_true": "Dermatitis",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 4,
+      "mean_label_quality": 0.02389293893793317,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": true,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/4.jpg",
+      "group_id": "G021",
+      "y_true": "Dermatitis",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 4,
+      "mean_label_quality": 0.03417300198655478,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": true,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/56.jpg",
+      "group_id": "G027",
+      "y_true": "Dermatitis",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 4,
+      "mean_label_quality": 0.08429184015498337,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": true,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/55.jpg",
+      "group_id": "G027",
+      "y_true": "Dermatitis",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 4,
+      "mean_label_quality": 0.09367332539719794,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": true,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/190.jpg",
+      "group_id": "G026",
+      "y_true": "Scabies",
+      "consensus_prediction": "Dermatitis",
+      "issue_votes": 4,
+      "mean_label_quality": 0.1283652494345293,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": true,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/66.jpg",
+      "group_id": "G133",
+      "y_true": "Vitiligo",
+      "consensus_prediction": "Tinea Ringworm",
+      "issue_votes": 3,
+      "mean_label_quality": 0.016117471736509667,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": true,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/34.jpg",
+      "group_id": "G035",
+      "y_true": "Scabies",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 3,
+      "mean_label_quality": 0.023907452453234175,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": true,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/89.jpg",
+      "group_id": "G085",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 3,
+      "mean_label_quality": 0.08791517397173389,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": true,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/191.jpg",
+      "group_id": "G068",
+      "y_true": "Scabies",
+      "consensus_prediction": "Tinea Ringworm",
+      "issue_votes": 3,
+      "mean_label_quality": 0.09012982161315113,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": true,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/164.jpg",
+      "group_id": "G120",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 3,
+      "mean_label_quality": 0.14954386253052143,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": true,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/142.jpg",
+      "group_id": "G002",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 3,
+      "mean_label_quality": 0.1715239224059167,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": true,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/143.jpg",
+      "group_id": "G002",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 3,
+      "mean_label_quality": 0.17386616908978758,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": true,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/139.jpg",
+      "group_id": "G130",
+      "y_true": "Eczema",
+      "consensus_prediction": "Scabies",
+      "issue_votes": 3,
+      "mean_label_quality": 0.175524836349404,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": true,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/18.jpg",
+      "group_id": "G015",
+      "y_true": "Dermatitis",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 2,
+      "mean_label_quality": 0.10615552057605147,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": false,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/1.jpg",
+      "group_id": "G022",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 2,
+      "mean_label_quality": 0.21115794834063062,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": false,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/174.jpg",
+      "group_id": "G062",
+      "y_true": "Vitiligo",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 2,
+      "mean_label_quality": 0.266964414441637,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": false,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/138.jpg",
+      "group_id": "G130",
+      "y_true": "Eczema",
+      "consensus_prediction": "Tinea Ringworm",
+      "issue_votes": 2,
+      "mean_label_quality": 0.3569754087241166,
+      "min_label_quality": 0.04048912141711925,
+      "high_confidence_issue": false,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/98.jpg",
+      "group_id": "G102",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 2,
+      "mean_label_quality": 0.3685085020075954,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": false,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/97.jpg",
+      "group_id": "G102",
+      "y_true": "Eczema",
+      "consensus_prediction": "Tinea Ringworm",
+      "issue_votes": 2,
+      "mean_label_quality": 0.3835823851496103,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": false,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/90.jpg",
+      "group_id": "G085",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 2,
+      "mean_label_quality": 0.41710138250588,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": false,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/144.jpg",
+      "group_id": "G070",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Tinea Ringworm",
+      "issue_votes": 2,
+      "mean_label_quality": 0.44058547207658105,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": false,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/41.jpg",
+      "group_id": "G041",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 2,
+      "mean_label_quality": 0.4552794944595282,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": false,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/129.jpg",
+      "group_id": "G072",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 2,
+      "mean_label_quality": 0.5147231200313385,
+      "min_label_quality": 0.3333333333333333,
+      "high_confidence_issue": false,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/45.jpg",
+      "group_id": "G028",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 2,
+      "mean_label_quality": 0.566461257803164,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": false,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/93.jpg",
+      "group_id": "G092",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 2,
+      "mean_label_quality": 0.6243163030968729,
+      "min_label_quality": 0.16395599600078944,
+      "high_confidence_issue": false,
+      "candidate_issue": true
+    },
+    {
+      "filepath": "ResearchImage/72.jpg",
+      "group_id": "G099",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.39468047513882754,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/29.jpg",
+      "group_id": "G082",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.39892690264523756,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/74.jpg",
+      "group_id": "G079",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.48299530069403845,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/28.jpg",
+      "group_id": "G082",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.5062139200617517,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/71.jpg",
+      "group_id": "G099",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.5288270007321949,
+      "min_label_quality": 0.3333333333333333,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/60.jpg",
+      "group_id": "G122",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.5821470581023165,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/132.jpg",
+      "group_id": "G040",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.5962884178112745,
+      "min_label_quality": 0.0461288867360685,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/119.jpg",
+      "group_id": "G033",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.5980166994928839,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/154.jpg",
+      "group_id": "G081",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.6160694440739897,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/59.jpg",
+      "group_id": "G122",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.6268587783332286,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/91.jpg",
+      "group_id": "G114",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.6301047028054167,
+      "min_label_quality": 0.19517142536721419,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/118.jpg",
+      "group_id": "G033",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.6338543401899446,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/149.jpg",
+      "group_id": "G061",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.6354294878173854,
+      "min_label_quality": 0.13908744509855844,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/92.jpg",
+      "group_id": "G114",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.6381390183512446,
+      "min_label_quality": 0.2221194016658955,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/128.jpg",
+      "group_id": "G072",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.64389316834493,
+      "min_label_quality": 0.3333333333333333,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/44.jpg",
+      "group_id": "G028",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.6485728752030028,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/107.jpg",
+      "group_id": "G034",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.659227727943436,
+      "min_label_quality": 0.3333333333333333,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/73.jpg",
+      "group_id": "G079",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.6643795979466408,
+      "min_label_quality": 0.3333333333333333,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/78.jpg",
+      "group_id": "G073",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.6903119111374773,
+      "min_label_quality": 0.1890279646505086,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/99.jpg",
+      "group_id": "G105",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.6921103965480179,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/177.jpg",
+      "group_id": "G042",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Tinea Ringworm",
+      "issue_votes": 1,
+      "mean_label_quality": 0.703382399236701,
+      "min_label_quality": 0.3333333333333333,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/37.jpg",
+      "group_id": "G086",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.7040818567319597,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/133.jpg",
+      "group_id": "G040",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.7272255641805662,
+      "min_label_quality": 0.06846498175887016,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/43.jpg",
+      "group_id": "G090",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.744047853315694,
+      "min_label_quality": 0.0,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/120.jpg",
+      "group_id": "G073",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.7506186968932929,
+      "min_label_quality": 0.3333333333333333,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/115.jpg",
+      "group_id": "G001",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Tinea Ringworm",
+      "issue_votes": 1,
+      "mean_label_quality": 0.7546443454337726,
+      "min_label_quality": 0.3333333333333333,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/197.jpg",
+      "group_id": "G024",
+      "y_true": "Dermatitis",
+      "consensus_prediction": "Dermatitis",
+      "issue_votes": 1,
+      "mean_label_quality": 0.7622499553522574,
+      "min_label_quality": 0.3333333333333333,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/38.jpg",
+      "group_id": "G086",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.7727477788236494,
+      "min_label_quality": 0.3333333333333333,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/181.jpg",
+      "group_id": "G038",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Tinea Ringworm",
+      "issue_votes": 1,
+      "mean_label_quality": 0.7896087602663809,
+      "min_label_quality": 0.3333333333333333,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/130.jpg",
+      "group_id": "G103",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.8292109640476958,
+      "min_label_quality": 0.3333333333333333,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/131.jpg",
+      "group_id": "G103",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 1,
+      "mean_label_quality": 0.8304824154591259,
+      "min_label_quality": 0.3333333333333333,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/40.jpg",
+      "group_id": "G041",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.4859991308399183,
+      "min_label_quality": 0.21988930814300275,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/35.jpg",
+      "group_id": "G037",
+      "y_true": "Scabies",
+      "consensus_prediction": "Scabies",
+      "issue_votes": 0,
+      "mean_label_quality": 0.6180969801159376,
+      "min_label_quality": 0.4865515010244915,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/170.jpg",
+      "group_id": "G101",
+      "y_true": "Vitiligo",
+      "consensus_prediction": "Vitiligo",
+      "issue_votes": 0,
+      "mean_label_quality": 0.618842517043312,
+      "min_label_quality": 0.46085338364126016,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/83.jpg",
+      "group_id": "G128",
+      "y_true": "Vitiligo",
+      "consensus_prediction": "Vitiligo",
+      "issue_votes": 0,
+      "mean_label_quality": 0.6772633118286385,
+      "min_label_quality": 0.6666666666666666,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/194.jpg",
+      "group_id": "G020",
+      "y_true": "Dermatitis",
+      "consensus_prediction": "Dermatitis",
+      "issue_votes": 0,
+      "mean_label_quality": 0.698518196151748,
+      "min_label_quality": 0.3333333333333333,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/158.jpg",
+      "group_id": "G029",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.7566205852670387,
+      "min_label_quality": 0.6198442880169618,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/69.jpg",
+      "group_id": "G050",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.7613285404771224,
+      "min_label_quality": 0.3333333333333333,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/159.jpg",
+      "group_id": "G029",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.7622138315895488,
+      "min_label_quality": 0.6162081647099473,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/105.jpg",
+      "group_id": "G074",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.7865728987242662,
+      "min_label_quality": 0.3333333333333333,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/36.jpg",
+      "group_id": "G036",
+      "y_true": "Scabies",
+      "consensus_prediction": "Scabies",
+      "issue_votes": 0,
+      "mean_label_quality": 0.7871212034683931,
+      "min_label_quality": 0.6122982628582635,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/64.jpg",
+      "group_id": "G053",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.7922872327464331,
+      "min_label_quality": 0.4827758419311034,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/79.jpg",
+      "group_id": "G030",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.8000461831151162,
+      "min_label_quality": 0.6666666666666666,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/171.jpg",
+      "group_id": "G069",
+      "y_true": "Vitiligo",
+      "consensus_prediction": "Vitiligo",
+      "issue_votes": 0,
+      "mean_label_quality": 0.8013872188999671,
+      "min_label_quality": 0.5684541176220776,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/103.jpg",
+      "group_id": "G055",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.8072062777528315,
+      "min_label_quality": 0.5745521607118019,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/100.jpg",
+      "group_id": "G104",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.8183821669664094,
+      "min_label_quality": 0.3333333333333333,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/106.jpg",
+      "group_id": "G074",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.8404202285598572,
+      "min_label_quality": 0.6666666666666666,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/162.jpg",
+      "group_id": "G083",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.8596700632848645,
+      "min_label_quality": 0.44979183307544857,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/20.jpg",
+      "group_id": "G059",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.8621501439201171,
+      "min_label_quality": 0.6666666666666666,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/96.jpg",
+      "group_id": "G000",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Tinea Ringworm",
+      "issue_votes": 0,
+      "mean_label_quality": 0.8626481234771272,
+      "min_label_quality": 0.48232833694552807,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/95.jpg",
+      "group_id": "G000",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Tinea Ringworm",
+      "issue_votes": 0,
+      "mean_label_quality": 0.8726973742323649,
+      "min_label_quality": 0.509702419560933,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/136.jpg",
+      "group_id": "G111",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.8794999487539055,
+      "min_label_quality": 0.6666666666666666,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/150.jpg",
+      "group_id": "G060",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.8833011296477982,
+      "min_label_quality": 0.6164407228083066,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/46.jpg",
+      "group_id": "G123",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.8867477981020393,
+      "min_label_quality": 0.6666666666666666,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/137.jpg",
+      "group_id": "G111",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.8879697672595385,
+      "min_label_quality": 0.6666666666666666,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/173.jpg",
+      "group_id": "G066",
+      "y_true": "Vitiligo",
+      "consensus_prediction": "Vitiligo",
+      "issue_votes": 0,
+      "mean_label_quality": 0.8933181188283756,
+      "min_label_quality": 0.7424865109442511,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/76.jpg",
+      "group_id": "G096",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.8984574978430305,
+      "min_label_quality": 0.6666666666666666,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/94.jpg",
+      "group_id": "G092",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.8996472390195636,
+      "min_label_quality": 0.5986159286262974,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/196.jpg",
+      "group_id": "G019",
+      "y_true": "Dermatitis",
+      "consensus_prediction": "Dermatitis",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9030743975011154,
+      "min_label_quality": 0.6666666666666666,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/161.jpg",
+      "group_id": "G083",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9041515318885219,
+      "min_label_quality": 0.6310261368973863,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/126.jpg",
+      "group_id": "G057",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.914601774460373,
+      "min_label_quality": 0.6666666666666666,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/58.jpg",
+      "group_id": "G088",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9153898707247775,
+      "min_label_quality": 0.6666666666666666,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/42.jpg",
+      "group_id": "G090",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9157068503705212,
+      "min_label_quality": 0.6666666666666666,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/114.jpg",
+      "group_id": "G001",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Tinea Ringworm",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9188193973521723,
+      "min_label_quality": 0.6771576415574626,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/102.jpg",
+      "group_id": "G054",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.944882430942855,
+      "min_label_quality": 0.8187903933289475,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/121.jpg",
+      "group_id": "G073",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9493286024835725,
+      "min_label_quality": 0.8071281554245369,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/39.jpg",
+      "group_id": "G031",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9502945193433863,
+      "min_label_quality": 0.8800982320564166,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/70.jpg",
+      "group_id": "G050",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9505707872617357,
+      "min_label_quality": 0.8050560339854052,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/75.jpg",
+      "group_id": "G096",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9564084611350101,
+      "min_label_quality": 0.8658305291351973,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/82.jpg",
+      "group_id": "G127",
+      "y_true": "Vitiligo",
+      "consensus_prediction": "Vitiligo",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9631216838644997,
+      "min_label_quality": 0.8671954695490767,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/172.jpg",
+      "group_id": "G063",
+      "y_true": "Vitiligo",
+      "consensus_prediction": "Vitiligo",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9644473590556635,
+      "min_label_quality": 0.8839039747203464,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/195.jpg",
+      "group_id": "G018",
+      "y_true": "Dermatitis",
+      "consensus_prediction": "Dermatitis",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9658022929554249,
+      "min_label_quality": 0.9028266121339896,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/198.jpg",
+      "group_id": "G025",
+      "y_true": "Dermatitis",
+      "consensus_prediction": "Dermatitis",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9679385518785079,
+      "min_label_quality": 0.872326237736833,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/189.jpg",
+      "group_id": "G077",
+      "y_true": "Scabies",
+      "consensus_prediction": "Scabies",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9730258113462336,
+      "min_label_quality": 0.9366629886663778,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/123.jpg",
+      "group_id": "G119",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9753352611468543,
+      "min_label_quality": 0.9312137802881004,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/122.jpg",
+      "group_id": "G118",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9785909980533045,
+      "min_label_quality": 0.9158411164851401,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/85.jpg",
+      "group_id": "G065",
+      "y_true": "Vitiligo",
+      "consensus_prediction": "Vitiligo",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9802397488906786,
+      "min_label_quality": 0.9269631709493678,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/160.jpg",
+      "group_id": "G029",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9806916124936368,
+      "min_label_quality": 0.9434071481137645,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/63.jpg",
+      "group_id": "G052",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9823076272516249,
+      "min_label_quality": 0.9646144187175544,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/183.jpg",
+      "group_id": "G046",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Tinea Ringworm",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9828325027709123,
+      "min_label_quality": 0.9513655636783409,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/176.jpg",
+      "group_id": "G046",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Tinea Ringworm",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9843464591867184,
+      "min_label_quality": 0.9516077780805479,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/175.jpg",
+      "group_id": "G064",
+      "y_true": "Vitiligo",
+      "consensus_prediction": "Vitiligo",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9853935900389115,
+      "min_label_quality": 0.9649366043973362,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/84.jpg",
+      "group_id": "G065",
+      "y_true": "Vitiligo",
+      "consensus_prediction": "Vitiligo",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9884213559461137,
+      "min_label_quality": 0.9571705000478585,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/185.jpg",
+      "group_id": "G045",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Tinea Ringworm",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9889353063544662,
+      "min_label_quality": 0.968395655415064,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/155.jpg",
+      "group_id": "G081",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9918869577370749,
+      "min_label_quality": 0.9693312060098535,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/179.jpg",
+      "group_id": "G047",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Tinea Ringworm",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9925601957959845,
+      "min_label_quality": 0.9715985833856641,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/186.jpg",
+      "group_id": "G045",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Tinea Ringworm",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9933425397534201,
+      "min_label_quality": 0.9754149899532256,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/180.jpg",
+      "group_id": "G048",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Tinea Ringworm",
+      "issue_votes": 0,
+      "mean_label_quality": 0.993344054362086,
+      "min_label_quality": 0.9833454302218082,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/21.jpg",
+      "group_id": "G089",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9954148965405497,
+      "min_label_quality": 0.9816737361550437,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/127.jpg",
+      "group_id": "G057",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9964543605335692,
+      "min_label_quality": 0.9868676207597473,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/104.jpg",
+      "group_id": "G098",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9972199071400664,
+      "min_label_quality": 0.992298666817092,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/182.jpg",
+      "group_id": "G044",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Tinea Ringworm",
+      "issue_votes": 0,
+      "mean_label_quality": 0.998023187984342,
+      "min_label_quality": 0.993053004756899,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/187.jpg",
+      "group_id": "G039",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Tinea Ringworm",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9985039172828528,
+      "min_label_quality": 0.9951446458776937,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/188.jpg",
+      "group_id": "G049",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Tinea Ringworm",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9985847758088725,
+      "min_label_quality": 0.9945703284546572,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/101.jpg",
+      "group_id": "G098",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9989603884563474,
+      "min_label_quality": 0.996415268154568,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/22.jpg",
+      "group_id": "G089",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9996345643335693,
+      "min_label_quality": 0.9985461488928137,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/184.jpg",
+      "group_id": "G047",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Tinea Ringworm",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9996531284202389,
+      "min_label_quality": 0.9986600564584215,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/57.jpg",
+      "group_id": "G088",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9997180351367934,
+      "min_label_quality": 0.999034249036597,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/178.jpg",
+      "group_id": "G043",
+      "y_true": "Tinea Ringworm",
+      "consensus_prediction": "Tinea Ringworm",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9998419998583358,
+      "min_label_quality": 0.9995511126369249,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/108.jpg",
+      "group_id": "G098",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9998666785195455,
+      "min_label_quality": 0.9994825530343148,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    },
+    {
+      "filepath": "ResearchImage/109.jpg",
+      "group_id": "G098",
+      "y_true": "Eczema",
+      "consensus_prediction": "Eczema",
+      "issue_votes": 0,
+      "mean_label_quality": 0.9999606932509983,
+      "min_label_quality": 0.9998998365403499,
+      "high_confidence_issue": false,
+      "candidate_issue": false
+    }
+  ]
+}

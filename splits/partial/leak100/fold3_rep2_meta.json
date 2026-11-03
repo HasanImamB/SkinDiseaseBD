@@ -1,0 +1,11 @@
+{
+  "protocol": "P-partial",
+  "fold": 3,
+  "repeat": 2,
+  "seed": 44,
+  "requested_leak_pct": 100,
+  "achieved_leak_pct": 100.0,
+  "leaked_test_groups": 18,
+  "test_groups": 18,
+  "note": "leakage is intentional; do not use for headline metrics"
+}

@@ -1,0 +1,113 @@
+{
+  "config": {
+    "model": "resnet50.a1_in1k",
+    "fold": 1,
+    "repeat": 0,
+    "seed": 1042,
+    "epochs": 10,
+    "image_size": 128,
+    "batch_size": 32,
+    "lr": 0.0003,
+    "weight_decay": 0.05,
+    "label_smoothing": 0.1,
+    "n_train": 1097,
+    "n_val": 22,
+    "n_test": 28,
+    "pretrained": true
+  },
+  "best_epoch": 2,
+  "best_val_macro_f1": 0.5712820512820513,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.4478507001723826,
+      "val_macro_f1": 0.45440613026819926,
+      "val_balanced_accuracy": 0.48,
+      "val_loss": 1.2485049962997437,
+      "seconds": 41.71
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.9073166031128945,
+      "val_macro_f1": 0.5712820512820513,
+      "val_balanced_accuracy": 0.62,
+      "val_loss": 0.960097074508667,
+      "seconds": 41.35
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.5165456061810935,
+      "val_macro_f1": 0.5712820512820513,
+      "val_balanced_accuracy": 0.62,
+      "val_loss": 0.8718045353889465,
+      "seconds": 40.33
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.4387564239930107,
+      "val_macro_f1": 0.5453333333333333,
+      "val_balanced_accuracy": 0.62,
+      "val_loss": 0.9701439738273621,
+      "seconds": 40.49
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.4290632062753766,
+      "val_macro_f1": 0.5712820512820513,
+      "val_balanced_accuracy": 0.62,
+      "val_loss": 0.9274746775627136,
+      "seconds": 40.82
+    }
+  ],
+  "test": {
+    "loss": 0.8676584362983704,
+    "accuracy": 0.75,
+    "macro_f1": 0.5723249299719888,
+    "balanced_accuracy": 0.5533333333333333,
+    "per_class_recall": {
+      "Dermatitis": 0.6666666666666666,
+      "Eczema": 0.9333333333333333,
+      "Scabies": 0.0,
+      "Tinea Ringworm": 0.6666666666666666,
+      "Vitiligo": 0.5
+    },
+    "confusion_matrix": [
+      [
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        14,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "test_predictions": "/home/bappi/Hasan Imam B./HiB/TR/results/predictions/finetuned_resnet50_128_fold1_rep0_test.csv"
+}

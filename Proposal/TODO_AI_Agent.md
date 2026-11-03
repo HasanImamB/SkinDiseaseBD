@@ -17,6 +17,9 @@ This todo list covers everything I can do autonomously without requiring manual 
 - [x] **Embedding-based clustering** - Use DINOv2/ResNet50 embeddings to find near-duplicate groups
 - [ ] **Augmentation forensics** - partial: parent assignment + dihedral matching done; per-image transform labels still missing
 - [x] **Build group maps** - Create `raw_groups.json` with `group_id` for each image
+- [x] **Shortcut probes** - Metadata, colour, border-only and background proxies; `docs/shortcut_analysis.md`
+- [x] **Label-quality triage** - cleanlab on pooled OOF predictions + review sheet; `docs/label_audit.md`
+- [x] **Preliminary fine-tuned baseline** - ResNet-50, 5 folds x 1 repeat, 128 px; `docs/finetuned_baseline.md`
 - [x] **Audit report** - Generate `docs/data_audit.md` with all findings
 
 ## Phase 2: Split Design (Week 3-6)
@@ -31,14 +34,14 @@ This todo list covers everything I can do autonomously without requiring manual 
 - [ ] **Reproduce original baseline** - Implement classical ML/DL from [1] as closely as possible
 - [x] **1-NN baseline** - embedding-space 1-NN under P-leaked and P-disjoint
 - [x] **Linear probe** - logistic regression on frozen ResNet50/DINOv2 features
-- [x] **Compare leaked vs disjoint** - frozen-feature probes; fine-tuned baseline pending
-- [x] **Dose-response curve** - single fold; all-fold extension pending
+- [x] **Compare leaked vs disjoint** - frozen-feature probes; preliminary fine-tuned baseline done
+- [x] **Dose-response curve** - all 5 folds x 3 repeats
 - [x] **Group bootstrap CI** - group bootstrap + permutation test
 - [x] **Leakage analysis report** - `docs/leakage_analysis.md` (preliminary)
 
 ## Phase 4: Model Benchmarking (Week 7-12)
 - [ ] **Setup model zoo** - Configure ResNet50, DenseNet121, EfficientNet-B0/B3, MobileNetV3, ViT-B/16, Swin-T, ConvNeXt-T via timm
-- [ ] **Training pipeline** - Build modular training code (config-driven, checkpointing, resume, logging)
+- [ ] **Training pipeline** - initial timm CLI in `scripts/train.py`; config/checkpoint/resume still pending
 - [ ] **Data loaders** - Create group-aware dataloaders that respect splits
 - [ ] **Training loop** - Implement with AMP, early stopping, cosine schedule, AdamW
 - [ ] **Run benchmark** - 5-fold × 3-repeat × seeds for all models

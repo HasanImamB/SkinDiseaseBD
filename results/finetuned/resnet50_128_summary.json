@@ -1,0 +1,192 @@
+{
+  "config": {
+    "run_name": "resnet50_128",
+    "prediction_files": [
+      "finetuned_resnet50_128_fold0_rep0_test.csv",
+      "finetuned_resnet50_128_fold1_rep0_test.csv",
+      "finetuned_resnet50_128_fold2_rep0_test.csv",
+      "finetuned_resnet50_128_fold3_rep0_test.csv",
+      "finetuned_resnet50_128_fold4_rep0_test.csv"
+    ],
+    "n_boot": 1000,
+    "n_perm": 1000,
+    "seed": 42,
+    "classes": [
+      "Dermatitis",
+      "Eczema",
+      "Scabies",
+      "Tinea Ringworm",
+      "Vitiligo"
+    ]
+  },
+  "pooled": {
+    "n": 136,
+    "accuracy": 0.7426470588235294,
+    "balanced_accuracy": 0.5644253148835104,
+    "macro_f1": 0.6044396961063627,
+    "per_class_recall": {
+      "Dermatitis": 0.6153846153846154,
+      "Eczema": 0.9315068493150684,
+      "Scabies": 0.2,
+      "Tinea Ringworm": 0.6206896551724138,
+      "Vitiligo": 0.45454545454545453
+    }
+  },
+  "bootstrap": {
+    "macro_f1": {
+      "mean": 0.5944910885397803,
+      "lo": 0.47662607246734057,
+      "hi": 0.7020677682785761
+    },
+    "balanced_accuracy": {
+      "mean": 0.568701335382008,
+      "lo": 0.4523765125324114,
+      "hi": 0.6846340361445783
+    },
+    "accuracy": {
+      "mean": 0.7418856446406819,
+      "lo": 0.643899303251493,
+      "hi": 0.8217397137745974
+    }
+  },
+  "per_fold": [
+    {
+      "n": 27,
+      "accuracy": 0.8888888888888888,
+      "balanced_accuracy": 0.7333333333333333,
+      "macro_f1": 0.7312820512820514,
+      "per_class_recall": {
+        "Dermatitis": 0.6666666666666666,
+        "Eczema": 1.0,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 1.0,
+        "Vitiligo": 1.0
+      },
+      "fold": 0,
+      "repeat": 0
+    },
+    {
+      "n": 28,
+      "accuracy": 0.75,
+      "balanced_accuracy": 0.5533333333333333,
+      "macro_f1": 0.5723249299719888,
+      "per_class_recall": {
+        "Dermatitis": 0.6666666666666666,
+        "Eczema": 0.9333333333333333,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 0.6666666666666666,
+        "Vitiligo": 0.5
+      },
+      "fold": 1,
+      "repeat": 0
+    },
+    {
+      "n": 27,
+      "accuracy": 0.6666666666666666,
+      "balanced_accuracy": 0.4333333333333334,
+      "macro_f1": 0.403030303030303,
+      "per_class_recall": {
+        "Dermatitis": 0.0,
+        "Eczema": 0.8666666666666667,
+        "Scabies": 0.5,
+        "Tinea Ringworm": 0.8,
+        "Vitiligo": 0.0
+      },
+      "fold": 2,
+      "repeat": 0
+    },
+    {
+      "n": 27,
+      "accuracy": 0.7777777777777778,
+      "balanced_accuracy": 0.6,
+      "macro_f1": 0.6298039215686274,
+      "per_class_recall": {
+        "Dermatitis": 1.0,
+        "Eczema": 1.0,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 0.5,
+        "Vitiligo": 0.5
+      },
+      "fold": 3,
+      "repeat": 0
+    },
+    {
+      "n": 27,
+      "accuracy": 0.6296296296296297,
+      "balanced_accuracy": 0.5714285714285714,
+      "macro_f1": 0.5181720430107527,
+      "per_class_recall": {
+        "Dermatitis": 1.0,
+        "Eczema": 0.8571428571428571,
+        "Scabies": 0.5,
+        "Tinea Ringworm": 0.16666666666666666,
+        "Vitiligo": 0.3333333333333333
+      },
+      "fold": 4,
+      "repeat": 0
+    }
+  ],
+  "fold_summary": {
+    "macro_f1": {
+      "mean": 0.5709226497727447,
+      "sd": 0.12263214792512954,
+      "min": 0.403030303030303,
+      "max": 0.7312820512820514
+    },
+    "balanced_accuracy": {
+      "mean": 0.5782857142857143,
+      "sd": 0.10746174766345626,
+      "min": 0.4333333333333334,
+      "max": 0.7333333333333333
+    },
+    "accuracy": {
+      "mean": 0.7425925925925926,
+      "sd": 0.10151459313826477,
+      "min": 0.6296296296296297,
+      "max": 0.8888888888888888
+    }
+  },
+  "comparisons": {
+    "dinov2_linear": {
+      "frozen_macro_f1": 0.6630470406786196,
+      "frozen_balanced_accuracy": 0.6265353069226476,
+      "delta_finetuned_minus_frozen": {
+        "delta": -0.058607344572256914,
+        "delta_lo": -0.2101808817709127,
+        "delta_hi": 0.06940037874895315,
+        "p_value": 0.4245754245754246
+      }
+    },
+    "dinov2_1nn": {
+      "frozen_macro_f1": 0.6509956709956709,
+      "frozen_balanced_accuracy": 0.6013624637054018,
+      "delta_finetuned_minus_frozen": {
+        "delta": -0.04655597488930818,
+        "delta_lo": -0.1996415078088627,
+        "delta_hi": 0.08450949546979766,
+        "p_value": 0.5004995004995005
+      }
+    },
+    "resnet_linear": {
+      "frozen_macro_f1": 0.6230379215655644,
+      "frozen_balanced_accuracy": 0.5915887702283544,
+      "delta_finetuned_minus_frozen": {
+        "delta": -0.018598225459201645,
+        "delta_lo": -0.15879618668952383,
+        "delta_hi": 0.11519657447208717,
+        "p_value": 0.7962037962037962
+      }
+    },
+    "resnet_1nn": {
+      "frozen_macro_f1": 0.5355577299412916,
+      "frozen_balanced_accuracy": 0.5309144421945555,
+      "delta_finetuned_minus_frozen": {
+        "delta": 0.06888196616507114,
+        "delta_lo": -0.07065626792734324,
+        "delta_hi": 0.19071295541620772,
+        "p_value": 0.29270729270729273
+      }
+    }
+  },
+  "pooled_predictions": "/home/bappi/Hasan Imam B./HiB/TR/results/predictions/finetuned_resnet50_128_oof.csv"
+}

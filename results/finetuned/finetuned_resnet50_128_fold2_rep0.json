@@ -1,0 +1,137 @@
+{
+  "config": {
+    "model": "resnet50.a1_in1k",
+    "fold": 2,
+    "repeat": 0,
+    "seed": 2042,
+    "epochs": 10,
+    "image_size": 128,
+    "batch_size": 32,
+    "lr": 0.0003,
+    "weight_decay": 0.05,
+    "label_smoothing": 0.1,
+    "n_train": 1039,
+    "n_val": 22,
+    "n_test": 27,
+    "pretrained": true
+  },
+  "best_epoch": 5,
+  "best_val_macro_f1": 0.7846153846153847,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.4707373932534622,
+      "val_macro_f1": 0.2692307692307693,
+      "val_balanced_accuracy": 0.3833333333333333,
+      "val_loss": 1.3295155763626099,
+      "seconds": 40.26
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.9538764737912161,
+      "val_macro_f1": 0.6957264957264957,
+      "val_balanced_accuracy": 0.7,
+      "val_loss": 0.9132925271987915,
+      "seconds": 41.02
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.5439532325173709,
+      "val_macro_f1": 0.711111111111111,
+      "val_balanced_accuracy": 0.7,
+      "val_loss": 0.8842947483062744,
+      "seconds": 39.97
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.4572642836809388,
+      "val_macro_f1": 0.6471111111111111,
+      "val_balanced_accuracy": 0.6833333333333333,
+      "val_loss": 0.7985087633132935,
+      "seconds": 39.01
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.4493515192315025,
+      "val_macro_f1": 0.7846153846153847,
+      "val_balanced_accuracy": 0.8,
+      "val_loss": 0.7929765582084656,
+      "seconds": 39.42
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.44438374507186273,
+      "val_macro_f1": 0.7,
+      "val_balanced_accuracy": 0.7666666666666667,
+      "val_loss": 0.7810400724411011,
+      "seconds": 47.81
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.4226389050598438,
+      "val_macro_f1": 0.6692307692307693,
+      "val_balanced_accuracy": 0.6833333333333333,
+      "val_loss": 0.7944236993789673,
+      "seconds": 47.39
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.42183986435266957,
+      "val_macro_f1": 0.64,
+      "val_balanced_accuracy": 0.6666666666666667,
+      "val_loss": 0.819892168045044,
+      "seconds": 47.1
+    }
+  ],
+  "test": {
+    "loss": 1.1491405963897705,
+    "accuracy": 0.6666666666666666,
+    "macro_f1": 0.403030303030303,
+    "balanced_accuracy": 0.4333333333333334,
+    "per_class_recall": {
+      "Dermatitis": 0.0,
+      "Eczema": 0.8666666666666667,
+      "Scabies": 0.5,
+      "Tinea Ringworm": 0.8,
+      "Vitiligo": 0.0
+    },
+    "confusion_matrix": [
+      [
+        0,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        13,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "test_predictions": "/home/bappi/Hasan Imam B./HiB/TR/results/predictions/finetuned_resnet50_128_fold2_rep0_test.csv"
+}

@@ -1,0 +1,121 @@
+{
+  "config": {
+    "model": "resnet50.a1_in1k",
+    "fold": 4,
+    "repeat": 0,
+    "seed": 4042,
+    "epochs": 10,
+    "image_size": 128,
+    "batch_size": 32,
+    "lr": 0.0003,
+    "weight_decay": 0.05,
+    "label_smoothing": 0.1,
+    "n_train": 1045,
+    "n_val": 22,
+    "n_test": 27,
+    "pretrained": true
+  },
+  "best_epoch": 3,
+  "best_val_macro_f1": 0.5833333333333333,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.4693644523620606,
+      "val_macro_f1": 0.24000000000000005,
+      "val_balanced_accuracy": 0.4,
+      "val_loss": 1.3157881498336792,
+      "seconds": 46.75
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.03494114944239,
+      "val_macro_f1": 0.5111111111111111,
+      "val_balanced_accuracy": 0.6,
+      "val_loss": 1.0301709175109863,
+      "seconds": 46.49
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.5911656421337401,
+      "val_macro_f1": 0.5833333333333333,
+      "val_balanced_accuracy": 0.5833333333333333,
+      "val_loss": 0.8320329785346985,
+      "seconds": 44.55
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.4705845405610555,
+      "val_macro_f1": 0.5833333333333333,
+      "val_balanced_accuracy": 0.5833333333333333,
+      "val_loss": 0.7900516986846924,
+      "seconds": 45.99
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.44422466888952483,
+      "val_macro_f1": 0.5395604395604395,
+      "val_balanced_accuracy": 0.5333333333333333,
+      "val_loss": 0.8869842290878296,
+      "seconds": 42.56
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.4416048571823887,
+      "val_macro_f1": 0.5508158508158508,
+      "val_balanced_accuracy": 0.55,
+      "val_loss": 0.8415095210075378,
+      "seconds": 42.32
+    }
+  ],
+  "test": {
+    "loss": 1.1074467897415161,
+    "accuracy": 0.6296296296296297,
+    "macro_f1": 0.5181720430107527,
+    "balanced_accuracy": 0.5714285714285714,
+    "per_class_recall": {
+      "Dermatitis": 1.0,
+      "Eczema": 0.8571428571428571,
+      "Scabies": 0.5,
+      "Tinea Ringworm": 0.16666666666666666,
+      "Vitiligo": 0.3333333333333333
+    },
+    "confusion_matrix": [
+      [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        12,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        4,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ]
+  },
+  "test_predictions": "/home/bappi/Hasan Imam B./HiB/TR/results/predictions/finetuned_resnet50_128_fold4_rep0_test.csv"
+}

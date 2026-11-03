@@ -1,0 +1,28 @@
+filepath,raw_id,group_id,class_label,is_derivative,transform_type
+ResearchImage/107.jpg,107,G034,Eczema,False,unknown
+ResearchImage/134.jpg,134,G075,Tinea Ringworm,False,unknown
+ResearchImage/135.jpg,135,G075,Tinea Ringworm,False,unknown
+ResearchImage/136.jpg,136,G111,Eczema,False,unknown
+ResearchImage/137.jpg,137,G111,Eczema,False,unknown
+ResearchImage/164.jpg,164,G120,Tinea Ringworm,False,unknown
+ResearchImage/172.jpg,172,G063,Vitiligo,False,unknown
+ResearchImage/173.jpg,173,G066,Vitiligo,False,unknown
+ResearchImage/180.jpg,180,G048,Tinea Ringworm,False,unknown
+ResearchImage/182.jpg,182,G044,Tinea Ringworm,False,unknown
+ResearchImage/190.jpg,190,G026,Scabies,False,unknown
+ResearchImage/193.jpg,193,G080,Scabies,False,unknown
+ResearchImage/20.jpg,020,G059,Eczema,False,unknown
+ResearchImage/25.jpg,025,G117,Dermatitis,False,unknown
+ResearchImage/26.jpg,026,G117,Dermatitis,False,unknown
+ResearchImage/27.jpg,027,G117,Dermatitis,False,unknown
+ResearchImage/42.jpg,042,G090,Eczema,False,unknown
+ResearchImage/43.jpg,043,G090,Eczema,False,unknown
+ResearchImage/46.jpg,046,G123,Eczema,False,unknown
+ResearchImage/69.jpg,069,G050,Eczema,False,unknown
+ResearchImage/70.jpg,070,G050,Eczema,False,unknown
+ResearchImage/71.jpg,071,G099,Eczema,False,unknown
+ResearchImage/72.jpg,072,G099,Eczema,False,unknown
+ResearchImage/91.jpg,091,G114,Eczema,False,unknown
+ResearchImage/92.jpg,092,G114,Eczema,False,unknown
+ResearchImage/93.jpg,093,G092,Eczema,False,unknown
+ResearchImage/94.jpg,094,G092,Eczema,False,unknown

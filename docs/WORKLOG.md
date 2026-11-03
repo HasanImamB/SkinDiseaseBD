@@ -165,3 +165,124 @@ probes on border-only and background-only inputs, and test metadata-only predict
 size/aspect/file size/EXIF. No shortcut probe was run today; the amendment is documentation only.
 
 ---
+
+## 2026-11-03 — All-fold P-partial extension
+
+Extended the controlled-leakage dose-response from one fold to all 5 folds x 3 repeats.
+
+Deliverables:
+- `scripts/make_splits.py` now builds P-partial for every P-disjoint fold/repeat, using a
+  deterministic per-fold RNG (`seed + 1000*repeat + fold`).
+- `scripts/leakage_probe.py` aggregates P-partial predictions across all folds/repeats and
+  reports per-fold, per-repeat, pooled OOF, group-bootstrap CIs and the paired Delta.
+- Regenerated `splits/partial/` (60 triplets, 180 CSVs), `results/leakage_probe.json`,
+  `results/predictions/`, `results/split_stats.json`, `docs/split_stats.md`.
+- `verify_disjointness.py`: 78 triplets checked, 0 strict failures.
+
+Results (macro-F1, pooled OOF, P-partial 100% - 0%):
+- DINOv2 / 1-NN: +0.250 [0.139, 0.373], p=0.001.
+- DINOv2 / linear: +0.271 [0.153, 0.393], p=0.001.
+- ResNet-50 / 1-NN: +0.362 [0.260, 0.480], p=0.001.
+- ResNet-50 / linear: +0.311 [0.202, 0.433], p=0.001.
+- Dose-response is monotone for all four configurations; achieved leakage is
+  0.0 / 22.9 / 50.0 / 100.0% for requested 0 / 25 / 50 / 100%.
+
+Interpretation change: the single-fold estimate (+0.35 to +0.51) was optimistic. The all-fold
+paired inflation is +0.25 to +0.36 macro-F1, and every CI excludes zero. The descriptive
+P-leaked vs P-disjoint gap is 33-46 points. `docs/leakage_analysis.md`, `README.md`,
+`docs/analysis_plan.md` and `Proposal/TODO_AI_Agent.md` were updated accordingly.
+
+Next: Amendment 1 shortcut probes, then the fine-tuned baseline / Phase 4 pilot.
+
+## 2026-11-03 — Shortcut probes (Amendment 1)
+
+Implemented and ran `scripts/shortcut_probe.py` on the same 5x3 P-disjoint folds.
+
+Deliverables:
+- `results/shortcut/shortcut_probe.json`, `results/shortcut/metadata_raw.csv`.
+- Masked images under `results/shortcut/images/` (gitignored) and cached embeddings under
+  `results/shortcut/embeddings_{feature}_{variant}.npz` (gitignored).
+- `docs/shortcut_analysis.md` with tables, interpretation and caveats.
+
+Results (pooled OOF macro-F1):
+- Metadata-only linear probe: 0.343 [0.251, 0.432]; stratified dummy 0.230; majority 0.140.
+  Paired metadata - stratified dummy = +0.114 [0.006, 0.220], p=0.095; metadata - majority =
+  +0.203 [0.109, 0.287], p=0.003.
+- Metadata ablation: size/geometry/JPEG 0.374; acquisition datetime 0.317. EXIF ISO/exposure
+  fields are absent; camera model is nearly constant.
+- Full-image reference: DINOv2 1-NN 0.669, linear 0.627; ResNet-50 1-NN 0.629, linear 0.648.
+- Border20: 0.467-0.538 (9-20 points below full).
+- Background50 (mild mask, keeps 75% of image): 0.537-0.621; ResNet-50 1-NN only -0.016
+  versus full.
+
+Interpretation: a weak-to-moderate metadata/acquisition shortcut exists, but metadata alone does
+not explain the 0.54-0.66 disjoint floor. The masked variants stay above chance, yet the masks
+are conservative, so no strong background shortcut can be claimed. Next: stricter background
+mask, colour-histogram features, label-noise audit, then the fine-tuned baseline.
+
+## 2026-11-03 — Shortcut sensitivity: stricter background and colour
+
+Extended the shortcut probe with two sensitivity analyses requested by the roadmap.
+
+- Added `background75` (central 75% x 75% masked, outer 12.5% band kept) to
+  `scripts/shortcut_probe.py`.
+- Added a colour-only feature family: mean/std RGB, mean/std HSV and 8-bin per-channel
+  histograms on raw images.
+- Regenerated `results/shortcut/shortcut_probe.json`, `results/shortcut/colour_raw.csv` and
+  updated `docs/shortcut_analysis.md`.
+
+Results (macro-F1):
+- `background75`: 0.401-0.532, i.e. 10-27 points below full image. The earlier mild
+  `background50` result (0.537-0.621, only 2-13 points below full) was partly an artefact of
+  keeping 75% of the image.
+- Colour-only: 0.246 [0.174, 0.305] vs stratified dummy 0.230; paired delta +0.016
+  [-0.067, 0.112], p=0.789. No simple colour shortcut.
+- Metadata remains the strongest shortcut family (0.343, size/geometry 0.374).
+
+Interpretation: the full-image floor is not explained by metadata or global colour. A residual
+border/crop cue or disease signal extending to the border remains; the crude masks cannot
+disentangle them. Next: label-noise audit, then the fine-tuned baseline.
+
+## 2026-11-03 — Automated label-quality triage
+
+Added `scripts/label_audit.py`, which runs cleanlab confident learning on the pooled P-disjoint
+OOF probabilities from the four frozen-feature probes and aggregates flags across probes.
+
+Inputs: DINOv2 and ResNet-50, 1-NN and linear, 136 labelled raw images, 5x3 OOF predictions.
+Outputs: `results/label_audit.json`, `results/label_audit.csv` and a gitignored review sheet at
+`results/label_audit/contact_sheet.jpg`.
+
+Results:
+- Per-probe flags: DINOv2 1-NN 32, DINOv2 linear 29, ResNet-50 1-NN 50, ResNet-50 linear 28.
+- 23/136 images flagged by at least 3 probes; 35/136 by at least 2.
+- Flag rate by class: Scabies 70%, Dermatitis 54%, Tinea 24%, Vitiligo 9%, Eczema 1.4%.
+- 18/23 high-confidence flags have Eczema as the consensus prediction.
+
+Interpretation: the audit is inconclusive as evidence of label noise. With a 73/136 Eczema
+majority and low minority-class recall, cleanlab is largely re-discovering model confusion. The
+shortlist is useful for clinician review but no images were dropped or relabelled. Repeat the
+audit after the fine-tuned/class-balanced benchmark; flags that survive a stronger model are
+more credible.
+
+Added `cleanlab==2.9.0` to `requirements.txt`, ignored the review-sheet directory, and documented
+the method, tables and caveats in `docs/label_audit.md`.
+
+## 2026-11-03 — Preliminary fine-tuned baseline (CPU)
+
+Added `scripts/train.py`, a timm-based fine-tuning CLI for the P-disjoint splits (raw + tier-A
+derivatives in train, raw-only val/test), and `scripts/summarize_finetuned.py` for pooled OOF
+metrics, group bootstrap and paired comparisons against frozen probes.
+
+Ran ResNet-50 (`resnet50.a1_in1k`) at 128 px, 5 folds x 1 repeat, max 10 epochs, patience 3,
+AdamW lr 3e-4, label smoothing 0.1, batch 32, CPU. About 43 s per epoch.
+
+Results:
+- Per-fold macro-F1: 0.731, 0.572, 0.403, 0.630, 0.518; mean 0.571 +/- 0.123.
+- Pooled OOF macro-F1 0.604 [0.477, 0.702], balanced accuracy 0.564.
+- Per-class recall: Eczema 0.93, Tinea 0.62, Dermatitis 0.62, Vitiligo 0.45, Scabies 0.20.
+- Paired deltas vs frozen probes: -0.019 vs ResNet-50 linear, -0.059 vs DINOv2 linear; all CIs
+  include zero.
+
+Interpretation: pipeline validated, but 128 px / 10 epochs / one repeat / 22-image validation is
+too weak to challenge the frozen probes. Next: 160-224 px, class-balanced sampling, 3 seeds,
+then the broader model zoo. Documented in `docs/finetuned_baseline.md`.
