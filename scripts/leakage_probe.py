@@ -248,31 +248,68 @@ def run_disjoint(
     )
 
 
+def pooled_predictions(predictions: pd.DataFrame) -> pd.DataFrame:
+    prob_cols = [f"prob_{c}" for c in CLASSES]
+    pooled = predictions.groupby("filepath", as_index=False).agg(
+        {**{col: "mean" for col in prob_cols}, "group_id": "first", "y_true": "first"}
+    )
+    pooled["y_pred"] = pooled[prob_cols].idxmax(axis=1).str.removeprefix("prob_")
+    return pooled
+
+
 def run_partial(
     splits: Path, features, index, probe_name, n_boot, n_perm, seed
 ) -> tuple[dict, pd.DataFrame]:
     results: dict[str, dict] = {}
     predictions = {}
+    pooled = {}
     for level in (0, 25, 50, 100):
         directory = splits / "partial" / f"leak{level}"
-        test_path = directory / "fold0_rep0_test.csv"
-        train = pd.read_csv(directory / "fold0_rep0_train.csv")
-        test = pd.read_csv(test_path)
-        frame = predict(make_probe(probe_name), train, test, features, index)
+        rows = []
+        achieved = []
+        for test_path in sorted(directory.glob("fold*_rep*_test.csv")):
+            tag = split_tag(test_path)
+            train = pd.read_csv(directory / f"{tag}_train.csv")
+            test = pd.read_csv(test_path)
+            frame = predict(make_probe(probe_name), train, test, features, index)
+            frame["fold"] = int(tag.split("fold")[1].split("_")[0])
+            frame["repeat"] = int(tag.rsplit("rep", 1)[1])
+            rows.append(frame)
+            achieved.append(json.loads((directory / f"{tag}_meta.json").read_text()))
+
+        frame = pd.concat(rows, ignore_index=True)
         frame["leak_pct"] = level
         predictions[level] = frame
+        pooled[level] = pooled_predictions(frame)
+
+        per_fold = []
+        for fold, fold_frame in frame.groupby("fold"):
+            per_fold.append({"fold": int(fold), **score(fold_frame["y_true"], fold_frame["y_pred"])})
+        per_repeat = []
+        for repeat, repeat_frame in frame.groupby("repeat"):
+            per_repeat.append(
+                {"repeat": int(repeat), **score(repeat_frame["y_true"], repeat_frame["y_pred"])}
+            )
+
         results[str(level)] = {
-            "achieved_leak_pct": json.loads(
-                (directory / "fold0_rep0_meta.json").read_text()
-            )["achieved_leak_pct"],
-            **score(frame["y_true"], frame["y_pred"]),
+            "achieved_leak_pct": round(
+                float(np.mean([m["achieved_leak_pct"] for m in achieved])), 2
+            ),
+            "achieved_leak_pct_by_fold": {
+                f"fold{m['fold']}_rep{m['repeat']}": m["achieved_leak_pct"] for m in achieved
+            },
+            "per_fold": per_fold,
+            "per_repeat": per_repeat,
+            "pooled_oof": score(pooled[level]["y_true"], pooled[level]["y_pred"]),
+            "macro_f1": score(pooled[level]["y_true"], pooled[level]["y_pred"])["macro_f1"],
             "bootstrap": bootstrap(
-                frame["y_true"], frame["y_pred"], frame["group_id"], n_boot, seed
+                pooled[level]["y_true"], pooled[level]["y_pred"],
+                pooled[level]["group_id"], n_boot, seed,
             ),
         }
 
-    low = predictions[0].set_index("filepath")
-    high = predictions[100].set_index("filepath")
+    low = pooled[0].set_index("filepath")
+    high = pooled[100].set_index("filepath")
     common = low.index.intersection(high.index)
     low = low.loc[common]
     high = high.loc[common]

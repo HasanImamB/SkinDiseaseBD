@@ -646,6 +646,496 @@
       "status": "controlled-leakage"
     },
     {
+      "path": "splits/partial/leak0",
+      "tag": "fold0_rep1",
+      "protocol": "partial",
+      "counts": {
+        "train": 1058,
+        "val": 22,
+        "test": 28
+      },
+      "groups": {
+        "train": 57,
+        "val": 15,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 0,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 972,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 0.0,
+      "requested_leak_pct": 0,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak0",
+      "tag": "fold0_rep2",
+      "protocol": "partial",
+      "counts": {
+        "train": 1116,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 58,
+        "val": 15,
+        "test": 17
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 0,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1029,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 0.0,
+      "requested_leak_pct": 0,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak0",
+      "tag": "fold1_rep0",
+      "protocol": "partial",
+      "counts": {
+        "train": 1097,
+        "val": 22,
+        "test": 28
+      },
+      "groups": {
+        "train": 57,
+        "val": 14,
+        "test": 19
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 0,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1011,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 0.0,
+      "requested_leak_pct": 0,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak0",
+      "tag": "fold1_rep1",
+      "protocol": "partial",
+      "counts": {
+        "train": 1039,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 58,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 0,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 952,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 0.0,
+      "requested_leak_pct": 0,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak0",
+      "tag": "fold1_rep2",
+      "protocol": "partial",
+      "counts": {
+        "train": 1041,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 58,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 0,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 954,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 0.0,
+      "requested_leak_pct": 0,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak0",
+      "tag": "fold2_rep0",
+      "protocol": "partial",
+      "counts": {
+        "train": 1039,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 58,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 0,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 952,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 0.0,
+      "requested_leak_pct": 0,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak0",
+      "tag": "fold2_rep1",
+      "protocol": "partial",
+      "counts": {
+        "train": 968,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 58,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 0,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 881,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 0.0,
+      "requested_leak_pct": 0,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak0",
+      "tag": "fold2_rep2",
+      "protocol": "partial",
+      "counts": {
+        "train": 1029,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 58,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 0,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 942,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 0.0,
+      "requested_leak_pct": 0,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak0",
+      "tag": "fold3_rep0",
+      "protocol": "partial",
+      "counts": {
+        "train": 1050,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 58,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 0,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 963,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 0.0,
+      "requested_leak_pct": 0,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak0",
+      "tag": "fold3_rep1",
+      "protocol": "partial",
+      "counts": {
+        "train": 1009,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 58,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 0,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 922,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 0.0,
+      "requested_leak_pct": 0,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak0",
+      "tag": "fold3_rep2",
+      "protocol": "partial",
+      "counts": {
+        "train": 1070,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 58,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 0,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 983,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 0.0,
+      "requested_leak_pct": 0,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak0",
+      "tag": "fold4_rep0",
+      "protocol": "partial",
+      "counts": {
+        "train": 1045,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 58,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 0,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 958,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 0.0,
+      "requested_leak_pct": 0,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak0",
+      "tag": "fold4_rep1",
+      "protocol": "partial",
+      "counts": {
+        "train": 1056,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 58,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 0,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 969,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 0.0,
+      "requested_leak_pct": 0,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak0",
+      "tag": "fold4_rep2",
+      "protocol": "partial",
+      "counts": {
+        "train": 1103,
+        "val": 22,
+        "test": 28
+      },
+      "groups": {
+        "train": 57,
+        "val": 14,
+        "test": 19
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 0,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1017,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 0.0,
+      "requested_leak_pct": 0,
+      "status": "controlled-leakage"
+    },
+    {
       "path": "splits/partial/leak100",
       "tag": "fold0_rep0",
       "protocol": "partial",
@@ -666,6 +1156,496 @@
       },
       "derivatives": {
         "train": 1672,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 100.0,
+      "requested_leak_pct": 100,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak100",
+      "tag": "fold0_rep1",
+      "protocol": "partial",
+      "counts": {
+        "train": 1704,
+        "val": 22,
+        "test": 28
+      },
+      "groups": {
+        "train": 75,
+        "val": 15,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 18,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1618,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 100.0,
+      "requested_leak_pct": 100,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak100",
+      "tag": "fold0_rep2",
+      "protocol": "partial",
+      "counts": {
+        "train": 1702,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 75,
+        "val": 15,
+        "test": 17
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 17,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1615,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 100.0,
+      "requested_leak_pct": 100,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak100",
+      "tag": "fold1_rep0",
+      "protocol": "partial",
+      "counts": {
+        "train": 1694,
+        "val": 22,
+        "test": 28
+      },
+      "groups": {
+        "train": 76,
+        "val": 14,
+        "test": 19
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 19,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1608,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 100.0,
+      "requested_leak_pct": 100,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak100",
+      "tag": "fold1_rep1",
+      "protocol": "partial",
+      "counts": {
+        "train": 1721,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 76,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 18,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1634,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 100.0,
+      "requested_leak_pct": 100,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak100",
+      "tag": "fold1_rep2",
+      "protocol": "partial",
+      "counts": {
+        "train": 1673,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 76,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 18,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1586,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 100.0,
+      "requested_leak_pct": 100,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak100",
+      "tag": "fold2_rep0",
+      "protocol": "partial",
+      "counts": {
+        "train": 1721,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 76,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 18,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1634,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 100.0,
+      "requested_leak_pct": 100,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak100",
+      "tag": "fold2_rep1",
+      "protocol": "partial",
+      "counts": {
+        "train": 1622,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 76,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 18,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1535,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 100.0,
+      "requested_leak_pct": 100,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak100",
+      "tag": "fold2_rep2",
+      "protocol": "partial",
+      "counts": {
+        "train": 1781,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 76,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 18,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1694,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 100.0,
+      "requested_leak_pct": 100,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak100",
+      "tag": "fold3_rep0",
+      "protocol": "partial",
+      "counts": {
+        "train": 1721,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 76,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 18,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1634,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 100.0,
+      "requested_leak_pct": 100,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak100",
+      "tag": "fold3_rep1",
+      "protocol": "partial",
+      "counts": {
+        "train": 1651,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 76,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 18,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1564,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 100.0,
+      "requested_leak_pct": 100,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak100",
+      "tag": "fold3_rep2",
+      "protocol": "partial",
+      "counts": {
+        "train": 1747,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 76,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 18,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1660,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 100.0,
+      "requested_leak_pct": 100,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak100",
+      "tag": "fold4_rep0",
+      "protocol": "partial",
+      "counts": {
+        "train": 1644,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 76,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 18,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1557,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 100.0,
+      "requested_leak_pct": 100,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak100",
+      "tag": "fold4_rep1",
+      "protocol": "partial",
+      "counts": {
+        "train": 1638,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 76,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 18,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1551,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 100.0,
+      "requested_leak_pct": 100,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak100",
+      "tag": "fold4_rep2",
+      "protocol": "partial",
+      "counts": {
+        "train": 1662,
+        "val": 22,
+        "test": 28
+      },
+      "groups": {
+        "train": 76,
+        "val": 14,
+        "test": 19
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 19,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1576,
         "val": 0,
         "test": 0
       },
@@ -716,6 +1696,496 @@
       "status": "controlled-leakage"
     },
     {
+      "path": "splits/partial/leak25",
+      "tag": "fold0_rep1",
+      "protocol": "partial",
+      "counts": {
+        "train": 1166,
+        "val": 22,
+        "test": 28
+      },
+      "groups": {
+        "train": 61,
+        "val": 15,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 4,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1080,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 22.22,
+      "requested_leak_pct": 25,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak25",
+      "tag": "fold0_rep2",
+      "protocol": "partial",
+      "counts": {
+        "train": 1267,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 62,
+        "val": 15,
+        "test": 17
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 4,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1180,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 23.53,
+      "requested_leak_pct": 25,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak25",
+      "tag": "fold1_rep0",
+      "protocol": "partial",
+      "counts": {
+        "train": 1337,
+        "val": 22,
+        "test": 28
+      },
+      "groups": {
+        "train": 62,
+        "val": 14,
+        "test": 19
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 5,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1251,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 26.32,
+      "requested_leak_pct": 25,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak25",
+      "tag": "fold1_rep1",
+      "protocol": "partial",
+      "counts": {
+        "train": 1274,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 62,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 4,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1187,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 22.22,
+      "requested_leak_pct": 25,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak25",
+      "tag": "fold1_rep2",
+      "protocol": "partial",
+      "counts": {
+        "train": 1149,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 62,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 4,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1062,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 22.22,
+      "requested_leak_pct": 25,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak25",
+      "tag": "fold2_rep0",
+      "protocol": "partial",
+      "counts": {
+        "train": 1152,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 62,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 4,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1065,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 22.22,
+      "requested_leak_pct": 25,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak25",
+      "tag": "fold2_rep1",
+      "protocol": "partial",
+      "counts": {
+        "train": 1036,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 62,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 4,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 949,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 22.22,
+      "requested_leak_pct": 25,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak25",
+      "tag": "fold2_rep2",
+      "protocol": "partial",
+      "counts": {
+        "train": 1101,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 62,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 4,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1014,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 22.22,
+      "requested_leak_pct": 25,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak25",
+      "tag": "fold3_rep0",
+      "protocol": "partial",
+      "counts": {
+        "train": 1114,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 62,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 4,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1027,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 22.22,
+      "requested_leak_pct": 25,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak25",
+      "tag": "fold3_rep1",
+      "protocol": "partial",
+      "counts": {
+        "train": 1069,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 62,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 4,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 982,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 22.22,
+      "requested_leak_pct": 25,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak25",
+      "tag": "fold3_rep2",
+      "protocol": "partial",
+      "counts": {
+        "train": 1171,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 62,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 4,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1084,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 22.22,
+      "requested_leak_pct": 25,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak25",
+      "tag": "fold4_rep0",
+      "protocol": "partial",
+      "counts": {
+        "train": 1199,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 62,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 4,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1112,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 22.22,
+      "requested_leak_pct": 25,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak25",
+      "tag": "fold4_rep1",
+      "protocol": "partial",
+      "counts": {
+        "train": 1161,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 62,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 4,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1074,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 22.22,
+      "requested_leak_pct": 25,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak25",
+      "tag": "fold4_rep2",
+      "protocol": "partial",
+      "counts": {
+        "train": 1251,
+        "val": 22,
+        "test": 28
+      },
+      "groups": {
+        "train": 62,
+        "val": 14,
+        "test": 19
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 5,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1165,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 26.32,
+      "requested_leak_pct": 25,
+      "status": "controlled-leakage"
+    },
+    {
       "path": "splits/partial/leak50",
       "tag": "fold0_rep0",
       "protocol": "partial",
@@ -747,6 +2217,496 @@
       "near_duplicate_clusters_crossing": 0,
       "missing_paths": 0,
       "achieved_leak_pct": 47.06,
+      "requested_leak_pct": 50,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak50",
+      "tag": "fold0_rep1",
+      "protocol": "partial",
+      "counts": {
+        "train": 1402,
+        "val": 22,
+        "test": 28
+      },
+      "groups": {
+        "train": 66,
+        "val": 15,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 9,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1316,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 50.0,
+      "requested_leak_pct": 50,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak50",
+      "tag": "fold0_rep2",
+      "protocol": "partial",
+      "counts": {
+        "train": 1370,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 66,
+        "val": 15,
+        "test": 17
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 8,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1283,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 47.06,
+      "requested_leak_pct": 50,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak50",
+      "tag": "fold1_rep0",
+      "protocol": "partial",
+      "counts": {
+        "train": 1375,
+        "val": 22,
+        "test": 28
+      },
+      "groups": {
+        "train": 67,
+        "val": 14,
+        "test": 19
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 10,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1289,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 52.63,
+      "requested_leak_pct": 50,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak50",
+      "tag": "fold1_rep1",
+      "protocol": "partial",
+      "counts": {
+        "train": 1425,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 67,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 9,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1338,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 50.0,
+      "requested_leak_pct": 50,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak50",
+      "tag": "fold1_rep2",
+      "protocol": "partial",
+      "counts": {
+        "train": 1435,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 67,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 9,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1348,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 50.0,
+      "requested_leak_pct": 50,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak50",
+      "tag": "fold2_rep0",
+      "protocol": "partial",
+      "counts": {
+        "train": 1410,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 67,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 9,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1323,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 50.0,
+      "requested_leak_pct": 50,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak50",
+      "tag": "fold2_rep1",
+      "protocol": "partial",
+      "counts": {
+        "train": 1329,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 67,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 9,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1242,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 50.0,
+      "requested_leak_pct": 50,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak50",
+      "tag": "fold2_rep2",
+      "protocol": "partial",
+      "counts": {
+        "train": 1314,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 67,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 9,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1227,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 50.0,
+      "requested_leak_pct": 50,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak50",
+      "tag": "fold3_rep0",
+      "protocol": "partial",
+      "counts": {
+        "train": 1311,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 67,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 9,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1224,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 50.0,
+      "requested_leak_pct": 50,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak50",
+      "tag": "fold3_rep1",
+      "protocol": "partial",
+      "counts": {
+        "train": 1441,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 67,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 9,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1354,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 50.0,
+      "requested_leak_pct": 50,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak50",
+      "tag": "fold3_rep2",
+      "protocol": "partial",
+      "counts": {
+        "train": 1439,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 67,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 9,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1352,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 50.0,
+      "requested_leak_pct": 50,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak50",
+      "tag": "fold4_rep0",
+      "protocol": "partial",
+      "counts": {
+        "train": 1258,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 67,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 9,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1171,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 50.0,
+      "requested_leak_pct": 50,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak50",
+      "tag": "fold4_rep1",
+      "protocol": "partial",
+      "counts": {
+        "train": 1458,
+        "val": 22,
+        "test": 27
+      },
+      "groups": {
+        "train": 67,
+        "val": 14,
+        "test": 18
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 9,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1371,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 50.0,
+      "requested_leak_pct": 50,
+      "status": "controlled-leakage"
+    },
+    {
+      "path": "splits/partial/leak50",
+      "tag": "fold4_rep2",
+      "protocol": "partial",
+      "counts": {
+        "train": 1435,
+        "val": 22,
+        "test": 28
+      },
+      "groups": {
+        "train": 67,
+        "val": 14,
+        "test": 19
+      },
+      "group_overlap": {
+        "train_val": 0,
+        "train_test": 10,
+        "val_test": 0
+      },
+      "derivatives": {
+        "train": 1349,
+        "val": 0,
+        "test": 0
+      },
+      "missing_classes": {
+        "train": [],
+        "val": [],
+        "test": []
+      },
+      "near_duplicate_clusters_crossing": 0,
+      "missing_paths": 0,
+      "achieved_leak_pct": 52.63,
       "requested_leak_pct": 50,
       "status": "controlled-leakage"
     }

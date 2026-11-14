@@ -12,8 +12,7 @@ P-disjoint Source-image-disjoint repeated StratifiedGroupKFold over labelled
            groups only.
 P-partial  Controlled leakage levels (0/25/50/100 % of test groups having
            derivatives in training) for the dose-response analysis. Built from
-           fold 0 / repeat 0 of P-disjoint so that only the leakage level
-           changes.
+           every P-disjoint fold/repeat so that only the leakage level changes.
 
 Inputs
 ------
@@ -23,7 +22,7 @@ Outputs
 -------
 ``splits/<protocol>/fold{k}_rep{r}_{train,val,test}.csv`` (P-disjoint)
 ``splits/leaked/fold0_rep{r}_{train,val,test}.csv`` (P-leaked)
-``splits/partial/leak{l}/fold0_rep0_{train,val,test}.csv`` (P-partial)
+``splits/partial/leak{l}/fold{k}_rep{r}_{train,val,test}.csv`` (P-partial)
 ``results/split_stats.json`` and ``docs/split_stats.md``
 
 CSV columns: filepath, raw_id, group_id, class_label, is_derivative,
@@ -148,32 +147,35 @@ def build_leaked(df, out_dir, repeats, seed, summaries):
 
 
 def build_partial(df, out_dir, folds, repeats, seed, levels, summaries):
-    base = next(disjoint_folds(df, folds, repeats=repeats, seed=seed))
-    k, rep, base_train, base_val, test_raw, _ = base
-    test_groups = sorted(test_raw["group_id"].unique())
-    rng = np.random.default_rng(seed)
-    for level in levels:
-        n_leak = 0 if level == 0 else max(1, int(round(len(test_groups) * level / 100)))
-        chosen = set(rng.choice(test_groups, size=n_leak, replace=False)) if n_leak else set()
-        leak = df[df["is_derivative"] & df["group_id"].isin(chosen)]
-        train = pd.concat([base_train, leak]).drop_duplicates("path")
-        leak_groups = set(test_groups) & set(chosen)
-        achieved = len(leak_groups) / len(test_groups) if test_groups else 0.0
-        meta = {
-            "protocol": "P-partial",
-            "fold": k,
-            "repeat": rep,
-            "seed": seed,
-            "requested_leak_pct": level,
-            "achieved_leak_pct": round(100 * achieved, 2),
-            "leaked_test_groups": len(leak_groups),
-            "test_groups": len(test_groups),
-            "note": "leakage is intentional; do not use for headline metrics",
-        }
-        write_triplet(
-            out_dir / f"leak{level}", f"fold{k}_rep{rep}",
-            train, base_val, test_raw, meta, summaries,
-        )
+    for k, rep, base_train, base_val, test_raw, _ in disjoint_folds(
+        df, folds, repeats=repeats, seed=seed
+    ):
+        test_groups = sorted(test_raw["group_id"].unique())
+        rng = np.random.default_rng(seed + 1000 * rep + k)
+        for level in levels:
+            n_leak = 0 if level == 0 else max(1, int(round(len(test_groups) * level / 100)))
+            chosen = (
+                set(rng.choice(test_groups, size=n_leak, replace=False)) if n_leak else set()
+            )
+            leak = df[df["is_derivative"] & df["group_id"].isin(chosen)]
+            train = pd.concat([base_train, leak]).drop_duplicates("path")
+            leak_groups = set(test_groups) & set(chosen)
+            achieved = len(leak_groups) / len(test_groups) if test_groups else 0.0
+            meta = {
+                "protocol": "P-partial",
+                "fold": k,
+                "repeat": rep,
+                "seed": seed + rep,
+                "requested_leak_pct": level,
+                "achieved_leak_pct": round(100 * achieved, 2),
+                "leaked_test_groups": len(leak_groups),
+                "test_groups": len(test_groups),
+                "note": "leakage is intentional; do not use for headline metrics",
+            }
+            write_triplet(
+                out_dir / f"leak{level}", f"fold{k}_rep{rep}",
+                train, base_val, test_raw, meta, summaries,
+            )
 
 
 def write_report(results: Path, summaries: list, metadata: dict) -> None:

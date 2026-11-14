@@ -43,870 +43,6 @@
   },
   "splits": [
     {
-      "protocol": "leaked",
-      "tag": "fold0_rep0",
-      "role": "train",
-      "images": 1128,
-      "raw": 0,
-      "derivatives": 1128,
-      "groups": 97,
-      "classes": {
-        "Dermatitis": 211,
-        "Eczema": 267,
-        "Scabies": 211,
-        "Tinea Ringworm": 221,
-        "Vitiligo": 218
-      }
-    },
-    {
-      "protocol": "leaked",
-      "tag": "fold0_rep0",
-      "role": "val",
-      "images": 242,
-      "raw": 0,
-      "derivatives": 242,
-      "groups": 75,
-      "classes": {
-        "Dermatitis": 46,
-        "Eczema": 57,
-        "Scabies": 45,
-        "Tinea Ringworm": 47,
-        "Vitiligo": 47
-      }
-    },
-    {
-      "protocol": "leaked",
-      "tag": "fold0_rep0",
-      "role": "test",
-      "images": 242,
-      "raw": 0,
-      "derivatives": 242,
-      "groups": 83,
-      "classes": {
-        "Dermatitis": 45,
-        "Eczema": 57,
-        "Scabies": 45,
-        "Tinea Ringworm": 48,
-        "Vitiligo": 47
-      }
-    },
-    {
-      "protocol": "leaked",
-      "tag": "fold0_rep1",
-      "role": "train",
-      "images": 1128,
-      "raw": 0,
-      "derivatives": 1128,
-      "groups": 96,
-      "classes": {
-        "Dermatitis": 211,
-        "Eczema": 267,
-        "Scabies": 211,
-        "Tinea Ringworm": 221,
-        "Vitiligo": 218
-      }
-    },
-    {
-      "protocol": "leaked",
-      "tag": "fold0_rep1",
-      "role": "val",
-      "images": 242,
-      "raw": 0,
-      "derivatives": 242,
-      "groups": 74,
-      "classes": {
-        "Dermatitis": 46,
-        "Eczema": 57,
-        "Scabies": 45,
-        "Tinea Ringworm": 47,
-        "Vitiligo": 47
-      }
-    },
-    {
-      "protocol": "leaked",
-      "tag": "fold0_rep1",
-      "role": "test",
-      "images": 242,
-      "raw": 0,
-      "derivatives": 242,
-      "groups": 78,
-      "classes": {
-        "Dermatitis": 45,
-        "Eczema": 57,
-        "Scabies": 45,
-        "Tinea Ringworm": 48,
-        "Vitiligo": 47
-      }
-    },
-    {
-      "protocol": "leaked",
-      "tag": "fold0_rep2",
-      "role": "train",
-      "images": 1128,
-      "raw": 0,
-      "derivatives": 1128,
-      "groups": 99,
-      "classes": {
-        "Dermatitis": 211,
-        "Eczema": 267,
-        "Scabies": 211,
-        "Tinea Ringworm": 221,
-        "Vitiligo": 218
-      }
-    },
-    {
-      "protocol": "leaked",
-      "tag": "fold0_rep2",
-      "role": "val",
-      "images": 242,
-      "raw": 0,
-      "derivatives": 242,
-      "groups": 74,
-      "classes": {
-        "Dermatitis": 46,
-        "Eczema": 57,
-        "Scabies": 45,
-        "Tinea Ringworm": 47,
-        "Vitiligo": 47
-      }
-    },
-    {
-      "protocol": "leaked",
-      "tag": "fold0_rep2",
-      "role": "test",
-      "images": 242,
-      "raw": 0,
-      "derivatives": 242,
-      "groups": 76,
-      "classes": {
-        "Dermatitis": 45,
-        "Eczema": 57,
-        "Scabies": 45,
-        "Tinea Ringworm": 48,
-        "Vitiligo": 47
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold0_rep0",
-      "role": "train",
-      "images": 1102,
-      "raw": 87,
-      "derivatives": 1015,
-      "groups": 58,
-      "classes": {
-        "Dermatitis": 192,
-        "Eczema": 297,
-        "Scabies": 200,
-        "Tinea Ringworm": 158,
-        "Vitiligo": 255
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold0_rep0",
-      "role": "val",
-      "images": 22,
-      "raw": 22,
-      "derivatives": 0,
-      "groups": 15,
-      "classes": {
-        "Dermatitis": 2,
-        "Eczema": 12,
-        "Scabies": 2,
-        "Tinea Ringworm": 5,
-        "Vitiligo": 1
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold0_rep0",
-      "role": "test",
-      "images": 27,
-      "raw": 27,
-      "derivatives": 0,
-      "groups": 17,
-      "classes": {
-        "Dermatitis": 3,
-        "Eczema": 14,
-        "Scabies": 2,
-        "Tinea Ringworm": 6,
-        "Vitiligo": 2
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold1_rep0",
-      "role": "train",
-      "images": 1097,
-      "raw": 86,
-      "derivatives": 1011,
-      "groups": 57,
-      "classes": {
-        "Dermatitis": 188,
-        "Eczema": 280,
-        "Scabies": 208,
-        "Tinea Ringworm": 208,
-        "Vitiligo": 213
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold1_rep0",
-      "role": "val",
-      "images": 22,
-      "raw": 22,
-      "derivatives": 0,
-      "groups": 14,
-      "classes": {
-        "Dermatitis": 1,
-        "Eczema": 12,
-        "Scabies": 2,
-        "Tinea Ringworm": 5,
-        "Vitiligo": 2
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold1_rep0",
-      "role": "test",
-      "images": 28,
-      "raw": 28,
-      "derivatives": 0,
-      "groups": 19,
-      "classes": {
-        "Dermatitis": 3,
-        "Eczema": 15,
-        "Scabies": 2,
-        "Tinea Ringworm": 6,
-        "Vitiligo": 2
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold2_rep0",
-      "role": "train",
-      "images": 1039,
-      "raw": 87,
-      "derivatives": 952,
-      "groups": 58,
-      "classes": {
-        "Dermatitis": 175,
-        "Eczema": 235,
-        "Scabies": 212,
-        "Tinea Ringworm": 192,
-        "Vitiligo": 225
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold2_rep0",
-      "role": "val",
-      "images": 22,
-      "raw": 22,
-      "derivatives": 0,
-      "groups": 14,
-      "classes": {
-        "Dermatitis": 2,
-        "Eczema": 12,
-        "Scabies": 2,
-        "Tinea Ringworm": 4,
-        "Vitiligo": 2
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold2_rep0",
-      "role": "test",
-      "images": 27,
-      "raw": 27,
-      "derivatives": 0,
-      "groups": 18,
-      "classes": {
-        "Dermatitis": 3,
-        "Eczema": 15,
-        "Scabies": 2,
-        "Tinea Ringworm": 5,
-        "Vitiligo": 2
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold3_rep0",
-      "role": "train",
-      "images": 1050,
-      "raw": 87,
-      "derivatives": 963,
-      "groups": 58,
-      "classes": {
-        "Dermatitis": 165,
-        "Eczema": 269,
-        "Scabies": 248,
-        "Tinea Ringworm": 160,
-        "Vitiligo": 208
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold3_rep0",
-      "role": "val",
-      "images": 22,
-      "raw": 22,
-      "derivatives": 0,
-      "groups": 14,
-      "classes": {
-        "Dermatitis": 2,
-        "Eczema": 12,
-        "Scabies": 1,
-        "Tinea Ringworm": 5,
-        "Vitiligo": 2
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold3_rep0",
-      "role": "test",
-      "images": 27,
-      "raw": 27,
-      "derivatives": 0,
-      "groups": 18,
-      "classes": {
-        "Dermatitis": 2,
-        "Eczema": 15,
-        "Scabies": 2,
-        "Tinea Ringworm": 6,
-        "Vitiligo": 2
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold4_rep0",
-      "role": "train",
-      "images": 1045,
-      "raw": 87,
-      "derivatives": 958,
-      "groups": 58,
-      "classes": {
-        "Dermatitis": 146,
-        "Eczema": 284,
-        "Scabies": 236,
-        "Tinea Ringworm": 194,
-        "Vitiligo": 185
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold4_rep0",
-      "role": "val",
-      "images": 22,
-      "raw": 22,
-      "derivatives": 0,
-      "groups": 14,
-      "classes": {
-        "Dermatitis": 2,
-        "Eczema": 12,
-        "Scabies": 1,
-        "Tinea Ringworm": 5,
-        "Vitiligo": 2
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold4_rep0",
-      "role": "test",
-      "images": 27,
-      "raw": 27,
-      "derivatives": 0,
-      "groups": 18,
-      "classes": {
-        "Dermatitis": 2,
-        "Eczema": 14,
-        "Scabies": 2,
-        "Tinea Ringworm": 6,
-        "Vitiligo": 3
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold0_rep1",
-      "role": "train",
-      "images": 1058,
-      "raw": 86,
-      "derivatives": 972,
-      "groups": 57,
-      "classes": {
-        "Dermatitis": 158,
-        "Eczema": 271,
-        "Scabies": 243,
-        "Tinea Ringworm": 179,
-        "Vitiligo": 207
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold0_rep1",
-      "role": "val",
-      "images": 22,
-      "raw": 22,
-      "derivatives": 0,
-      "groups": 15,
-      "classes": {
-        "Dermatitis": 2,
-        "Eczema": 12,
-        "Scabies": 1,
-        "Tinea Ringworm": 5,
-        "Vitiligo": 2
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold0_rep1",
-      "role": "test",
-      "images": 28,
-      "raw": 28,
-      "derivatives": 0,
-      "groups": 18,
-      "classes": {
-        "Dermatitis": 3,
-        "Eczema": 15,
-        "Scabies": 2,
-        "Tinea Ringworm": 6,
-        "Vitiligo": 2
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold1_rep1",
-      "role": "train",
-      "images": 1039,
-      "raw": 87,
-      "derivatives": 952,
-      "groups": 58,
-      "classes": {
-        "Dermatitis": 122,
-        "Eczema": 289,
-        "Scabies": 207,
-        "Tinea Ringworm": 190,
-        "Vitiligo": 231
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold1_rep1",
-      "role": "val",
-      "images": 22,
-      "raw": 22,
-      "derivatives": 0,
-      "groups": 14,
-      "classes": {
-        "Dermatitis": 2,
-        "Eczema": 12,
-        "Scabies": 2,
-        "Tinea Ringworm": 4,
-        "Vitiligo": 2
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold1_rep1",
-      "role": "test",
-      "images": 27,
-      "raw": 27,
-      "derivatives": 0,
-      "groups": 18,
-      "classes": {
-        "Dermatitis": 3,
-        "Eczema": 14,
-        "Scabies": 2,
-        "Tinea Ringworm": 6,
-        "Vitiligo": 2
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold2_rep1",
-      "role": "train",
-      "images": 968,
-      "raw": 87,
-      "derivatives": 881,
-      "groups": 58,
-      "classes": {
-        "Dermatitis": 140,
-        "Eczema": 289,
-        "Scabies": 200,
-        "Tinea Ringworm": 162,
-        "Vitiligo": 177
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold2_rep1",
-      "role": "val",
-      "images": 22,
-      "raw": 22,
-      "derivatives": 0,
-      "groups": 14,
-      "classes": {
-        "Dermatitis": 2,
-        "Eczema": 11,
-        "Scabies": 2,
-        "Tinea Ringworm": 5,
-        "Vitiligo": 2
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold2_rep1",
-      "role": "test",
-      "images": 27,
-      "raw": 27,
-      "derivatives": 0,
-      "groups": 18,
-      "classes": {
-        "Dermatitis": 2,
-        "Eczema": 14,
-        "Scabies": 2,
-        "Tinea Ringworm": 6,
-        "Vitiligo": 3
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold3_rep1",
-      "role": "train",
-      "images": 1009,
-      "raw": 87,
-      "derivatives": 922,
-      "groups": 58,
-      "classes": {
-        "Dermatitis": 129,
-        "Eczema": 292,
-        "Scabies": 197,
-        "Tinea Ringworm": 169,
-        "Vitiligo": 222
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold3_rep1",
-      "role": "val",
-      "images": 22,
-      "raw": 22,
-      "derivatives": 0,
-      "groups": 14,
-      "classes": {
-        "Dermatitis": 2,
-        "Eczema": 11,
-        "Scabies": 2,
-        "Tinea Ringworm": 5,
-        "Vitiligo": 2
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold3_rep1",
-      "role": "test",
-      "images": 27,
-      "raw": 27,
-      "derivatives": 0,
-      "groups": 18,
-      "classes": {
-        "Dermatitis": 3,
-        "Eczema": 15,
-        "Scabies": 2,
-        "Tinea Ringworm": 5,
-        "Vitiligo": 2
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold4_rep1",
-      "role": "train",
-      "images": 1056,
-      "raw": 87,
-      "derivatives": 969,
-      "groups": 58,
-      "classes": {
-        "Dermatitis": 177,
-        "Eczema": 247,
-        "Scabies": 209,
-        "Tinea Ringworm": 184,
-        "Vitiligo": 239
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold4_rep1",
-      "role": "val",
-      "images": 22,
-      "raw": 22,
-      "derivatives": 0,
-      "groups": 14,
-      "classes": {
-        "Dermatitis": 2,
-        "Eczema": 12,
-        "Scabies": 2,
-        "Tinea Ringworm": 4,
-        "Vitiligo": 2
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold4_rep1",
-      "role": "test",
-      "images": 27,
-      "raw": 27,
-      "derivatives": 0,
-      "groups": 18,
-      "classes": {
-        "Dermatitis": 2,
-        "Eczema": 15,
-        "Scabies": 2,
-        "Tinea Ringworm": 6,
-        "Vitiligo": 2
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold0_rep2",
-      "role": "train",
-      "images": 1116,
-      "raw": 87,
-      "derivatives": 1029,
-      "groups": 58,
-      "classes": {
-        "Dermatitis": 186,
-        "Eczema": 292,
-        "Scabies": 242,
-        "Tinea Ringworm": 173,
-        "Vitiligo": 223
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold0_rep2",
-      "role": "val",
-      "images": 22,
-      "raw": 22,
-      "derivatives": 0,
-      "groups": 15,
-      "classes": {
-        "Dermatitis": 2,
-        "Eczema": 12,
-        "Scabies": 1,
-        "Tinea Ringworm": 5,
-        "Vitiligo": 2
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold0_rep2",
-      "role": "test",
-      "images": 27,
-      "raw": 27,
-      "derivatives": 0,
-      "groups": 17,
-      "classes": {
-        "Dermatitis": 3,
-        "Eczema": 14,
-        "Scabies": 2,
-        "Tinea Ringworm": 6,
-        "Vitiligo": 2
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold1_rep2",
-      "role": "train",
-      "images": 1041,
-      "raw": 87,
-      "derivatives": 954,
-      "groups": 58,
-      "classes": {
-        "Dermatitis": 140,
-        "Eczema": 259,
-        "Scabies": 239,
-        "Tinea Ringworm": 182,
-        "Vitiligo": 221
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold1_rep2",
-      "role": "val",
-      "images": 22,
-      "raw": 22,
-      "derivatives": 0,
-      "groups": 14,
-      "classes": {
-        "Dermatitis": 2,
-        "Eczema": 12,
-        "Scabies": 1,
-        "Tinea Ringworm": 5,
-        "Vitiligo": 2
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold1_rep2",
-      "role": "test",
-      "images": 27,
-      "raw": 27,
-      "derivatives": 0,
-      "groups": 18,
-      "classes": {
-        "Dermatitis": 2,
-        "Eczema": 15,
-        "Scabies": 2,
-        "Tinea Ringworm": 6,
-        "Vitiligo": 2
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold2_rep2",
-      "role": "train",
-      "images": 1029,
-      "raw": 87,
-      "derivatives": 942,
-      "groups": 58,
-      "classes": {
-        "Dermatitis": 131,
-        "Eczema": 249,
-        "Scabies": 238,
-        "Tinea Ringworm": 186,
-        "Vitiligo": 225
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold2_rep2",
-      "role": "val",
-      "images": 22,
-      "raw": 22,
-      "derivatives": 0,
-      "groups": 14,
-      "classes": {
-        "Dermatitis": 2,
-        "Eczema": 12,
-        "Scabies": 1,
-        "Tinea Ringworm": 5,
-        "Vitiligo": 2
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold2_rep2",
-      "role": "test",
-      "images": 27,
-      "raw": 27,
-      "derivatives": 0,
-      "groups": 18,
-      "classes": {
-        "Dermatitis": 3,
-        "Eczema": 15,
-        "Scabies": 2,
-        "Tinea Ringworm": 5,
-        "Vitiligo": 2
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold3_rep2",
-      "role": "train",
-      "images": 1070,
-      "raw": 87,
-      "derivatives": 983,
-      "groups": 58,
-      "classes": {
-        "Dermatitis": 164,
-        "Eczema": 279,
-        "Scabies": 236,
-        "Tinea Ringworm": 186,
-        "Vitiligo": 205
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold3_rep2",
-      "role": "val",
-      "images": 22,
-      "raw": 22,
-      "derivatives": 0,
-      "groups": 14,
-      "classes": {
-        "Dermatitis": 2,
-        "Eczema": 12,
-        "Scabies": 1,
-        "Tinea Ringworm": 5,
-        "Vitiligo": 2
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold3_rep2",
-      "role": "test",
-      "images": 27,
-      "raw": 27,
-      "derivatives": 0,
-      "groups": 18,
-      "classes": {
-        "Dermatitis": 2,
-        "Eczema": 14,
-        "Scabies": 2,
-        "Tinea Ringworm": 6,
-        "Vitiligo": 3
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold4_rep2",
-      "role": "train",
-      "images": 1103,
-      "raw": 86,
-      "derivatives": 1017,
-      "groups": 57,
-      "classes": {
-        "Dermatitis": 123,
-        "Eczema": 289,
-        "Scabies": 239,
-        "Tinea Ringworm": 228,
-        "Vitiligo": 224
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold4_rep2",
-      "role": "val",
-      "images": 22,
-      "raw": 22,
-      "derivatives": 0,
-      "groups": 14,
-      "classes": {
-        "Dermatitis": 2,
-        "Eczema": 12,
-        "Scabies": 1,
-        "Tinea Ringworm": 5,
-        "Vitiligo": 2
-      }
-    },
-    {
-      "protocol": "disjoint",
-      "tag": "fold4_rep2",
-      "role": "test",
-      "images": 28,
-      "raw": 28,
-      "derivatives": 0,
-      "groups": 19,
-      "classes": {
-        "Dermatitis": 3,
-        "Eczema": 15,
-        "Scabies": 2,
-        "Tinea Ringworm": 6,
-        "Vitiligo": 2
-      }
-    },
-    {
       "protocol": "leak0",
       "tag": "fold0_rep0",
       "role": "train",
@@ -1093,6 +229,2694 @@
       "classes": {
         "Dermatitis": 3,
         "Eczema": 14,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold1_rep0",
+      "role": "train",
+      "images": 1097,
+      "raw": 86,
+      "derivatives": 1011,
+      "groups": 57,
+      "classes": {
+        "Dermatitis": 188,
+        "Eczema": 280,
+        "Scabies": 208,
+        "Tinea Ringworm": 208,
+        "Vitiligo": 213
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold1_rep0",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 1,
+        "Eczema": 12,
+        "Scabies": 2,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold1_rep0",
+      "role": "test",
+      "images": 28,
+      "raw": 28,
+      "derivatives": 0,
+      "groups": 19,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold1_rep0",
+      "role": "train",
+      "images": 1337,
+      "raw": 86,
+      "derivatives": 1251,
+      "groups": 62,
+      "classes": {
+        "Dermatitis": 188,
+        "Eczema": 296,
+        "Scabies": 324,
+        "Tinea Ringworm": 257,
+        "Vitiligo": 272
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold1_rep0",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 1,
+        "Eczema": 12,
+        "Scabies": 2,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold1_rep0",
+      "role": "test",
+      "images": 28,
+      "raw": 28,
+      "derivatives": 0,
+      "groups": 19,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold1_rep0",
+      "role": "train",
+      "images": 1375,
+      "raw": 86,
+      "derivatives": 1289,
+      "groups": 67,
+      "classes": {
+        "Dermatitis": 188,
+        "Eczema": 360,
+        "Scabies": 270,
+        "Tinea Ringworm": 222,
+        "Vitiligo": 335
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold1_rep0",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 1,
+        "Eczema": 12,
+        "Scabies": 2,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold1_rep0",
+      "role": "test",
+      "images": 28,
+      "raw": 28,
+      "derivatives": 0,
+      "groups": 19,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold1_rep0",
+      "role": "train",
+      "images": 1694,
+      "raw": 86,
+      "derivatives": 1608,
+      "groups": 76,
+      "classes": {
+        "Dermatitis": 248,
+        "Eczema": 433,
+        "Scabies": 328,
+        "Tinea Ringworm": 348,
+        "Vitiligo": 337
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold1_rep0",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 1,
+        "Eczema": 12,
+        "Scabies": 2,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold1_rep0",
+      "role": "test",
+      "images": 28,
+      "raw": 28,
+      "derivatives": 0,
+      "groups": 19,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold2_rep0",
+      "role": "train",
+      "images": 1039,
+      "raw": 87,
+      "derivatives": 952,
+      "groups": 58,
+      "classes": {
+        "Dermatitis": 175,
+        "Eczema": 235,
+        "Scabies": 212,
+        "Tinea Ringworm": 192,
+        "Vitiligo": 225
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold2_rep0",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 2,
+        "Tinea Ringworm": 4,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold2_rep0",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold2_rep0",
+      "role": "train",
+      "images": 1152,
+      "raw": 87,
+      "derivatives": 1065,
+      "groups": 62,
+      "classes": {
+        "Dermatitis": 176,
+        "Eczema": 317,
+        "Scabies": 214,
+        "Tinea Ringworm": 217,
+        "Vitiligo": 228
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold2_rep0",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 2,
+        "Tinea Ringworm": 4,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold2_rep0",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold2_rep0",
+      "role": "train",
+      "images": 1410,
+      "raw": 87,
+      "derivatives": 1323,
+      "groups": 67,
+      "classes": {
+        "Dermatitis": 349,
+        "Eczema": 345,
+        "Scabies": 214,
+        "Tinea Ringworm": 222,
+        "Vitiligo": 280
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold2_rep0",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 2,
+        "Tinea Ringworm": 4,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold2_rep0",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold2_rep0",
+      "role": "train",
+      "images": 1721,
+      "raw": 87,
+      "derivatives": 1634,
+      "groups": 76,
+      "classes": {
+        "Dermatitis": 349,
+        "Eczema": 411,
+        "Scabies": 327,
+        "Tinea Ringworm": 299,
+        "Vitiligo": 335
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold2_rep0",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 2,
+        "Tinea Ringworm": 4,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold2_rep0",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold3_rep0",
+      "role": "train",
+      "images": 1050,
+      "raw": 87,
+      "derivatives": 963,
+      "groups": 58,
+      "classes": {
+        "Dermatitis": 165,
+        "Eczema": 269,
+        "Scabies": 248,
+        "Tinea Ringworm": 160,
+        "Vitiligo": 208
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold3_rep0",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold3_rep0",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold3_rep0",
+      "role": "train",
+      "images": 1114,
+      "raw": 87,
+      "derivatives": 1027,
+      "groups": 62,
+      "classes": {
+        "Dermatitis": 165,
+        "Eczema": 332,
+        "Scabies": 248,
+        "Tinea Ringworm": 161,
+        "Vitiligo": 208
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold3_rep0",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold3_rep0",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold3_rep0",
+      "role": "train",
+      "images": 1311,
+      "raw": 87,
+      "derivatives": 1224,
+      "groups": 67,
+      "classes": {
+        "Dermatitis": 165,
+        "Eczema": 352,
+        "Scabies": 248,
+        "Tinea Ringworm": 282,
+        "Vitiligo": 264
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold3_rep0",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold3_rep0",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold3_rep0",
+      "role": "train",
+      "images": 1721,
+      "raw": 87,
+      "derivatives": 1634,
+      "groups": 76,
+      "classes": {
+        "Dermatitis": 286,
+        "Eczema": 440,
+        "Scabies": 371,
+        "Tinea Ringworm": 307,
+        "Vitiligo": 317
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold3_rep0",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold3_rep0",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold4_rep0",
+      "role": "train",
+      "images": 1045,
+      "raw": 87,
+      "derivatives": 958,
+      "groups": 58,
+      "classes": {
+        "Dermatitis": 146,
+        "Eczema": 284,
+        "Scabies": 236,
+        "Tinea Ringworm": 194,
+        "Vitiligo": 185
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold4_rep0",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold4_rep0",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 14,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 3
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold4_rep0",
+      "role": "train",
+      "images": 1199,
+      "raw": 87,
+      "derivatives": 1112,
+      "groups": 62,
+      "classes": {
+        "Dermatitis": 204,
+        "Eczema": 319,
+        "Scabies": 296,
+        "Tinea Ringworm": 195,
+        "Vitiligo": 185
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold4_rep0",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold4_rep0",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 14,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 3
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold4_rep0",
+      "role": "train",
+      "images": 1258,
+      "raw": 87,
+      "derivatives": 1171,
+      "groups": 67,
+      "classes": {
+        "Dermatitis": 204,
+        "Eczema": 354,
+        "Scabies": 236,
+        "Tinea Ringworm": 222,
+        "Vitiligo": 242
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold4_rep0",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold4_rep0",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 14,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 3
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold4_rep0",
+      "role": "train",
+      "images": 1644,
+      "raw": 87,
+      "derivatives": 1557,
+      "groups": 76,
+      "classes": {
+        "Dermatitis": 271,
+        "Eczema": 411,
+        "Scabies": 355,
+        "Tinea Ringworm": 252,
+        "Vitiligo": 355
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold4_rep0",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold4_rep0",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 14,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 3
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold0_rep1",
+      "role": "train",
+      "images": 1058,
+      "raw": 86,
+      "derivatives": 972,
+      "groups": 57,
+      "classes": {
+        "Dermatitis": 158,
+        "Eczema": 271,
+        "Scabies": 243,
+        "Tinea Ringworm": 179,
+        "Vitiligo": 207
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold0_rep1",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 15,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold0_rep1",
+      "role": "test",
+      "images": 28,
+      "raw": 28,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold0_rep1",
+      "role": "train",
+      "images": 1166,
+      "raw": 86,
+      "derivatives": 1080,
+      "groups": 61,
+      "classes": {
+        "Dermatitis": 158,
+        "Eczema": 288,
+        "Scabies": 243,
+        "Tinea Ringworm": 270,
+        "Vitiligo": 207
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold0_rep1",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 15,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold0_rep1",
+      "role": "test",
+      "images": 28,
+      "raw": 28,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold0_rep1",
+      "role": "train",
+      "images": 1402,
+      "raw": 86,
+      "derivatives": 1316,
+      "groups": 66,
+      "classes": {
+        "Dermatitis": 218,
+        "Eczema": 337,
+        "Scabies": 301,
+        "Tinea Ringworm": 281,
+        "Vitiligo": 265
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold0_rep1",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 15,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold0_rep1",
+      "role": "test",
+      "images": 28,
+      "raw": 28,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold0_rep1",
+      "role": "train",
+      "images": 1704,
+      "raw": 86,
+      "derivatives": 1618,
+      "groups": 75,
+      "classes": {
+        "Dermatitis": 219,
+        "Eczema": 448,
+        "Scabies": 361,
+        "Tinea Ringworm": 347,
+        "Vitiligo": 329
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold0_rep1",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 15,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold0_rep1",
+      "role": "test",
+      "images": 28,
+      "raw": 28,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold1_rep1",
+      "role": "train",
+      "images": 1039,
+      "raw": 87,
+      "derivatives": 952,
+      "groups": 58,
+      "classes": {
+        "Dermatitis": 122,
+        "Eczema": 289,
+        "Scabies": 207,
+        "Tinea Ringworm": 190,
+        "Vitiligo": 231
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold1_rep1",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 2,
+        "Tinea Ringworm": 4,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold1_rep1",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 14,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold1_rep1",
+      "role": "train",
+      "images": 1274,
+      "raw": 87,
+      "derivatives": 1187,
+      "groups": 62,
+      "classes": {
+        "Dermatitis": 299,
+        "Eczema": 292,
+        "Scabies": 262,
+        "Tinea Ringworm": 190,
+        "Vitiligo": 231
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold1_rep1",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 2,
+        "Tinea Ringworm": 4,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold1_rep1",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 14,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold1_rep1",
+      "role": "train",
+      "images": 1425,
+      "raw": 87,
+      "derivatives": 1338,
+      "groups": 67,
+      "classes": {
+        "Dermatitis": 299,
+        "Eczema": 350,
+        "Scabies": 262,
+        "Tinea Ringworm": 238,
+        "Vitiligo": 276
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold1_rep1",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 2,
+        "Tinea Ringworm": 4,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold1_rep1",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 14,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold1_rep1",
+      "role": "train",
+      "images": 1721,
+      "raw": 87,
+      "derivatives": 1634,
+      "groups": 76,
+      "classes": {
+        "Dermatitis": 299,
+        "Eczema": 413,
+        "Scabies": 320,
+        "Tinea Ringworm": 364,
+        "Vitiligo": 325
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold1_rep1",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 2,
+        "Tinea Ringworm": 4,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold1_rep1",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 14,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold2_rep1",
+      "role": "train",
+      "images": 968,
+      "raw": 87,
+      "derivatives": 881,
+      "groups": 58,
+      "classes": {
+        "Dermatitis": 140,
+        "Eczema": 289,
+        "Scabies": 200,
+        "Tinea Ringworm": 162,
+        "Vitiligo": 177
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold2_rep1",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 11,
+        "Scabies": 2,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold2_rep1",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 14,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 3
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold2_rep1",
+      "role": "train",
+      "images": 1036,
+      "raw": 87,
+      "derivatives": 949,
+      "groups": 62,
+      "classes": {
+        "Dermatitis": 140,
+        "Eczema": 328,
+        "Scabies": 200,
+        "Tinea Ringworm": 191,
+        "Vitiligo": 177
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold2_rep1",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 11,
+        "Scabies": 2,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold2_rep1",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 14,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 3
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold2_rep1",
+      "role": "train",
+      "images": 1329,
+      "raw": 87,
+      "derivatives": 1242,
+      "groups": 67,
+      "classes": {
+        "Dermatitis": 207,
+        "Eczema": 353,
+        "Scabies": 262,
+        "Tinea Ringworm": 217,
+        "Vitiligo": 290
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold2_rep1",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 11,
+        "Scabies": 2,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold2_rep1",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 14,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 3
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold2_rep1",
+      "role": "train",
+      "images": 1622,
+      "raw": 87,
+      "derivatives": 1535,
+      "groups": 76,
+      "classes": {
+        "Dermatitis": 272,
+        "Eczema": 427,
+        "Scabies": 325,
+        "Tinea Ringworm": 251,
+        "Vitiligo": 347
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold2_rep1",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 11,
+        "Scabies": 2,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold2_rep1",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 14,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 3
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold3_rep1",
+      "role": "train",
+      "images": 1009,
+      "raw": 87,
+      "derivatives": 922,
+      "groups": 58,
+      "classes": {
+        "Dermatitis": 129,
+        "Eczema": 292,
+        "Scabies": 197,
+        "Tinea Ringworm": 169,
+        "Vitiligo": 222
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold3_rep1",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 11,
+        "Scabies": 2,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold3_rep1",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold3_rep1",
+      "role": "train",
+      "images": 1069,
+      "raw": 87,
+      "derivatives": 982,
+      "groups": 62,
+      "classes": {
+        "Dermatitis": 129,
+        "Eczema": 352,
+        "Scabies": 197,
+        "Tinea Ringworm": 169,
+        "Vitiligo": 222
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold3_rep1",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 11,
+        "Scabies": 2,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold3_rep1",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold3_rep1",
+      "role": "train",
+      "images": 1441,
+      "raw": 87,
+      "derivatives": 1354,
+      "groups": 67,
+      "classes": {
+        "Dermatitis": 302,
+        "Eczema": 371,
+        "Scabies": 318,
+        "Tinea Ringworm": 169,
+        "Vitiligo": 281
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold3_rep1",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 11,
+        "Scabies": 2,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold3_rep1",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold3_rep1",
+      "role": "train",
+      "images": 1651,
+      "raw": 87,
+      "derivatives": 1564,
+      "groups": 76,
+      "classes": {
+        "Dermatitis": 302,
+        "Eczema": 443,
+        "Scabies": 318,
+        "Tinea Ringworm": 248,
+        "Vitiligo": 340
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold3_rep1",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 11,
+        "Scabies": 2,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold3_rep1",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold4_rep1",
+      "role": "train",
+      "images": 1056,
+      "raw": 87,
+      "derivatives": 969,
+      "groups": 58,
+      "classes": {
+        "Dermatitis": 177,
+        "Eczema": 247,
+        "Scabies": 209,
+        "Tinea Ringworm": 184,
+        "Vitiligo": 239
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold4_rep1",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 2,
+        "Tinea Ringworm": 4,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold4_rep1",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold4_rep1",
+      "role": "train",
+      "images": 1161,
+      "raw": 87,
+      "derivatives": 1074,
+      "groups": 62,
+      "classes": {
+        "Dermatitis": 238,
+        "Eczema": 291,
+        "Scabies": 209,
+        "Tinea Ringworm": 184,
+        "Vitiligo": 239
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold4_rep1",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 2,
+        "Tinea Ringworm": 4,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold4_rep1",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold4_rep1",
+      "role": "train",
+      "images": 1458,
+      "raw": 87,
+      "derivatives": 1371,
+      "groups": 67,
+      "classes": {
+        "Dermatitis": 233,
+        "Eczema": 352,
+        "Scabies": 332,
+        "Tinea Ringworm": 184,
+        "Vitiligo": 357
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold4_rep1",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 2,
+        "Tinea Ringworm": 4,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold4_rep1",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold4_rep1",
+      "role": "train",
+      "images": 1638,
+      "raw": 87,
+      "derivatives": 1551,
+      "groups": 76,
+      "classes": {
+        "Dermatitis": 238,
+        "Eczema": 413,
+        "Scabies": 332,
+        "Tinea Ringworm": 298,
+        "Vitiligo": 357
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold4_rep1",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 2,
+        "Tinea Ringworm": 4,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold4_rep1",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold0_rep2",
+      "role": "train",
+      "images": 1116,
+      "raw": 87,
+      "derivatives": 1029,
+      "groups": 58,
+      "classes": {
+        "Dermatitis": 186,
+        "Eczema": 292,
+        "Scabies": 242,
+        "Tinea Ringworm": 173,
+        "Vitiligo": 223
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold0_rep2",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 15,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold0_rep2",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 17,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 14,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold0_rep2",
+      "role": "train",
+      "images": 1267,
+      "raw": 87,
+      "derivatives": 1180,
+      "groups": 62,
+      "classes": {
+        "Dermatitis": 186,
+        "Eczema": 306,
+        "Scabies": 304,
+        "Tinea Ringworm": 199,
+        "Vitiligo": 272
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold0_rep2",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 15,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold0_rep2",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 17,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 14,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold0_rep2",
+      "role": "train",
+      "images": 1370,
+      "raw": 87,
+      "derivatives": 1283,
+      "groups": 66,
+      "classes": {
+        "Dermatitis": 190,
+        "Eczema": 357,
+        "Scabies": 300,
+        "Tinea Ringworm": 297,
+        "Vitiligo": 226
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold0_rep2",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 15,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold0_rep2",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 17,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 14,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold0_rep2",
+      "role": "train",
+      "images": 1702,
+      "raw": 87,
+      "derivatives": 1615,
+      "groups": 75,
+      "classes": {
+        "Dermatitis": 246,
+        "Eczema": 438,
+        "Scabies": 362,
+        "Tinea Ringworm": 324,
+        "Vitiligo": 332
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold0_rep2",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 15,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold0_rep2",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 17,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 14,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold1_rep2",
+      "role": "train",
+      "images": 1041,
+      "raw": 87,
+      "derivatives": 954,
+      "groups": 58,
+      "classes": {
+        "Dermatitis": 140,
+        "Eczema": 259,
+        "Scabies": 239,
+        "Tinea Ringworm": 182,
+        "Vitiligo": 221
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold1_rep2",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold1_rep2",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold1_rep2",
+      "role": "train",
+      "images": 1149,
+      "raw": 87,
+      "derivatives": 1062,
+      "groups": 62,
+      "classes": {
+        "Dermatitis": 140,
+        "Eczema": 292,
+        "Scabies": 239,
+        "Tinea Ringworm": 257,
+        "Vitiligo": 221
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold1_rep2",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold1_rep2",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold1_rep2",
+      "role": "train",
+      "images": 1435,
+      "raw": 87,
+      "derivatives": 1348,
+      "groups": 67,
+      "classes": {
+        "Dermatitis": 140,
+        "Eczema": 324,
+        "Scabies": 366,
+        "Tinea Ringworm": 257,
+        "Vitiligo": 348
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold1_rep2",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold1_rep2",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold1_rep2",
+      "role": "train",
+      "images": 1673,
+      "raw": 87,
+      "derivatives": 1586,
+      "groups": 76,
+      "classes": {
+        "Dermatitis": 272,
+        "Eczema": 417,
+        "Scabies": 366,
+        "Tinea Ringworm": 270,
+        "Vitiligo": 348
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold1_rep2",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold1_rep2",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold2_rep2",
+      "role": "train",
+      "images": 1029,
+      "raw": 87,
+      "derivatives": 942,
+      "groups": 58,
+      "classes": {
+        "Dermatitis": 131,
+        "Eczema": 249,
+        "Scabies": 238,
+        "Tinea Ringworm": 186,
+        "Vitiligo": 225
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold2_rep2",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold2_rep2",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold2_rep2",
+      "role": "train",
+      "images": 1101,
+      "raw": 87,
+      "derivatives": 1014,
+      "groups": 62,
+      "classes": {
+        "Dermatitis": 131,
+        "Eczema": 297,
+        "Scabies": 238,
+        "Tinea Ringworm": 210,
+        "Vitiligo": 225
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold2_rep2",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold2_rep2",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold2_rep2",
+      "role": "train",
+      "images": 1314,
+      "raw": 87,
+      "derivatives": 1227,
+      "groups": 67,
+      "classes": {
+        "Dermatitis": 132,
+        "Eczema": 344,
+        "Scabies": 298,
+        "Tinea Ringworm": 259,
+        "Vitiligo": 281
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold2_rep2",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold2_rep2",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold2_rep2",
+      "role": "train",
+      "images": 1781,
+      "raw": 87,
+      "derivatives": 1694,
+      "groups": 76,
+      "classes": {
+        "Dermatitis": 305,
+        "Eczema": 419,
+        "Scabies": 356,
+        "Tinea Ringworm": 361,
+        "Vitiligo": 340
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold2_rep2",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold2_rep2",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold3_rep2",
+      "role": "train",
+      "images": 1070,
+      "raw": 87,
+      "derivatives": 983,
+      "groups": 58,
+      "classes": {
+        "Dermatitis": 164,
+        "Eczema": 279,
+        "Scabies": 236,
+        "Tinea Ringworm": 186,
+        "Vitiligo": 205
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold3_rep2",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold3_rep2",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 14,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 3
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold3_rep2",
+      "role": "train",
+      "images": 1171,
+      "raw": 87,
+      "derivatives": 1084,
+      "groups": 62,
+      "classes": {
+        "Dermatitis": 222,
+        "Eczema": 322,
+        "Scabies": 236,
+        "Tinea Ringworm": 186,
+        "Vitiligo": 205
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold3_rep2",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold3_rep2",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 14,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 3
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold3_rep2",
+      "role": "train",
+      "images": 1439,
+      "raw": 87,
+      "derivatives": 1352,
+      "groups": 67,
+      "classes": {
+        "Dermatitis": 278,
+        "Eczema": 347,
+        "Scabies": 297,
+        "Tinea Ringworm": 253,
+        "Vitiligo": 264
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold3_rep2",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold3_rep2",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 14,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 3
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold3_rep2",
+      "role": "train",
+      "images": 1747,
+      "raw": 87,
+      "derivatives": 1660,
+      "groups": 76,
+      "classes": {
+        "Dermatitis": 278,
+        "Eczema": 426,
+        "Scabies": 357,
+        "Tinea Ringworm": 309,
+        "Vitiligo": 377
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold3_rep2",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold3_rep2",
+      "role": "test",
+      "images": 27,
+      "raw": 27,
+      "derivatives": 0,
+      "groups": 18,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 14,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 3
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold4_rep2",
+      "role": "train",
+      "images": 1103,
+      "raw": 86,
+      "derivatives": 1017,
+      "groups": 57,
+      "classes": {
+        "Dermatitis": 123,
+        "Eczema": 289,
+        "Scabies": 239,
+        "Tinea Ringworm": 228,
+        "Vitiligo": 224
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold4_rep2",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak0",
+      "tag": "fold4_rep2",
+      "role": "test",
+      "images": 28,
+      "raw": 28,
+      "derivatives": 0,
+      "groups": 19,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold4_rep2",
+      "role": "train",
+      "images": 1251,
+      "raw": 86,
+      "derivatives": 1165,
+      "groups": 62,
+      "classes": {
+        "Dermatitis": 123,
+        "Eczema": 303,
+        "Scabies": 298,
+        "Tinea Ringworm": 303,
+        "Vitiligo": 224
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold4_rep2",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak25",
+      "tag": "fold4_rep2",
+      "role": "test",
+      "images": 28,
+      "raw": 28,
+      "derivatives": 0,
+      "groups": 19,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold4_rep2",
+      "role": "train",
+      "images": 1435,
+      "raw": 86,
+      "derivatives": 1349,
+      "groups": 67,
+      "classes": {
+        "Dermatitis": 242,
+        "Eczema": 363,
+        "Scabies": 294,
+        "Tinea Ringworm": 311,
+        "Vitiligo": 225
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold4_rep2",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak50",
+      "tag": "fold4_rep2",
+      "role": "test",
+      "images": 28,
+      "raw": 28,
+      "derivatives": 0,
+      "groups": 19,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 15,
+        "Scabies": 2,
+        "Tinea Ringworm": 6,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold4_rep2",
+      "role": "train",
+      "images": 1662,
+      "raw": 86,
+      "derivatives": 1576,
+      "groups": 76,
+      "classes": {
+        "Dermatitis": 247,
+        "Eczema": 424,
+        "Scabies": 353,
+        "Tinea Ringworm": 315,
+        "Vitiligo": 323
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold4_rep2",
+      "role": "val",
+      "images": 22,
+      "raw": 22,
+      "derivatives": 0,
+      "groups": 14,
+      "classes": {
+        "Dermatitis": 2,
+        "Eczema": 12,
+        "Scabies": 1,
+        "Tinea Ringworm": 5,
+        "Vitiligo": 2
+      }
+    },
+    {
+      "protocol": "leak100",
+      "tag": "fold4_rep2",
+      "role": "test",
+      "images": 28,
+      "raw": 28,
+      "derivatives": 0,
+      "groups": 19,
+      "classes": {
+        "Dermatitis": 3,
+        "Eczema": 15,
         "Scabies": 2,
         "Tinea Ringworm": 6,
         "Vitiligo": 2
