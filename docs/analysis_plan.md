@@ -164,3 +164,34 @@ as a pipeline check.
 
 Caveats: one repeat, 128 px, 22-image validation set, no class balancing, CPU runtime. Details in
 `docs/finetuned_baseline.md` and `docs/WORKLOG.md`.
+
+## 12. Amendment 3 — stronger class-balanced fine-tuned reference (2026-11-24)
+
+Purpose: separate under-training/low-resolution effects from model capacity and training imbalance
+before committing compute to the full model zoo. This remains a Phase 4 pilot, not the final
+benchmark.
+
+Design:
+
+- Model: `resnet50.a1_in1k` (timm, ImageNet pretrained), 5-way classifier.
+- Input 160 x 160; batch 32; AdamW lr 3e-4, weight decay 0.05; cosine schedule.
+- Cross-entropy with label smoothing 0.1; class-balanced WeightedRandomSampler so each class
+  contributes equally per epoch. No focal loss or class-weighted loss in this run.
+- Max 12 epochs, early stopping patience 3 on validation macro-F1.
+- Full P-disjoint grid: 5 folds x 3 repeats; one seed (42) for the first pass.
+- Train on raw + tier-A derivatives from training groups; validate and test on raw images only.
+- Save the best checkpoint, per-fold test probabilities and logits, pooled OOF predictions,
+  group-bootstrap intervals and paired comparisons against the frozen probes.
+- AMP is enabled by the CLI but disabled on this CPU-only environment.
+
+Analysis: report per-fold and per-repeat macro-F1, pooled OOF macro-F1 with group-bootstrap CI,
+per-class recall, and paired deltas against the four frozen probes. Additional seeds (43, 44) are
+added only if the first pass is computationally feasible. A final benchmark claim still requires
+the model zoo, training-trick ablations and calibration analysis.
+
+Result (2026-11-24): all 15 runs completed with seed 42. Per-run macro-F1 mean 0.603 +/- 0.137;
+pooled OOF macro-F1 0.681 [0.546, 0.799]. Paired deltas versus the frozen probes are +0.018
+(DINOv2 linear), +0.030 (DINOv2 1-NN), +0.058 (ResNet-50 linear) and +0.145 (ResNet-50 1-NN),
+with only the last CI excluding zero. Seed 42 was computationally feasible but seeds 43/44 were
+not added on this CPU-only host; seed variation remains unquantified. Details in
+`docs/finetuned_baseline.md`, section 8.

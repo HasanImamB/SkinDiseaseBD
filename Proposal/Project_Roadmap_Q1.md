@@ -2,6 +2,8 @@
 
 > Version 2. Replaces the 8-week roadmap. Items marked **[NEW]** were added for Q1 readiness; **[FIX]** marks a correction to a methodological problem in v1.
 
+**Current checkpoint (2026-11-24):** Phases 1-3 are largely complete. The data audit, source-group reconstruction, three split protocols, disjointness checks, all-fold leakage quantification, shortcut probes, label triage and fine-tuning pilots (128 px single-repeat and completed 160 px class-balanced 5x3) are in place. Phase 4 benchmarking, Phase 5 ablations, Phase 6 calibration/external validation/fairness, Phase 7 explainability, and all clinical/governance tasks are not yet complete.
+
 ---
 
 ## 1. Review of v1: what must change for a Q1 journal
@@ -205,18 +207,18 @@ Phases overlap; writing the Methods and Data sections should start in Phase 2.
 
 | Deliverable | Description | Status |
 |---|---|---|
-| `docs/data_audit.md` | Counts, naming, dedup, augmentation forensics, shortcut and label audit | Pending |
-| `raw_groups.json`, `splits/*` | Group maps and all protocols (leaked, disjoint, partial) | Pending |
-| `docs/leakage_analysis.md` | Reproduction of [1], inflation with CIs, dose-response, 1-NN baseline | Pending |
-| `results/benchmarks.csv` + OOF predictions | All model × fold × repeat × seed results | Pending |
-| `docs/BENCHMARKS.md`, `docs/ABLATION.md` | Benchmark and variance-aware ablation | Pending |
-| `docs/CALIBRATION_TRIAGE.md` | Calibration, conformal sets, risk-coverage | Pending |
-| `docs/EXTERNAL_VALIDATION.md` | SkinDisNet zero-shot and patient-disjoint results | Pending |
-| `docs/FAIRNESS_ROBUSTNESS.md` | Subgroup and corruption analyses | Pending |
-| `docs/EXPLAINABILITY.md` | Saliency sanity checks and quantitative metrics | Pending |
-| Reproducibility package + DOI | Code, configs, splits, README, model card, datasheet | Pending |
-| Manuscript + supplement + cover letter + checklists | CLAIM, TRIPOD+AI, ethics, data statement | Pending |
-| Preprint and presentation slides | Derived from the final manuscript | Pending |
+| `docs/data_audit.md` | Counts, naming, dedup, augmentation forensics, shortcut and label audit | Complete; clinician label/group review pending |
+| `raw_groups.json`, `splits/*` | Group maps and all protocols (leaked, disjoint, partial) | Complete; groups provisional/over-merged |
+| `docs/leakage_analysis.md` | Frozen-probe inflation with CIs, dose-response, 1-NN/linear baselines | Complete; reproduction of [1] still pending |
+| `results/benchmarks.csv` + OOF predictions | All model × fold × repeat × seed results | Not started; 128 px and 160 px ResNet-50 pilot OOF only |
+| `docs/BENCHMARKS.md`, `docs/ABLATION.md` | Benchmark and variance-aware ablation | Not started |
+| `docs/CALIBRATION_TRIAGE.md` | Calibration, conformal sets, risk-coverage | Not started |
+| `docs/EXTERNAL_VALIDATION.md` | SkinDisNet zero-shot and patient-disjoint results | Not started |
+| `docs/FAIRNESS_ROBUSTNESS.md` | Subgroup and corruption analyses | Not started |
+| `docs/EXPLAINABILITY.md` | Saliency sanity checks and quantitative metrics | Not started |
+| Reproducibility package + DOI | Code, configs, splits, README, model card, datasheet | Partial: README, requirements, splits and scripts exist; configs, model card, datasheet and DOI pending |
+| Manuscript + supplement + cover letter + checklists | CLAIM, TRIPOD+AI, ethics, data statement | In progress: `Proposal/ALL contain` |
+| Preprint and presentation slides | Derived from the final manuscript | Not started |
 
 ---
 

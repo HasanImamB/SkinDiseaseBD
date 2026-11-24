@@ -286,3 +286,66 @@ Results:
 Interpretation: pipeline validated, but 128 px / 10 epochs / one repeat / 22-image validation is
 too weak to challenge the frozen probes. Next: 160-224 px, class-balanced sampling, 3 seeds,
 then the broader model zoo. Documented in `docs/finetuned_baseline.md`.
+
+## 2026-11-24 — Documentation and manuscript sync
+
+- Updated `README.md`, `Proposal/TODO_AI_Agent.md` and the roadmap deliverables table to reflect
+  completed Phases 1-3 and the current Phase 4 frontier.
+- Fixed stale next-step sections in `docs/leakage_analysis.md` and `docs/shortcut_analysis.md`.
+- Rewrote `Proposal/ALL contain` from a future-tense proposal into a 3,571-word results-based
+  manuscript draft. It now uses source-image-disjoint terminology, the actual 5x3 protocol and
+  reported numbers, and includes Results, Discussion, Limitations and References sections.
+- Remaining manuscript work: verify citations, expand related work, add generated figures/tables,
+  and add final benchmark/calibration/external-validation results when available.
+
+## 2026-11-24 — Completed 160 px class-balanced reference
+
+Finished the 15-run grid (5 folds x 3 repeats, seed 42) started earlier in the session on the
+CPU-only host. About 60-70 s per epoch meant roughly one hour of training for the full grid.
+
+Deliverables:
+- All 15 `results/finetuned/finetuned_resnet50_160_balanced_*_seed42.json` files, prediction CSVs
+  with probabilities and logits, and checkpoints (gitignored).
+- `results/finetuned/resnet50_160_balanced_summary.json` and
+  `results/predictions/finetuned_resnet50_160_balanced_oof.csv`.
+- `results/label_audit_finetuned.{json,csv}` and a gitignored contact sheet.
+- `scripts/train.py`: added `--resume` (skips completed fold/repeat/seed units) and fixed a
+  non-writable sampler-weight warning. `scripts/label_audit.py`: added `--pattern` and
+  `--candidate-votes` so a single fine-tuned OOF can be audited without overwriting the frozen
+  audit.
+- Updated `docs/finetuned_baseline.md`, `docs/analysis_plan.md`, `README.md`, the roadmap,
+  `Proposal/TODO_AI_Agent.md` and `Proposal/ALL contain` with the completed pilot numbers.
+
+Results:
+- Per-run macro-F1 0.603 +/- 0.137 (n=15); pooled OOF macro-F1 0.681 [0.546, 0.799].
+- Balanced accuracy 0.621 [0.501, 0.760]; accuracy 0.794.
+- Recall: Eczema 0.986, Vitiligo 0.727, Tinea 0.655, Dermatitis 0.538, Scabies 0.200.
+- Paired deltas vs frozen probes: +0.018 DINOv2 linear, +0.030 DINOv2 1-NN, +0.058 ResNet-50
+  linear, +0.145 ResNet-50 1-NN [0.031, 0.261], p=0.009. Only the last is significant.
+- Fine-tuned label audit flags 16/136 images; 14 overlap with the 23 frozen-probe flags, and
+  11/16 are predicted Eczema, so flags still look like minority-class confusion.
+
+Interpretation: the stronger reference closes most of the gap with frozen features but does not
+beat them clearly, and Scabies recall is unchanged at 0.20. Seeds 43/44 were not added on this CPU
+host, so seed variance is still unquantified. Next: shortlist models and add seeds only where
+needed, then the model zoo, ablations, calibration and external validation.
+
+## 2026-11-24 — Master metadata and clinical metric outputs
+
+Added `scripts/make_metadata.py`, which joins `results/file_index.csv` with
+`results/raw_groups.json` and writes `results/master_metadata.csv`: 3,421 rows, 135 groups,
+1,612 v1 + 1,612 v2 folder-labelled derivatives, 136 raw images with inferred class and 61 raw
+images marked `unlabelled`. Each row records label provenance (`folder_label`,
+`inferred_from_descendants`, `unlabelled`), raw id, group id, tier and `primary_usable`.
+
+Extended `scripts/summarize_finetuned.py` to emit weighted F1, MCC, macro one-vs-rest AUROC,
+per-class precision/recall/specificity/F1 and a confusion-matrix CSV alongside the existing
+macro-F1, balanced accuracy and group bootstrap. Both pilot summaries were regenerated.
+
+160 px pilot clinical metrics: weighted F1 0.772 [0.659, 0.859], MCC 0.670 [0.541, 0.785],
+macro AUROC 0.862, accuracy 0.794. Eczema specificity is 0.651, while the other classes are
+0.963-1.000; 5/13 Dermatitis, 10/29 Tinea and 5/10 Scabies images are predicted as Eczema.
+The 128 px pilot has weighted F1 0.726, MCC 0.581 and macro AUROC 0.834.
+
+Updated README, the roadmap task list, TODO_AI_Agent.md, `docs/finetuned_baseline.md` and
+`Proposal/ALL contain` so the methods, reported numbers and generated artifacts agree.

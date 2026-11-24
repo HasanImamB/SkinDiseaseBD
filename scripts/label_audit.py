@@ -29,10 +29,12 @@ CLASSES = ("Dermatitis", "Eczema", "Scabies", "Tinea Ringworm", "Vitiligo")
 CLASS_INDEX = {name: index for index, name in enumerate(CLASSES)}
 
 
-def load_predictions(predictions_dir: Path) -> tuple[pd.DataFrame, list[str]]:
-    files = sorted(predictions_dir.glob("disjoint_*_oof.csv"))
+def load_predictions(
+    predictions_dir: Path, pattern: str
+) -> tuple[pd.DataFrame, list[str]]:
+    files = sorted(predictions_dir.glob(pattern))
     if not files:
-        raise FileNotFoundError(f"no disjoint OOF predictions in {predictions_dir}")
+        raise FileNotFoundError(f"no OOF predictions matching {pattern} in {predictions_dir}")
     frames = {}
     for path in files:
         name = path.name.removeprefix("disjoint_").removesuffix("_oof.csv")
@@ -121,9 +123,11 @@ def main() -> None:
     )
     ap.add_argument("--sheet-count", type=int, default=35)
     ap.add_argument("--min-votes", type=int, default=3)
+    ap.add_argument("--candidate-votes", type=int, default=2)
+    ap.add_argument("--pattern", default="disjoint_*_oof.csv")
     args = ap.parse_args()
 
-    combined, probe_names = load_predictions(args.predictions)
+    combined, probe_names = load_predictions(args.predictions, args.pattern)
     labels = combined["y_true"].to_numpy()
     label_ids = np.array([CLASS_INDEX[label] for label in labels])
 
@@ -164,7 +168,7 @@ def main() -> None:
     combined["mean_label_quality"] = quality.mean(axis=1)
     combined["min_label_quality"] = quality.min(axis=1)
     combined["high_confidence_issue"] = combined["issue_votes"] >= args.min_votes
-    combined["candidate_issue"] = combined["issue_votes"] >= 2
+    combined["candidate_issue"] = combined["issue_votes"] >= args.candidate_votes
     combined["consensus_prediction"] = combined[
         [f"y_pred_{name}" for name in probe_names]
     ].mode(axis=1)[0]

@@ -131,7 +131,9 @@ that the model has learned disease, and do not dismiss acquisition bias.
 
 ## 6. Next steps
 
-1. Run label-quality analysis (`cleanlab`) and clinician review of flagged raw images.
-2. Consider learned lesion/background segmentation on a manually marked subset to replace the
-   crude central masks.
-3. Carry the acquisition-bias caveat into the Phase 4 benchmark and manuscript.
+1. Automated label-quality triage is complete (`docs/label_audit.md`); clinician review of the
+   shortlist is still pending.
+2. Repeat the label audit after the stronger fine-tuned/class-balanced benchmark; flags that
+   survive a better model are more credible.
+3. Consider clinician-marked lesion masks or learned segmentation to replace the crude central
+   masks, and carry the acquisition-bias caveat into the Phase 4 benchmark and manuscript.

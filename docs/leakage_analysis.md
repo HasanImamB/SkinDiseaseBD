@@ -80,9 +80,10 @@ Scabies 10).
 
 ## 7. Next steps
 
-1. The first shortcut run is complete (`docs/shortcut_analysis.md`): metadata reaches 0.34
-   macro-F1 and masked variants stay above chance, so a weak acquisition shortcut is present but
-   does not explain the whole floor. Follow up with a stricter background mask and
-   colour-histogram features.
-2. Add a fine-tuned baseline (reproduce [1]) under P-leaked and P-disjoint.
-3. Move to Phase 4 (model zoo) after the shortcut and fine-tuned baselines are in place.
+1. Shortcut probes are complete, including the stricter `background75` mask and the
+   colour-histogram check (`docs/shortcut_analysis.md`).
+2. A preliminary fine-tuned ResNet-50 baseline is complete at 128 px, 5 folds x 1 repeat
+   (`docs/finetuned_baseline.md`); it validates the pipeline but is below the frozen probes.
+3. Reproduce the original benchmark [1] under P-leaked and P-disjoint.
+4. Run a stronger multi-seed fine-tuned baseline at 160-224 px with class balancing, then move to
+   the Phase 4 model zoo and ablations.

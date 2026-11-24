@@ -1,0 +1,133 @@
+{
+  "config": {
+    "run_name": "resnet50_160_balanced",
+    "model": "resnet50.a1_in1k",
+    "fold": 0,
+    "repeat": 0,
+    "seed": 42,
+    "epochs": 12,
+    "image_size": 160,
+    "batch_size": 32,
+    "lr": 0.0003,
+    "weight_decay": 0.05,
+    "label_smoothing": 0.1,
+    "class_balanced": true,
+    "class_weighted_loss": false,
+    "amp": false,
+    "n_train": 1102,
+    "n_val": 22,
+    "n_test": 27,
+    "train_class_counts": {
+      "Dermatitis": 192,
+      "Eczema": 297,
+      "Scabies": 200,
+      "Tinea Ringworm": 158,
+      "Vitiligo": 255
+    },
+    "pretrained": true,
+    "checkpoint": "/home/bappi/Hasan Imam B./HiB/TR/results/checkpoints/resnet50_160_balanced_fold0_rep0_seed42.pt"
+  },
+  "best_epoch": 3,
+  "best_val_macro_f1": 0.5926666666666667,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.4138196499075084,
+      "val_macro_f1": 0.420807453416149,
+      "val_balanced_accuracy": 0.53,
+      "val_loss": 1.4162739515304565,
+      "seconds": 62.17
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.7918528975029823,
+      "val_macro_f1": 0.5642857142857143,
+      "val_balanced_accuracy": 0.6866666666666668,
+      "val_loss": 1.0411494970321655,
+      "seconds": 61.46
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.5027755893726314,
+      "val_macro_f1": 0.5926666666666667,
+      "val_balanced_accuracy": 0.7033333333333334,
+      "val_loss": 1.0261534452438354,
+      "seconds": 66.03
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.4483232379716884,
+      "val_macro_f1": 0.5611111111111111,
+      "val_balanced_accuracy": 0.62,
+      "val_loss": 1.0317418575286865,
+      "seconds": 60.71
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.4278168777805058,
+      "val_macro_f1": 0.5611111111111111,
+      "val_balanced_accuracy": 0.62,
+      "val_loss": 0.9554016590118408,
+      "seconds": 66.19
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.42797464813813973,
+      "val_macro_f1": 0.45476190476190476,
+      "val_balanced_accuracy": 0.52,
+      "val_loss": 0.9450587034225464,
+      "seconds": 66.24
+    }
+  ],
+  "test": {
+    "loss": 0.8482675552368164,
+    "accuracy": 0.8518518518518519,
+    "macro_f1": 0.6857142857142857,
+    "balanced_accuracy": 0.7523809523809524,
+    "per_class_recall": {
+      "Dermatitis": 1.0,
+      "Eczema": 0.9285714285714286,
+      "Scabies": 0.0,
+      "Tinea Ringworm": 0.8333333333333334,
+      "Vitiligo": 1.0
+    },
+    "confusion_matrix": [
+      [
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        13,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        5,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    ]
+  },
+  "test_predictions": "/home/bappi/Hasan Imam B./HiB/TR/results/predictions/finetuned_resnet50_160_balanced_fold0_rep0_seed42_test.csv"
+}

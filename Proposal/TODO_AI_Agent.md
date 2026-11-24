@@ -5,7 +5,7 @@ This todo list covers everything I can do autonomously without requiring manual 
 ## Phase 0: Setup & Environment (Week 1-2)
 - [x] **Create repo structure** - `src/`, `data/`, `splits/`, `configs/`, `results/`, `notebooks/`, `assets/`, `scripts/`, `docs/`
 - [x] **Environment setup** - `requirements.txt` pins the CPU reference environment
-- [x] **Git setup** - repo initialised, `.gitignore` in place (no commits yet)
+- [x] **Git setup** - repo initialised, `.gitignore` in place, work committed to `main`
 - [x] **Research plan document** - `docs/analysis_plan.md` (RQs, primary endpoint, statistics)
 
 ## Phase 1: Data Audit (Week 2-4)
@@ -18,8 +18,8 @@ This todo list covers everything I can do autonomously without requiring manual 
 - [ ] **Augmentation forensics** - partial: parent assignment + dihedral matching done; per-image transform labels still missing
 - [x] **Build group maps** - Create `raw_groups.json` with `group_id` for each image
 - [x] **Shortcut probes** - Metadata, colour, border-only and background proxies; `docs/shortcut_analysis.md`
-- [x] **Label-quality triage** - cleanlab on pooled OOF predictions + review sheet; `docs/label_audit.md`
-- [x] **Preliminary fine-tuned baseline** - ResNet-50, 5 folds x 1 repeat, 128 px; `docs/finetuned_baseline.md`
+- [x] **Label-quality triage** - cleanlab on frozen and fine-tuned OOF predictions + review sheets; `docs/label_audit.md`
+- [x] **Preliminary fine-tuned baseline** - ResNet-50, 5 folds x 1 repeat, 128 px, plus completed 160 px class-balanced 5 folds x 3 repeats; `docs/finetuned_baseline.md`
 - [x] **Audit report** - Generate `docs/data_audit.md` with all findings
 
 ## Phase 2: Split Design (Week 3-6)
@@ -41,9 +41,9 @@ This todo list covers everything I can do autonomously without requiring manual 
 
 ## Phase 4: Model Benchmarking (Week 7-12)
 - [ ] **Setup model zoo** - Configure ResNet50, DenseNet121, EfficientNet-B0/B3, MobileNetV3, ViT-B/16, Swin-T, ConvNeXt-T via timm
-- [ ] **Training pipeline** - initial timm CLI in `scripts/train.py`; config/checkpoint/resume still pending
-- [ ] **Data loaders** - Create group-aware dataloaders that respect splits
-- [ ] **Training loop** - Implement with AMP, early stopping, cosine schedule, AdamW
+- [ ] **Training pipeline** - timm CLI with checkpoints, logits and `--resume`; config files and automated resume in batch jobs still pending
+- [ ] **Data loaders** - split-aware loaders exist; group-balanced sampling still pending
+- [ ] **Training loop** - AdamW and early stopping exist; AMP, cosine schedule and resume still pending
 - [ ] **Run benchmark** - 5-fold × 3-repeat × seeds for all models
 - [ ] **Save OOF predictions** - Logits/probs for all test predictions
 - [ ] **Efficiency metrics** - Params, FLOPs, inference time, model size
@@ -58,7 +58,7 @@ This todo list covers everything I can do autonomously without requiring manual 
 - [ ] **Ablation report** - Generate `docs/ABLATION.md` with forest plots
 
 ## Phase 6: Analysis & Evaluation (Week 12-17)
-- [ ] **Metrics computation** - All metrics (macro/weighted F1, balanced acc, MCC, per-class sens/spec)
+- [ ] **Metrics computation** - Pilots now emit macro/weighted F1, balanced acc, MCC, AUROC, per-class precision/recall/specificity and confusion matrices from `scripts/summarize_finetuned.py`; full cross-model pipeline pending
 - [ ] **Calibration** - ECE, Brier score, reliability diagrams, temperature scaling
 - [ ] **Conformal prediction** - Implement APS/RAPS for selective prediction
 - [ ] **Risk-coverage curves** - Generate triage analysis
@@ -82,8 +82,9 @@ This todo list covers everything I can do autonomously without requiring manual 
 - [ ] `scripts/download_data.py` - Data download/checksum
 - [x] `scripts/audit_data.py` - Full audit pipeline
 - [x] `scripts/build_groups.py` - Group reconstruction
+- [x] `scripts/make_metadata.py` - Master image/class/group CSV
 - [x] `scripts/make_splits.py` - All split protocols
-- [ ] `scripts/train.py` - Unified training CLI
+- [ ] `scripts/train.py` - basic CLI exists; unified config/resume still pending
 - [ ] `scripts/eval.py` - Evaluation pipeline
 - [ ] `scripts/make_figures.py` - All figures
 - [x] `scripts/verify_disjointness.py` - Automated checks

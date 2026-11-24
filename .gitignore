@@ -13,6 +13,7 @@ results/embeddings/
 results/shortcut/*.npz
 results/shortcut/images/
 results/label_audit/
+results/checkpoints/
 
 # python
 __pycache__/
@@ -30,3 +31,6 @@ Thumbs.db
 runs/
 wandb/
 *.log
+
+# local overleaf workspace (not part of the project)
+Sample to work  in overleaf/

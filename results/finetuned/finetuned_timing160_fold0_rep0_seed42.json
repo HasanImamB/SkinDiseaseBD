@@ -1,0 +1,93 @@
+{
+  "config": {
+    "run_name": "timing160",
+    "model": "resnet50.a1_in1k",
+    "fold": 0,
+    "repeat": 0,
+    "seed": 42,
+    "epochs": 1,
+    "image_size": 160,
+    "batch_size": 32,
+    "lr": 0.0003,
+    "weight_decay": 0.05,
+    "label_smoothing": 0.1,
+    "class_balanced": false,
+    "class_weighted_loss": false,
+    "amp": false,
+    "n_train": 1102,
+    "n_val": 22,
+    "n_test": 27,
+    "train_class_counts": {
+      "Dermatitis": 192,
+      "Eczema": 297,
+      "Scabies": 200,
+      "Tinea Ringworm": 158,
+      "Vitiligo": 255
+    },
+    "pretrained": true,
+    "checkpoint": "/home/bappi/Hasan Imam B./HiB/TR/results/checkpoints/timing160_fold0_rep0_seed42.pt"
+  },
+  "best_epoch": 1,
+  "best_val_macro_f1": 0.3857142857142857,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.417043880412453,
+      "val_macro_f1": 0.3857142857142857,
+      "val_balanced_accuracy": 0.48,
+      "val_loss": 1.3071308135986328,
+      "seconds": 63.78
+    }
+  ],
+  "test": {
+    "loss": 1.3427690267562866,
+    "accuracy": 0.6666666666666666,
+    "macro_f1": 0.36969696969696975,
+    "balanced_accuracy": 0.4666666666666666,
+    "per_class_recall": {
+      "Dermatitis": 0.0,
+      "Eczema": 1.0,
+      "Scabies": 0.0,
+      "Tinea Ringworm": 0.3333333333333333,
+      "Vitiligo": 1.0
+    },
+    "confusion_matrix": [
+      [
+        0,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        14,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    ]
+  },
+  "test_predictions": "/home/bappi/Hasan Imam B./HiB/TR/results/predictions/finetuned_timing160_fold0_rep0_seed42_test.csv"
+}
