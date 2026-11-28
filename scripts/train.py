@@ -247,7 +247,10 @@ def run_one(args, fold: int, repeat: int, seed: int) -> dict:
     )
 
     model = timm.create_model(
-        args.model, pretrained=not args.no_pretrained, num_classes=len(CLASSES)
+        args.model,
+        pretrained=not args.no_pretrained,
+        num_classes=len(CLASSES),
+        img_size=args.image_size,
     ).to(args.device)
     loss_weights = class_weights(train_frame).to(args.device) if args.class_weighted_loss else None
     criterion = nn.CrossEntropyLoss(

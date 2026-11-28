@@ -1,0 +1,1527 @@
+{
+  "config": {
+    "run_name": "efficientnet_b3_288_balanced",
+    "prediction_files": [
+      "finetuned_efficientnet_b3_288_balanced_fold0_rep0_seed42_test.csv",
+      "finetuned_efficientnet_b3_288_balanced_fold0_rep1_seed42_test.csv",
+      "finetuned_efficientnet_b3_288_balanced_fold0_rep2_seed42_test.csv",
+      "finetuned_efficientnet_b3_288_balanced_fold1_rep0_seed42_test.csv",
+      "finetuned_efficientnet_b3_288_balanced_fold1_rep1_seed42_test.csv",
+      "finetuned_efficientnet_b3_288_balanced_fold1_rep2_seed42_test.csv",
+      "finetuned_efficientnet_b3_288_balanced_fold2_rep0_seed42_test.csv",
+      "finetuned_efficientnet_b3_288_balanced_fold2_rep1_seed42_test.csv",
+      "finetuned_efficientnet_b3_288_balanced_fold2_rep2_seed42_test.csv",
+      "finetuned_efficientnet_b3_288_balanced_fold3_rep0_seed42_test.csv",
+      "finetuned_efficientnet_b3_288_balanced_fold3_rep1_seed42_test.csv",
+      "finetuned_efficientnet_b3_288_balanced_fold3_rep2_seed42_test.csv",
+      "finetuned_efficientnet_b3_288_balanced_fold4_rep0_seed42_test.csv",
+      "finetuned_efficientnet_b3_288_balanced_fold4_rep1_seed42_test.csv",
+      "finetuned_efficientnet_b3_288_balanced_fold4_rep2_seed42_test.csv"
+    ],
+    "seeds": [
+      42
+    ],
+    "n_boot": 1000,
+    "n_perm": 1000,
+    "seed": 42,
+    "classes": [
+      "Dermatitis",
+      "Eczema",
+      "Scabies",
+      "Tinea Ringworm",
+      "Vitiligo"
+    ]
+  },
+  "pooled": {
+    "n": 136,
+    "accuracy": 0.7279411764705882,
+    "balanced_accuracy": 0.6046552219627326,
+    "macro_f1": 0.6255804519876019,
+    "per_class_recall": {
+      "Dermatitis": 0.3076923076923077,
+      "Eczema": 0.8767123287671232,
+      "Scabies": 0.4,
+      "Tinea Ringworm": 0.6206896551724138,
+      "Vitiligo": 0.8181818181818182
+    },
+    "weighted_f1": 0.7175374605922534,
+    "mcc": 0.5615211748521975,
+    "per_class_precision": {
+      "Dermatitis": 0.4444444444444444,
+      "Eczema": 0.7441860465116279,
+      "Scabies": 0.4444444444444444,
+      "Tinea Ringworm": 0.8571428571428571,
+      "Vitiligo": 0.8181818181818182
+    },
+    "per_class_specificity": {
+      "Dermatitis": 0.959349593495935,
+      "Eczema": 0.6507936507936508,
+      "Scabies": 0.9603174603174603,
+      "Tinea Ringworm": 0.9719626168224299,
+      "Vitiligo": 0.984
+    },
+    "per_class_f1": {
+      "Dermatitis": 0.36363636363636365,
+      "Eczema": 0.8050314465408805,
+      "Scabies": 0.42105263157894735,
+      "Tinea Ringworm": 0.72,
+      "Vitiligo": 0.8181818181818182
+    },
+    "confusion_matrix": {
+      "labels": [
+        "Dermatitis",
+        "Eczema",
+        "Scabies",
+        "Tinea Ringworm",
+        "Vitiligo"
+      ],
+      "rows_true_cols_pred": [
+        [
+          4,
+          8,
+          1,
+          0,
+          0
+        ],
+        [
+          4,
+          64,
+          4,
+          1,
+          0
+        ],
+        [
+          1,
+          4,
+          4,
+          1,
+          0
+        ],
+        [
+          0,
+          9,
+          0,
+          18,
+          2
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          9
+        ]
+      ]
+    },
+    "macro_auroc": 0.8630329551577915
+  },
+  "bootstrap": {
+    "macro_f1": {
+      "mean": 0.6215822094500512,
+      "lo": 0.5056734699722657,
+      "hi": 0.7361396915575182
+    },
+    "balanced_accuracy": {
+      "mean": 0.6120903083523087,
+      "lo": 0.4930007407162102,
+      "hi": 0.7368381488480559
+    },
+    "accuracy": {
+      "mean": 0.7294807795189265,
+      "lo": 0.625,
+      "hi": 0.8182752179327522
+    }
+  },
+  "bootstrap_clinical": {
+    "weighted_f1": {
+      "mean": 0.7181745861561162,
+      "lo": 0.6067738573707356,
+      "hi": 0.8152461500622467
+    },
+    "mcc": {
+      "mean": 0.5646597719069721,
+      "lo": 0.41851799565243547,
+      "hi": 0.7024582023187199
+    }
+  },
+  "per_fold": [
+    {
+      "n": 27,
+      "accuracy": 0.7407407407407407,
+      "balanced_accuracy": 0.5333333333333333,
+      "macro_f1": 0.52,
+      "per_class_recall": {
+        "Dermatitis": 0.0,
+        "Eczema": 1.0,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 0.6666666666666666,
+        "Vitiligo": 1.0
+      },
+      "weighted_f1": 0.6666666666666666,
+      "mcc": 0.6078108913157035,
+      "per_class_precision": {
+        "Dermatitis": 0.0,
+        "Eczema": 0.6666666666666666,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 1.0,
+        "Vitiligo": 1.0
+      },
+      "per_class_specificity": {
+        "Dermatitis": 1.0,
+        "Eczema": 0.46153846153846156,
+        "Scabies": 1.0,
+        "Tinea Ringworm": 1.0,
+        "Vitiligo": 1.0
+      },
+      "per_class_f1": {
+        "Dermatitis": 0.0,
+        "Eczema": 0.8,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 0.8,
+        "Vitiligo": 1.0
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Dermatitis",
+          "Eczema",
+          "Scabies",
+          "Tinea Ringworm",
+          "Vitiligo"
+        ],
+        "rows_true_cols_pred": [
+          [
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        ]
+      },
+      "macro_auroc": 0.8457216117216116,
+      "fold": 0,
+      "repeat": 0,
+      "seed": 42
+    },
+    {
+      "n": 28,
+      "accuracy": 0.5357142857142857,
+      "balanced_accuracy": 0.4533333333333333,
+      "macro_f1": 0.4619047619047619,
+      "per_class_recall": {
+        "Dermatitis": 0.0,
+        "Eczema": 0.6,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 0.6666666666666666,
+        "Vitiligo": 1.0
+      },
+      "weighted_f1": 0.5586734693877552,
+      "mcc": 0.32582359044858084,
+      "per_class_precision": {
+        "Dermatitis": 0.0,
+        "Eczema": 0.6923076923076923,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 0.6666666666666666,
+        "Vitiligo": 1.0
+      },
+      "per_class_specificity": {
+        "Dermatitis": 0.96,
+        "Eczema": 0.6923076923076923,
+        "Scabies": 0.7692307692307693,
+        "Tinea Ringworm": 0.9090909090909091,
+        "Vitiligo": 1.0
+      },
+      "per_class_f1": {
+        "Dermatitis": 0.0,
+        "Eczema": 0.6428571428571429,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 0.6666666666666666,
+        "Vitiligo": 1.0
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Dermatitis",
+          "Eczema",
+          "Scabies",
+          "Tinea Ringworm",
+          "Vitiligo"
+        ],
+        "rows_true_cols_pred": [
+          [
+            0,
+            2,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            9,
+            4,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        ]
+      },
+      "macro_auroc": 0.866074592074592,
+      "fold": 1,
+      "repeat": 0,
+      "seed": 42
+    },
+    {
+      "n": 27,
+      "accuracy": 0.6666666666666666,
+      "balanced_accuracy": 0.6066666666666667,
+      "macro_f1": 0.563076923076923,
+      "per_class_recall": {
+        "Dermatitis": 0.0,
+        "Eczema": 0.7333333333333333,
+        "Scabies": 1.0,
+        "Tinea Ringworm": 0.8,
+        "Vitiligo": 0.5
+      },
+      "weighted_f1": 0.6300094966761633,
+      "mcc": 0.4778860881620579,
+      "per_class_precision": {
+        "Dermatitis": 0.0,
+        "Eczema": 0.7333333333333333,
+        "Scabies": 0.6666666666666666,
+        "Tinea Ringworm": 0.5,
+        "Vitiligo": 1.0
+      },
+      "per_class_specificity": {
+        "Dermatitis": 1.0,
+        "Eczema": 0.6666666666666666,
+        "Scabies": 0.96,
+        "Tinea Ringworm": 0.8181818181818182,
+        "Vitiligo": 1.0
+      },
+      "per_class_f1": {
+        "Dermatitis": 0.0,
+        "Eczema": 0.7333333333333333,
+        "Scabies": 0.8,
+        "Tinea Ringworm": 0.6153846153846154,
+        "Vitiligo": 0.6666666666666666
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Dermatitis",
+          "Eczema",
+          "Scabies",
+          "Tinea Ringworm",
+          "Vitiligo"
+        ],
+        "rows_true_cols_pred": [
+          [
+            0,
+            2,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            11,
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "macro_auroc": 0.8177676767676768,
+      "fold": 2,
+      "repeat": 0,
+      "seed": 42
+    },
+    {
+      "n": 27,
+      "accuracy": 0.6666666666666666,
+      "balanced_accuracy": 0.54,
+      "macro_f1": 0.5084967320261438,
+      "per_class_recall": {
+        "Dermatitis": 1.0,
+        "Eczema": 0.8666666666666667,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 0.3333333333333333,
+        "Vitiligo": 0.5
+      },
+      "weighted_f1": 0.6223674655047203,
+      "mcc": 0.43807717793774237,
+      "per_class_precision": {
+        "Dermatitis": 0.5,
+        "Eczema": 0.6842105263157895,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 0.6666666666666666,
+        "Vitiligo": 1.0
+      },
+      "per_class_specificity": {
+        "Dermatitis": 0.92,
+        "Eczema": 0.5,
+        "Scabies": 1.0,
+        "Tinea Ringworm": 0.9523809523809523,
+        "Vitiligo": 1.0
+      },
+      "per_class_f1": {
+        "Dermatitis": 0.6666666666666666,
+        "Eczema": 0.7647058823529411,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 0.4444444444444444,
+        "Vitiligo": 0.6666666666666666
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Dermatitis",
+          "Eczema",
+          "Scabies",
+          "Tinea Ringworm",
+          "Vitiligo"
+        ],
+        "rows_true_cols_pred": [
+          [
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            13,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            1
+          ]
+        ]
+      },
+      "macro_auroc": 0.8102222222222222,
+      "fold": 3,
+      "repeat": 0,
+      "seed": 42
+    },
+    {
+      "n": 27,
+      "accuracy": 0.5555555555555556,
+      "balanced_accuracy": 0.6476190476190475,
+      "macro_f1": 0.5494708994708994,
+      "per_class_recall": {
+        "Dermatitis": 1.0,
+        "Eczema": 0.5714285714285714,
+        "Scabies": 0.5,
+        "Tinea Ringworm": 0.16666666666666666,
+        "Vitiligo": 1.0
+      },
+      "weighted_f1": 0.5409563002155594,
+      "mcc": 0.37335497772755005,
+      "per_class_precision": {
+        "Dermatitis": 0.4,
+        "Eczema": 0.6153846153846154,
+        "Scabies": 0.25,
+        "Tinea Ringworm": 0.5,
+        "Vitiligo": 1.0
+      },
+      "per_class_specificity": {
+        "Dermatitis": 0.88,
+        "Eczema": 0.6153846153846154,
+        "Scabies": 0.88,
+        "Tinea Ringworm": 0.9523809523809523,
+        "Vitiligo": 1.0
+      },
+      "per_class_f1": {
+        "Dermatitis": 0.5714285714285714,
+        "Eczema": 0.5925925925925926,
+        "Scabies": 0.3333333333333333,
+        "Tinea Ringworm": 0.25,
+        "Vitiligo": 1.0
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Dermatitis",
+          "Eczema",
+          "Scabies",
+          "Tinea Ringworm",
+          "Vitiligo"
+        ],
+        "rows_true_cols_pred": [
+          [
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            8,
+            3,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            5,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            3
+          ]
+        ]
+      },
+      "macro_auroc": 0.8303296703296702,
+      "fold": 4,
+      "repeat": 0,
+      "seed": 42
+    },
+    {
+      "n": 28,
+      "accuracy": 0.6071428571428571,
+      "balanced_accuracy": 0.48,
+      "macro_f1": 0.5162878787878789,
+      "per_class_recall": {
+        "Dermatitis": 0.0,
+        "Eczema": 0.7333333333333333,
+        "Scabies": 0.5,
+        "Tinea Ringworm": 0.6666666666666666,
+        "Vitiligo": 0.5
+      },
+      "weighted_f1": 0.6074810606060606,
+      "mcc": 0.36639959762684465,
+      "per_class_precision": {
+        "Dermatitis": 0.0,
+        "Eczema": 0.6470588235294118,
+        "Scabies": 0.5,
+        "Tinea Ringworm": 0.8,
+        "Vitiligo": 1.0
+      },
+      "per_class_specificity": {
+        "Dermatitis": 0.88,
+        "Eczema": 0.5384615384615384,
+        "Scabies": 0.9615384615384616,
+        "Tinea Ringworm": 0.9545454545454546,
+        "Vitiligo": 1.0
+      },
+      "per_class_f1": {
+        "Dermatitis": 0.0,
+        "Eczema": 0.6875,
+        "Scabies": 0.5,
+        "Tinea Ringworm": 0.7272727272727273,
+        "Vitiligo": 0.6666666666666666
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Dermatitis",
+          "Eczema",
+          "Scabies",
+          "Tinea Ringworm",
+          "Vitiligo"
+        ],
+        "rows_true_cols_pred": [
+          [
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            11,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "macro_auroc": 0.9386060606060607,
+      "fold": 0,
+      "repeat": 1,
+      "seed": 42
+    },
+    {
+      "n": 27,
+      "accuracy": 0.9259259259259259,
+      "balanced_accuracy": 0.8333333333333333,
+      "macro_f1": 0.8800000000000001,
+      "per_class_recall": {
+        "Dermatitis": 0.6666666666666666,
+        "Eczema": 1.0,
+        "Scabies": 1.0,
+        "Tinea Ringworm": 1.0,
+        "Vitiligo": 0.5
+      },
+      "weighted_f1": 0.9185185185185185,
+      "mcc": 0.8891244293004305,
+      "per_class_precision": {
+        "Dermatitis": 1.0,
+        "Eczema": 0.875,
+        "Scabies": 1.0,
+        "Tinea Ringworm": 1.0,
+        "Vitiligo": 1.0
+      },
+      "per_class_specificity": {
+        "Dermatitis": 1.0,
+        "Eczema": 0.8461538461538461,
+        "Scabies": 1.0,
+        "Tinea Ringworm": 1.0,
+        "Vitiligo": 1.0
+      },
+      "per_class_f1": {
+        "Dermatitis": 0.8,
+        "Eczema": 0.9333333333333333,
+        "Scabies": 1.0,
+        "Tinea Ringworm": 1.0,
+        "Vitiligo": 0.6666666666666666
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Dermatitis",
+          "Eczema",
+          "Scabies",
+          "Tinea Ringworm",
+          "Vitiligo"
+        ],
+        "rows_true_cols_pred": [
+          [
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "macro_auroc": 0.9944444444444445,
+      "fold": 1,
+      "repeat": 1,
+      "seed": 42
+    },
+    {
+      "n": 27,
+      "accuracy": 0.7777777777777778,
+      "balanced_accuracy": 0.7047619047619047,
+      "macro_f1": 0.6768831168831169,
+      "per_class_recall": {
+        "Dermatitis": 1.0,
+        "Eczema": 0.8571428571428571,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 0.6666666666666666,
+        "Vitiligo": 1.0
+      },
+      "weighted_f1": 0.7764309764309764,
+      "mcc": 0.6666795266249373,
+      "per_class_precision": {
+        "Dermatitis": 0.6666666666666666,
+        "Eczema": 0.8571428571428571,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 0.8,
+        "Vitiligo": 1.0
+      },
+      "per_class_specificity": {
+        "Dermatitis": 0.96,
+        "Eczema": 0.8461538461538461,
+        "Scabies": 0.92,
+        "Tinea Ringworm": 0.9523809523809523,
+        "Vitiligo": 1.0
+      },
+      "per_class_f1": {
+        "Dermatitis": 0.8,
+        "Eczema": 0.8571428571428571,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 0.7272727272727273,
+        "Vitiligo": 1.0
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Dermatitis",
+          "Eczema",
+          "Scabies",
+          "Tinea Ringworm",
+          "Vitiligo"
+        ],
+        "rows_true_cols_pred": [
+          [
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            12,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            3
+          ]
+        ]
+      },
+      "macro_auroc": 0.8356483516483516,
+      "fold": 2,
+      "repeat": 1,
+      "seed": 42
+    },
+    {
+      "n": 27,
+      "accuracy": 0.7037037037037037,
+      "balanced_accuracy": 0.48,
+      "macro_f1": 0.47644787644787645,
+      "per_class_recall": {
+        "Dermatitis": 0.0,
+        "Eczema": 1.0,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 0.4,
+        "Vitiligo": 1.0
+      },
+      "weighted_f1": 0.6303446303446303,
+      "mcc": 0.5027257130520092,
+      "per_class_precision": {
+        "Dermatitis": 0.0,
+        "Eczema": 0.6818181818181818,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 1.0,
+        "Vitiligo": 1.0
+      },
+      "per_class_specificity": {
+        "Dermatitis": 0.9583333333333334,
+        "Eczema": 0.4166666666666667,
+        "Scabies": 1.0,
+        "Tinea Ringworm": 1.0,
+        "Vitiligo": 1.0
+      },
+      "per_class_f1": {
+        "Dermatitis": 0.0,
+        "Eczema": 0.8108108108108109,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 0.5714285714285714,
+        "Vitiligo": 1.0
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Dermatitis",
+          "Eczema",
+          "Scabies",
+          "Tinea Ringworm",
+          "Vitiligo"
+        ],
+        "rows_true_cols_pred": [
+          [
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            15,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        ]
+      },
+      "macro_auroc": 0.8177878787878787,
+      "fold": 3,
+      "repeat": 1,
+      "seed": 42
+    },
+    {
+      "n": 27,
+      "accuracy": 0.5925925925925926,
+      "balanced_accuracy": 0.42666666666666664,
+      "macro_f1": 0.3988888888888889,
+      "per_class_recall": {
+        "Dermatitis": 0.5,
+        "Eczema": 0.8,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 0.3333333333333333,
+        "Vitiligo": 0.5
+      },
+      "weighted_f1": 0.5746913580246914,
+      "mcc": 0.33453146535345707,
+      "per_class_precision": {
+        "Dermatitis": 0.3333333333333333,
+        "Eczema": 0.7058823529411765,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 0.6666666666666666,
+        "Vitiligo": 0.3333333333333333
+      },
+      "per_class_specificity": {
+        "Dermatitis": 0.92,
+        "Eczema": 0.5833333333333334,
+        "Scabies": 0.96,
+        "Tinea Ringworm": 0.9523809523809523,
+        "Vitiligo": 0.92
+      },
+      "per_class_f1": {
+        "Dermatitis": 0.4,
+        "Eczema": 0.75,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 0.4444444444444444,
+        "Vitiligo": 0.4
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Dermatitis",
+          "Eczema",
+          "Scabies",
+          "Tinea Ringworm",
+          "Vitiligo"
+        ],
+        "rows_true_cols_pred": [
+          [
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            2,
+            12,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "macro_auroc": 0.7275555555555555,
+      "fold": 4,
+      "repeat": 1,
+      "seed": 42
+    },
+    {
+      "n": 27,
+      "accuracy": 0.7407407407407407,
+      "balanced_accuracy": 0.6571428571428571,
+      "macro_f1": 0.6439153439153439,
+      "per_class_recall": {
+        "Dermatitis": 0.6666666666666666,
+        "Eczema": 0.7857142857142857,
+        "Scabies": 0.5,
+        "Tinea Ringworm": 0.8333333333333334,
+        "Vitiligo": 0.5
+      },
+      "weighted_f1": 0.7452478933960415,
+      "mcc": 0.6164549186004331,
+      "per_class_precision": {
+        "Dermatitis": 0.5,
+        "Eczema": 0.8461538461538461,
+        "Scabies": 0.5,
+        "Tinea Ringworm": 0.8333333333333334,
+        "Vitiligo": 0.5
+      },
+      "per_class_specificity": {
+        "Dermatitis": 0.9166666666666666,
+        "Eczema": 0.8461538461538461,
+        "Scabies": 0.96,
+        "Tinea Ringworm": 0.9523809523809523,
+        "Vitiligo": 0.96
+      },
+      "per_class_f1": {
+        "Dermatitis": 0.5714285714285714,
+        "Eczema": 0.8148148148148148,
+        "Scabies": 0.5,
+        "Tinea Ringworm": 0.8333333333333334,
+        "Vitiligo": 0.5
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Dermatitis",
+          "Eczema",
+          "Scabies",
+          "Tinea Ringworm",
+          "Vitiligo"
+        ],
+        "rows_true_cols_pred": [
+          [
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            11,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            5,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "macro_auroc": 0.8799218559218559,
+      "fold": 0,
+      "repeat": 2,
+      "seed": 42
+    },
+    {
+      "n": 27,
+      "accuracy": 0.8148148148148148,
+      "balanced_accuracy": 0.7,
+      "macro_f1": 0.6698039215686273,
+      "per_class_recall": {
+        "Dermatitis": 1.0,
+        "Eczema": 1.0,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 0.5,
+        "Vitiligo": 1.0
+      },
+      "weighted_f1": 0.771677559912854,
+      "mcc": 0.7074338705982688,
+      "per_class_precision": {
+        "Dermatitis": 1.0,
+        "Eczema": 0.7894736842105263,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 1.0,
+        "Vitiligo": 0.6666666666666666
+      },
+      "per_class_specificity": {
+        "Dermatitis": 1.0,
+        "Eczema": 0.6666666666666666,
+        "Scabies": 1.0,
+        "Tinea Ringworm": 1.0,
+        "Vitiligo": 0.96
+      },
+      "per_class_f1": {
+        "Dermatitis": 1.0,
+        "Eczema": 0.8823529411764706,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 0.6666666666666666,
+        "Vitiligo": 0.8
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Dermatitis",
+          "Eczema",
+          "Scabies",
+          "Tinea Ringworm",
+          "Vitiligo"
+        ],
+        "rows_true_cols_pred": [
+          [
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            15,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        ]
+      },
+      "macro_auroc": 0.9364761904761906,
+      "fold": 1,
+      "repeat": 2,
+      "seed": 42
+    },
+    {
+      "n": 27,
+      "accuracy": 0.6666666666666666,
+      "balanced_accuracy": 0.4333333333333334,
+      "macro_f1": 0.403030303030303,
+      "per_class_recall": {
+        "Dermatitis": 0.0,
+        "Eczema": 0.8666666666666667,
+        "Scabies": 0.5,
+        "Tinea Ringworm": 0.8,
+        "Vitiligo": 0.0
+      },
+      "weighted_f1": 0.6094276094276094,
+      "mcc": 0.4364970886350231,
+      "per_class_precision": {
+        "Dermatitis": 0.0,
+        "Eczema": 0.7222222222222222,
+        "Scabies": 0.5,
+        "Tinea Ringworm": 0.6666666666666666,
+        "Vitiligo": 0.0
+      },
+      "per_class_specificity": {
+        "Dermatitis": 0.9583333333333334,
+        "Eczema": 0.5833333333333334,
+        "Scabies": 0.96,
+        "Tinea Ringworm": 0.9090909090909091,
+        "Vitiligo": 1.0
+      },
+      "per_class_f1": {
+        "Dermatitis": 0.0,
+        "Eczema": 0.7878787878787878,
+        "Scabies": 0.5,
+        "Tinea Ringworm": 0.7272727272727273,
+        "Vitiligo": 0.0
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Dermatitis",
+          "Eczema",
+          "Scabies",
+          "Tinea Ringworm",
+          "Vitiligo"
+        ],
+        "rows_true_cols_pred": [
+          [
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            13,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "macro_auroc": 0.7757474747474747,
+      "fold": 2,
+      "repeat": 2,
+      "seed": 42
+    },
+    {
+      "n": 27,
+      "accuracy": 0.7407407407407407,
+      "balanced_accuracy": 0.6904761904761905,
+      "macro_f1": 0.6105820105820106,
+      "per_class_recall": {
+        "Dermatitis": 1.0,
+        "Eczema": 0.7857142857142857,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 0.6666666666666666,
+        "Vitiligo": 1.0
+      },
+      "weighted_f1": 0.7240838722320204,
+      "mcc": 0.6247754698730593,
+      "per_class_precision": {
+        "Dermatitis": 0.4,
+        "Eczema": 0.8461538461538461,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 0.6666666666666666,
+        "Vitiligo": 1.0
+      },
+      "per_class_specificity": {
+        "Dermatitis": 0.88,
+        "Eczema": 0.8461538461538461,
+        "Scabies": 1.0,
+        "Tinea Ringworm": 0.9047619047619048,
+        "Vitiligo": 1.0
+      },
+      "per_class_f1": {
+        "Dermatitis": 0.5714285714285714,
+        "Eczema": 0.8148148148148148,
+        "Scabies": 0.0,
+        "Tinea Ringworm": 0.6666666666666666,
+        "Vitiligo": 1.0
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Dermatitis",
+          "Eczema",
+          "Scabies",
+          "Tinea Ringworm",
+          "Vitiligo"
+        ],
+        "rows_true_cols_pred": [
+          [
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            11,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            3
+          ]
+        ]
+      },
+      "macro_auroc": 0.8546715506715508,
+      "fold": 3,
+      "repeat": 2,
+      "seed": 42
+    },
+    {
+      "n": 28,
+      "accuracy": 0.5357142857142857,
+      "balanced_accuracy": 0.4800000000000001,
+      "macro_f1": 0.43047619047619057,
+      "per_class_recall": {
+        "Dermatitis": 0.0,
+        "Eczema": 0.7333333333333333,
+        "Scabies": 0.5,
+        "Tinea Ringworm": 0.16666666666666666,
+        "Vitiligo": 1.0
+      },
+      "weighted_f1": 0.5040816326530612,
+      "mcc": 0.2630800886989145,
+      "per_class_precision": {
+        "Dermatitis": 0.0,
+        "Eczema": 0.6111111111111112,
+        "Scabies": 0.3333333333333333,
+        "Tinea Ringworm": 1.0,
+        "Vitiligo": 0.6666666666666666
+      },
+      "per_class_specificity": {
+        "Dermatitis": 0.88,
+        "Eczema": 0.46153846153846156,
+        "Scabies": 0.9230769230769231,
+        "Tinea Ringworm": 1.0,
+        "Vitiligo": 0.9615384615384616
+      },
+      "per_class_f1": {
+        "Dermatitis": 0.0,
+        "Eczema": 0.6666666666666666,
+        "Scabies": 0.4,
+        "Tinea Ringworm": 0.2857142857142857,
+        "Vitiligo": 0.8
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Dermatitis",
+          "Eczema",
+          "Scabies",
+          "Tinea Ringworm",
+          "Vitiligo"
+        ],
+        "rows_true_cols_pred": [
+          [
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            11,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        ]
+      },
+      "macro_auroc": 0.7858927738927739,
+      "fold": 4,
+      "repeat": 2,
+      "seed": 42
+    }
+  ],
+  "fold_summary": {
+    "macro_f1": {
+      "n": 15,
+      "mean": 0.5539509898039311,
+      "sd": 0.12745588112168124,
+      "min": 0.3988888888888889,
+      "max": 0.8800000000000001
+    },
+    "balanced_accuracy": {
+      "n": 15,
+      "mean": 0.5777777777777778,
+      "sd": 0.12315876420593969,
+      "min": 0.42666666666666664,
+      "max": 0.8333333333333333
+    },
+    "accuracy": {
+      "n": 15,
+      "mean": 0.6847442680776014,
+      "sd": 0.11023104055026478,
+      "min": 0.5357142857142857,
+      "max": 0.9259259259259259
+    },
+    "weighted_f1": {
+      "n": 15,
+      "mean": 0.6587105673331553,
+      "sd": 0.10980202297538022,
+      "min": 0.5040816326530612,
+      "max": 0.9185185185185185
+    },
+    "mcc": {
+      "n": 15,
+      "mean": 0.5087103262636675,
+      "sd": 0.17278069204965718,
+      "min": 0.2630800886989145,
+      "max": 0.8891244293004305
+    },
+    "macro_auroc": {
+      "n": 15,
+      "mean": 0.847791193991194,
+      "sd": 0.0687550212452458,
+      "min": 0.7275555555555555,
+      "max": 0.9944444444444445
+    }
+  },
+  "comparisons": {
+    "dinov2_linear": {
+      "frozen_macro_f1": 0.6630470406786196,
+      "frozen_balanced_accuracy": 0.6265353069226476,
+      "delta_finetuned_minus_frozen": {
+        "delta": -0.03746658869101771,
+        "delta_lo": -0.1366143482823047,
+        "delta_hi": 0.056259696030625056,
+        "p_value": 0.44755244755244755
+      }
+    },
+    "dinov2_1nn": {
+      "frozen_macro_f1": 0.6509956709956709,
+      "frozen_balanced_accuracy": 0.6013624637054018,
+      "delta_finetuned_minus_frozen": {
+        "delta": -0.02541521900806898,
+        "delta_lo": -0.1201743611270771,
+        "delta_hi": 0.07087003263990958,
+        "p_value": 0.6143856143856143
+      }
+    },
+    "resnet_linear": {
+      "frozen_macro_f1": 0.6230379215655644,
+      "frozen_balanced_accuracy": 0.5915887702283544,
+      "delta_finetuned_minus_frozen": {
+        "delta": 0.002542530422037559,
+        "delta_lo": -0.09326993866444759,
+        "delta_hi": 0.10035000772478475,
+        "p_value": 0.965034965034965
+      }
+    },
+    "resnet_1nn": {
+      "frozen_macro_f1": 0.5355577299412916,
+      "frozen_balanced_accuracy": 0.5309144421945555,
+      "delta_finetuned_minus_frozen": {
+        "delta": 0.09002272204631034,
+        "delta_lo": 0.0031303360693683995,
+        "delta_hi": 0.19153443053288827,
+        "p_value": 0.052947052947052944
+      }
+    }
+  },
+  "pooled_predictions": "/content/SkinDiseaseBD/results/predictions/finetuned_efficientnet_b3_288_balanced_oof.csv",
+  "confusion_matrix": "/content/SkinDiseaseBD/results/finetuned/efficientnet_b3_288_balanced_confusion_matrix.csv"
+}

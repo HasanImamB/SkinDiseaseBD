@@ -1,0 +1,6 @@
+true\pred,Dermatitis,Eczema,Scabies,Tinea Ringworm,Vitiligo
+Dermatitis,4,8,1,0,0
+Eczema,4,64,4,1,0
+Scabies,1,4,4,1,0
+Tinea Ringworm,0,9,0,18,2
+Vitiligo,0,1,0,1,9
